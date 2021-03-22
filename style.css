@@ -1,3 +1,421 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+button,a {
+  cursor: pointer;
+}
 .wrapper {
-  font: 500 15px/16px Gotham Pro;
+  margin: auto;
+  width: 88%;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.burger-menu {
+  display: none;
+}
+.logo {
+  padding-top: 3%;
+  margin: 0 4% 0 0;
+}
+.menu {
+  padding-top: 3%;
+}
+.menu__item {
+  font: bold 12px/12px Gotham Pro;
+  color: #000;
+  text-decoration: none;
+  margin-right: 30px;
+  position: relative;
+}
+.menu__item::after {
+  display: block;
+  content: '';
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  opacity: 0;
+  transition: .5s linear;
+}
+.menu__item:hover {
+  opacity: .7;
+}
+.menu__item:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+.search {
+  padding: 3% 0 0 15%;
+  width: 17%;
+  margin-right: 29px;
+}
+.search__box {
+  border-bottom: solid 1px #000;
+  width: 89%;
+  transition: .5s linear;
+  font: 500 18px/19px Gotham Pro;
+}
+.search__box:hover {
+  background-color: #DCDCDC;
+  opacity: .5;
+}
+.search__btn {
+  background: center no-repeat url(img/Vector.svg);
+  background-size: 95%;
+  width: 14px;
+  height: 25px;
+  border-bottom: solid 1px #000;
+  padding: 3px 0;
+  transform: translateX(-30%);
+  transition: .3s ease-in;
+}
+.search__btn:hover {
+  opacity: .5;
+}
+.language {
+  padding-top: 3%;
+}
+.language__link {
+  background: top url('img/united-states.svg');
+  background-color: #fff;
+  width: 20px;
+  height: 19px;
+  transition: opacity .5s ease-in;
+}
+.language__link:hover {
+  opacity: .6;
+}
+.main__content {
+  background: top center no-repeat url(img/rob-potter-422534-unsplash.png);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 280px;
+  margin-bottom: 5%;
+}
+.main__title {
+  font: 500 30px/29px Gotham Pro;
+  text-transform: uppercase;
+  color: #fff;
+  width: 19%;
+  padding: 8% 0 0 6%;
+  margin-bottom: 2%;
+}
+.main__link {
+  text-decoration: none;
+  color: #fff;
+  font: 500 12px/12px Gotham Pro;
+  text-transform: uppercase;
+  padding-left: 6%;
+  transition: opacity .5s ease-in-out;
+  position: relative;
+}
+.main__link:hover {
+  opacity: .5;
+}
+.sneaker__title {
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 22px/22px Gotham Pro;
+  width: 100%;
+  margin-bottom: 1%;
+}
+.sneaker__column {
+  display: inline-block;
+  margin-right: 3%;
+  width: 22%;
+}
+.sneaker-beige__column {
+  margin-right: 4%;
+}
+.sneaker__column:last-child {
+  margin-right: 0;
+}
+.sneaker__text {
+  font: 500 12px/12px Gotham Pro;
+  padding: 0 0 2% 5%;
+}
+.sneaker__price {
+  font: bold 14px/14px Gotham Pro;
+  padding: 0 5%;
+  margin-right: 41%;
+}
+.sneaker__img {
+  text-align: center;
+  width: 84%;
+  height: 20%;
+  padding-left: 10%;
+  margin-bottom: 12%;
+  transition: .5s linear;
+}
+.sneaker__img:hover {
+  border: solid 2px #D3D3D3;
+  border-radius: 2px;
+}
+.sneaker__btn_small {
+  height: 7px;
+  width: 7px;
+  border-radius: 4px;
+  margin-right: 2px;
+}
+.sneaker__btn_small:hover {
+  animation: size-up 1s ease-out;
+}
+
+@keyframes size-up {
+  from {
+    border: double 2px #696969;
+  }
+  50% {
+    border: double 3px #696969;
+    height: 10px;
+    width: 10px;
+  }
+  to {
+    border: double .5px #696969;
+    height: 9px;
+    width: 9px;
+  }
+}
+
+.sneaker__btn_big {
+  height: 9px;
+  width: 9px;
+  border-radius: 4px;
+  margin-right: 2px;
+}
+.sneaker__black-btn_grey,.sneaker__beige-btn_grey,.sneaker__grey-btn_grey,.sneaker__white-btn_grey {
+  background: #C4C4C4;
+}
+.sneaker__black-btn_black {
+  background: #000;
+}
+.sneaker__black-btn_red,.sneaker__beige-btn_red,.sneaker__grey-btn_red,.sneaker__white-btn_red {
+  background: #B62E3C;
+}
+.sneaker__black-btn_yellow,.sneaker__beige-btn_yellow,.sneaker__grey-btn_yellow,.sneaker__white-btn_yellow{
+  background: #FDB431;
+}
+.sneaker__beige-btn_orange {
+  background: #E29D69;
+}
+.sneaker__grey-btn_darkgrey {
+  background: #41479B;
+}
+.sneaker__white-btn_blue {
+  background: #257DA9;
+}
+.sneaker__btn, .sneaker__price {
+  display: inline;
+}
+.sneaker__content {
+  margin-bottom: 5%;
+}
+.video__content {
+  width: 100%;
+  height: 494px;
+  background: #000;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 8%;
+}
+.video__title {
+  width: 26%;
+  padding: 15% 4% 0 70%;
+  font: 500 22px/27px Gotham Pro;
+  text-transform: uppercase;
+  color: #fff;
+}
+.video__img {
+  padding: 6% 0 0 3%;
+  width: 63%;
+  height: 73%;
+  position: absolute;
+  z-index: 2;
+}
+.video__play {
+  position: absolute;
+  padding: 22% 0 0 32%;
+}
+.play__btn {
+  position: absolute;
+  z-index: 3;
+  background: center no-repeat url('img/Group 17.svg');
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: 1s linear;
+}
+.play__btn:hover {
+  border: solid 4px #B22222;
+  border-radius: 50%;
+  opacity: .7;
+}
+.video__text {
+  font: normal 14px/17px Gotham Pro;
+  color: #fff;
+  padding: 1% 4% 0 70%;
+  margin-bottom: 2%;
+}
+.video__link {
+  font: 300 12px/12px Gotham Pro;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 4% 0 70%;
+  transition: opacity 2s ease;
+}
+.video__link:hover {
+  opacity: .4;
+}
+.stories__content {
+  margin-bottom: 7%;
+}
+.stories__title {
+  text-align: center;
+  font: 500 22px/22px Gotham Pro;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 4%;
+}
+.stories__column {
+  display: inline-block;
+  vertical-align: top;
+  width: 26vw;
+  margin-right: 52px;
+}
+.stories__column:last-child {
+  margin-right: 0;
+}
+.stories__img {
+  margin-bottom: 7%;
+}
+.stories__subtitle {
+  font: bold 18px/18px Gotham Pro;
+  color: #000;
+  margin-bottom: 3%;
+}
+.stories__text {
+  font: normal 14px/17px Gotham Pro;
+  font-style: normal;
+  color: #000;
+  height: 70%;
+  margin-bottom: 5%;
+}
+.stories__first-text {
+  width: 307px;
+}
+.stories__link {
+  font: 500 12px/12px Gotham Pro;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 39% 0 0;
+  transition: .5s linear;
+}
+.stories__link:hover {
+  opacity: .5;
+}
+.stories__quote {
+  font: 500 12px/12px Gotham Pro;
+  color: #000;
+  opacity: .3;
+  quotes: none;
+}
+.hashtag__content {
+  margin-bottom: 8%;
+}
+.hashtag__title {
+  font: 500 18px/18px Gotham Pro;
+  color: #000;
+  opacity: .3;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 1%;
+}
+.hashtag__img {
+  display: flex;
+  justify-content: space-between;
+  width: 14vw;
+  height: 147px;
+}
+.footer__content {
+  background-color: #000;
+  transform: translateX(-6%);
+  width: 114%;
+  height: 20%;
+}
+.footer__column {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 5%;
+  padding-top: 6%;
+}
+.footer__title {
+  font: 500 12px/12px Gotham Pro;
+  color: #fff;
+  padding-bottom: 3%;
+}
+.footer__list {
+  text-decoration: none;
+  font: 300 12px/12px Gotham Pro;
+  color: #fff;
+  margin-bottom: 1%;
+  transition: .2s linear;
+}
+.footer__list:hover {
+  border-bottom: solid 1px #fff;
+}
+.footer__personal-ac {
+  padding-left: 17%;
+  margin-right: 9%;
+}
+.footer__customer {
+  margin-right: 6%;
+}
+.footer__miscellaneous {
+  margin-right: 7%;
+}
+.social__new-buyer {
+  margin-bottom: 18%;
+}
+.social__text {
+  font: 300 12px/12px Gotham Pro;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 6%;
+}
+.social__sign-up {
+  font: 500 10px/10px Gotham Pro;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 6px 44px;
+  border: solid 2px #fff;
+  transition: .3s ease;
+}
+.social__sign-up:hover {
+  border: double 3px #B22222;
+  font: 500 11px/11px Gotham Pro;
+}
+.icon {
+  margin-right: 11%;
+  text-decoration: none;
+  transition: .2s ease;
+}
+.icon:hover {
+  border: double 3px #B22222;
+  border-radius: 4px;
+}
+.footer__license {
+  font: 300 12px/12px Gotham Pro;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 3%;
 }
