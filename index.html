@@ -10,12 +10,29 @@
   <body>
     <div class="wrapper">
       <header class="header__content">
-        <img class="logo" src="img/Axion-logo-1.svg">
+        <img class="logo" src="img/Axion-logo-1.svg" alt="">
+        <img class="logo__second" src="img/Axion-logo-1_(2).svg" alt="">
         <div class="burger-menu">
-          <input class="menu__toggle" type="checkbox">
+          <input id="menu__toggle" type="checkbox" />
           <label class="menu__btn" for="menu__toggle">
             <span></span>
           </label>
+          <nav class="burger__menu">
+            <div class="burger__language">
+              <button class="burger-language__link" type="button" name="button"></button>
+            </div>
+            <div class="burger__search">
+              <input type="text" class="burger-search__box" autocomplete="off">
+              <button class="burger-search__btn" type="button" name="button"></button>
+            </div>
+            <a class="burger-menu__item burger-menu__item-first" href="#">SHOP</a>
+            <a class="burger-menu__item burger-menu__item-second" href="#">NEWS</a>
+            <a class="burger-menu__item burger-menu__item-third" href="#">TEAM</a>
+            <a class="burger-menu__item burger-menu__item-fourth" href="#">LEGACY</a>
+            <a class="burger-menu__item burger-menu__item-fifth" href="#">HELP</a>
+            <a class="burger-menu__item burger-menu__item-sixth" href="#">SIGN IN</a>
+            <a class="burger-menu__item burger-menu__item-seventh" href="#">CART <img class="menu__item_img" src="img/Group_2.svg" alt=""></a>
+          </nav>
         </div>
         <nav class="menu">
           <a class="menu__item" href="#">SHOP</a>
@@ -29,105 +46,111 @@
           <button class="search__btn" type="button" name="button"></button>
         </div>
         <nav class="menu">
-          <a class="menu__item" href="#">SIGN IN</a>
-          <a class="menu__item" href="#">CART <img class="menu__item_img" src="img/Group 2.svg"></a>
+          <a class="menu__item menu__item-sign-in" href="#">SIGN IN</a>
+          <a class="menu__item" href="#">CART <img class="menu__item_img" src="img/Group_2.svg" alt=""></a>
         </nav>
         <div class="language">
           <button class="language__link" type="button" name="button"></button>
         </div>
       </header>
       <section class="content">
-        <main class="main__content">
+        <div class="main__content">
           <h1 class="main__title">Legendary footwear reborn.</h1>
           <a class="main__link" href="#">Shop now
-            <img class="main__link-img" src="img/Arrow (1).svg">
+            <img class="main__link-img" src="img/Arrow_(1).svg" alt="">
           </a>
-        </main>
+        </div>
         <div class="sneaker__content">
-          <h1 class="sneaker__title">Featured product</h2>
-          <div class="sneaker__column">
-            <img class="sneaker__black-img sneaker__img" src="img/83d143ed9791a3b813121de5958d3571.svg">
-            <h1 class="sneaker__black-text sneaker__text">Atlas Black/Rasta Axion</h1>
-            <p class="sneaker__black-price sneaker__price">$89.00</p>
-            <div class="sneaker__btn">
-              <button class="sneaker__black-btn_grey sneaker__btn_small" type="button" name="button"></button>
-              <button class="sneaker__black-btn_black sneaker__btn_big" type="button" name="button"></button>
-              <button class="sneaker__black-btn_red sneaker__btn_small" type="button" name="button"></button>
-              <button class="sneaker__black-btn_yellow sneaker__btn_small" type="button" name="button"></button>
-            </div>
-          </div>
-          <div class="sneaker__column sneaker-beige__column">
-            <img class="sneaker__beige-img sneaker__img" src="img/83d143ed9791a3b813121de5958d3571 (1).svg">
-            <h1 class="sneaker__beige-text sneaker__text">Camel/Chili Pepper Axion</h1>
-            <p class="sneaker__beige-price sneaker__price">$74.00</p>
-            <div class="sneaker__btn">
-              <button class="sneaker__beige-btn_grey sneaker__btn_small" type="button" name="button"></button>
-              <button class="sneaker__beige-btn_orange sneaker__btn_big" type="button" name="button"></button>
-              <button class="sneaker__beige-btn_red sneaker__btn_small" type="button" name="button"></button>
-              <button class="sneaker__beige-btn_yellow sneaker__btn_small" type="button" name="button"></button>
-            </div>
-          </div>
-          <div class="sneaker__column">
-            <img class="sneaker__grey-img sneaker__img" src="img/83d143ed9791a3b813121de5958d3571 (2).svg">
-            <h1 class="sneaker__grey-text sneaker__text">Mandel Smoke/Rust Axion</h1>
-            <p class="sneaker__grey-price sneaker__price">$69.00</p>
-            <div class="sneaker__btn">
-              <button class="sneaker__grey-btn_grey sneaker__btn_small" type="button" name="button"></button>
-              <button class="sneaker__grey-btn_red sneaker__btn_big" type="button" name="button"></button>
-              <button class="sneaker__grey-btn_darkgrey sneaker__btn_small" type="button" name="button"></button>
-              <button class="sneaker__grey-btn_yellow sneaker__btn_small" type="button" name="button"></button>
-            </div>
-          </div>
-          <div class="sneaker__column">
-            <img class="sneaker__white-img sneaker__img" src="img/83d143ed9791a3b813121de5958d3571 (3).svg">
-            <h1 class="sneaker__white-text sneaker__text">Cloud/Electric Blue Axion</h1>
-            <p class="sneaker__white-price sneaker__price">$69.00</p>
-            <div class="sneaker__btn">
-              <button class="sneaker__white-btn_grey sneaker__btn_small" type="button" name="button"></button>
-              <button class="sneaker__white-btn_blue sneaker__btn_big" type="button" name="button"></button>
-              <button class="sneaker__white-btn_red sneaker__btn_small" type="button" name="button"></button>
-              <button class="sneaker__white-btn_yellow sneaker__btn_small" type="button" name="button"></button>
-            </div>
-          </div>
+          <h1 class="sneaker__title">Featured product</h1>
+            <a class="sneaker__link sneaker__link-black" href="#">
+              <img class="sneaker__black-img sneaker__img" src="img/83d143ed9791a3b813121de5958d3571.svg" alt="">
+              <h2 class="sneaker__black-text sneaker__text">Atlas Black/Rasta Axion</h2>
+              <p class="sneaker__black-price sneaker__price">$89.00</p>
+              <div class="sneaker__btn">
+                <button class="sneaker__black-btn_grey sneaker__btn_small" type="button" name="button"></button>
+                <button class="sneaker__black-btn_black sneaker__btn_big" type="button" name="button"></button>
+                <button class="sneaker__black-btn_red sneaker__btn_small" type="button" name="button"></button>
+                <button class="sneaker__black-btn_yellow sneaker__btn_small" type="button" name="button"></button>
+              </div>
+            </a>
+            <a class="sneaker__link sneaker__link-beige" href="#">
+              <img class="sneaker__beige-img sneaker__img" src="img/83d143ed9791a3b813121de5958d3571(1).svg" alt="">
+              <h3 class="sneaker__beige-text sneaker__text">Camel/Chili Pepper Axion</h3>
+              <p class="sneaker__beige-price sneaker__price">$74.00</p>
+              <div class="sneaker__btn">
+                <button class="sneaker__beige-btn_grey sneaker__btn_small" type="button" name="button"></button>
+                <button class="sneaker__beige-btn_orange sneaker__btn_big" type="button" name="button"></button>
+                <button class="sneaker__beige-btn_red sneaker__btn_small" type="button" name="button"></button>
+                <button class="sneaker__beige-btn_yellow sneaker__btn_small" type="button" name="button"></button>
+              </div>
+            </a>
+            <a class="sneaker__link sneaker__link-grey" href="#">
+              <img class="sneaker__grey-img sneaker__img" src="img/83d143ed9791a3b813121de5958d3571(2).svg" alt="">
+              <h4 class="sneaker__grey-text sneaker__text">Mandel Smoke/Rust Axion</h4>
+              <p class="sneaker__grey-price sneaker__price">$69.00</p>
+              <div class="sneaker__btn">
+                <button class="sneaker__grey-btn_grey sneaker__btn_small" type="button" name="button"></button>
+                <button class="sneaker__grey-btn_red sneaker__btn_big" type="button" name="button"></button>
+                <button class="sneaker__grey-btn_darkgrey sneaker__btn_small" type="button" name="button"></button>
+                <button class="sneaker__grey-btn_yellow sneaker__btn_small" type="button" name="button"></button>
+              </div>
+            </a>
+            <a class="sneaker__link sneaker__link-white" href="#">
+              <img class="sneaker__white-img sneaker__img" src="img/83d143ed9791a3b813121de5958d3571(3).svg" alt="">
+              <h5 class="sneaker__white-text sneaker__text">Cloud/Electric Blue Axion</h5>
+              <p class="sneaker__white-price sneaker__price">$69.00</p>
+              <div class="sneaker__btn">
+                <button class="sneaker__white-btn_grey sneaker__btn_small" type="button" name="button"></button>
+                <button class="sneaker__white-btn_blue sneaker__btn_big" type="button" name="button"></button>
+                <button class="sneaker__white-btn_red sneaker__btn_small" type="button" name="button"></button>
+                <button class="sneaker__white-btn_yellow sneaker__btn_small" type="button" name="button"></button>
+              </div>
+            </a>
         </div>
         <div class="video__content">
-          <img class="video__img" src="img/Rectangle 4.png">
-          <div class="video__play">
-            <button class="play__btn" type="button" name="button"></button>
+          <div class="video">
+            <img class="video__img" src="img/Rectangle_4.png" alt="">
+            <div class="video__play">
+              <button class="play__btn" type="button" name="button"></button>
+            </div>
           </div>
           <h1 class="video__title">Legendary footwear reborn</h1>
-          <p class="video__text">We are a brand with a history and are relaunching for 2019. We’ve been a part of the skater’s family ever since it’s early teenage years. And now we presentate a new footwear collection.</p>
+          <a class="video__text-link" href="#">
+            <p class="video__text">We are a brand with a history and are relaunching for 2019. We’ve been a part of the skater’s family ever since it’s early teenage years. And now we presentate a new footwear collection.</p>
+          </a>
           <a class="video__link" href="#">Learn more
-            <img class="video__link-img" src="img/Arrow (1).svg">
+            <img class="video__link-img" src="img/Arrow_(1).svg" alt="">
           </a>
         </div>
         <div class="stories__content">
           <h1 class="stories__title">Recent stories</h1>
-          <div class="stories__column">
-            <img class="stories__first-img stories__img" src="img/Rectangle 3.7.png">
+          <div class="stories__column stories__column-first">
+            <img class="stories__first-img stories__img" src="img/Rectangle_3.7.png" alt="">
             <h2 class="stories__first-subtitle stories__subtitle">Presents Justin Anagoa</h2>
             <p class="stories__first-text stories__text">Anagoa’s been a part of the skater’s family ever since his early teenage years. He’s been known to go big on and off the board, but it’s been rare we get a glimpse into how Anagoa lives his day-to-day, to see what makes Anagoa tick.</p>
             <a class="stories__link" href="#">LEarn more
-              <img class="stories__link-img" src="img/Arrow.svg">
+              <img class="stories__link-img" src="img/Arrow.svg" alt="">
+              <img class="stories__link-img_white" src="img/Arrow-white.svg" alt="">
             </a>
             <q class="stories__first-quote stories__quote" cite="date">11.08.2018</q>
           </div>
-          <div class="stories__column">
-            <img class="stories__second-img stories__img" src="img/Rectangle 3.7 (1).png">
+          <div class="stories__column stories__column-second">
+            <img class="stories__second-img stories__img" src="img/Rectangle_3.7_(1).png" alt="">
             <h3 class="stories__second-subtitle stories__subtitle">First Frontside flip</h3>
-            <p class="stories__second-text stories__text">Yoon recently discusses his first time shooting a signature Andrew Reynolds frontside flip on The Berrics. Click the image below to see the full gallery and read up on what happened that day.
-Photo:Yoon&nbspSul</p>
+            <p class="stories__second-text stories__text">Yoon recently discusses his first time shooting a signature Andrew Reynolds frontside flip on The Berrics. Click the image below to see the full gallery and read up on what happened that day.<br>
+Photo:Yoon&nbsp;Sul</p>
             <a class="stories__link" href="#">LEarn more
-              <img class="stories__link-img" src="img/Arrow.svg">
+              <img class="stories__link-img" src="img/Arrow.svg" alt="">
+              <img class="stories__link-img_white" src="img/Arrow-white.svg" alt="">
             </a>
             <q class="stories__second-quote stories__quote" cite="date">17.08.2018</q>
           </div>
-          <div class="stories__column">
-            <img class="stories__third-img stories__img" src="img/Rectangle 3.7 (2).png">
+          <div class="stories__column stories__column-third">
+            <img class="stories__third-img stories__img" src="img/Rectangle_3.7_(2).png" alt="">
             <h4 class="stories__third-subtitle stories__subtitle">Kevin Baekkel is Pro</h4>
             <p class="stories__third-text stories__text">Creature proudly announced today that they’re officially adding Kevin Baekkel to their pro roster. After paying his dues for years, killing it on last years Thrasher King of the Road, and constantly lighting every spot he hits on fire.</p>
-            <a class="stories__link" href="#">LEarn more
-              <img class="stories__link-img" src="img/Arrow.svg">
+            <a class="stories__link stories__third-link" href="#">LEarn more
+              <img class="stories__link-img" src="img/Arrow.svg" alt="">
             </a>
             <q class="stories__third-quote stories__quote" cite="date">29.07.2018</q>
           </div>
@@ -135,13 +158,14 @@ Photo:Yoon&nbspSul</p>
         <div class="hashtag__content">
           <h1 class="hashtag__title">#AXIONfootwear</h1>
           <div class="hashtag__img">
-            <img class="hashtag__img-first" src="img/Rectangle 3.png">
-            <img class="hashtag__img-second" src="img/Rectangle 3.1.png">
-            <img class="hashtag__img-third" src="img/Rectangle 3.2.png">
-            <img class="hashtag__img-fourth" src="img/Rectangle 3.3.png">
-            <img class="hashtag__img-fifth" src="img/Rectangle 3.4.png">
-            <img class="hashtag__img-sixth" src="img/Rectangle 3.5.png">
-            <img class="hashtag__img-seventh" src="img/Rectangle 3.6.png">
+            <img class="hashtag__img-first" src="img/Rectangle_3.png" alt="">
+            <img class="hashtag__img-second" src="img/Rectangle_3.1.png" alt="">
+            <img class="hashtag__img-third" src="img/Rectangle_3.2.png" alt="">
+            <img class="hashtag__img-fourth" src="img/Rectangle_3.3.png" alt="">
+            <img class="hashtag__img-fifth" src="img/Rectangle_3.4.png" alt="">
+            <img class="hashtag__img-sixth" src="img/Rectangle_3.5.png" alt="">
+            <img class="hashtag__img-seventh" src="img/Rectangle_3.6.png" alt="">
+            <img class="hashtag__img-first-repeat" src="img/Rectangle_3.png" alt="">
           </div>
         </div>
       </section>
@@ -149,26 +173,37 @@ Photo:Yoon&nbspSul</p>
         <div class="footer__personal-ac footer__column">
           <h1 class="personal-ac__title footer__title">MY ACCOUNT</h1>
           <ul class="personal-ac__list">
-            <li><a class="personal-ac__list-item footer__list" href="#">Login</a></li>
-            <li><a class="personal-ac__list-item footer__list" href="#">Wish List</a></li>
-            <li><a class="personal-ac__list-item footer__list" href="#">Order History</a></li>
-            <li><a class="personal-ac__list-item footer__list" href="#">Track order</a></li>
-            <li><a class="personal-ac__list-item footer__list" href="#">Gift cards</a></li>
+            <li class="footer__first-list"><a class="personal-ac__list-item footer__list" href="#">Login</a></li>
+            <li class="footer__first-list"><a class="personal-ac__list-item footer__list" href="#">Wish List</a></li>
+            <li class="footer__first-list"><a class="personal-ac__list-item footer__list" href="#">Order History</a></li>
+            <li class="footer__first-list"><a class="personal-ac__list-item footer__list" href="#">Track order</a></li>
+            <li class="footer__first-list"><a class="personal-ac__list-item footer__list" href="#">Gift cards</a></li>
+          </ul>
+        </div>
+        <div class="footer__miscellaneous-for-mobile footer__column">
+          <h2 class="miscellaneous__title footer__title">MISCELLANEOUS</h2>
+          <ul class="miscellaneous__list">
+            <li class="footer__second-list"><a class="miscellaneous__list-item footer__list" href="#">About Us</a></li>
+            <li class="footer__second-list"><a class="miscellaneous__list-item footer__list" href="#">Careers</a></li>
+            <li class="footer__second-list"><a class="miscellaneous__list-item footer__list" href="#">Privacy Policy</a></li>
+            <li class="footer__second-list"><a class="miscellaneous__list-item footer__list" href="#">Terms & Conditions</a></li>
+            <li class="footer__second-list"><a class="miscellaneous__list-item footer__list" href="#">Ethical Policy</a></li>
+            <li class="footer__second-list"><a class="miscellaneous__list-item footer__list" href="#">Homepage US/UK</a></li>
           </ul>
         </div>
         <div class="footer__customer footer__column">
-          <h1 class="customer__title footer__title">CUSTOMER SERVICE</h1>
+          <h3 class="customer__title footer__title">CUSTOMER SERVICE</h3>
           <ul class="customer__list">
-            <li><a class="customer__list-item footer__list" href="#">Contact us</a></li>
-            <li><a class="customer__list-item footer__list" href="#">Help/FAQ</a></li>
-            <li><a class="customer__list-item footer__list" href="#">Shipping</a></li>
-            <li><a class="customer__list-item footer__list" href="#">Returns</a></li>
-            <li><a class="customer__list-item footer__list" href="#">Size guide</a></li>
-            <li><a class="customer__list-item footer__list" href="#">Holiday shopping</a></li>
+            <li class="footer__third-list"><a class="customer__list-item footer__list" href="#">Contact us</a></li>
+            <li class="footer__third-list"><a class="customer__list-item footer__list" href="#">Help/FAQ</a></li>
+            <li class="footer__third-list"><a class="customer__list-item footer__list" href="#">Shipping</a></li>
+            <li class="footer__third-list"><a class="customer__list-item footer__list" href="#">Returns</a></li>
+            <li class="footer__third-list"><a class="customer__list-item footer__list" href="#">Size guide</a></li>
+            <li class="footer__third-list"><a class="customer__list-item footer__list" href="#">Holiday shopping</a></li>
           </ul>
         </div>
         <div class="footer__miscellaneous footer__column">
-          <h1 class="miscellaneous__title footer__title">MISCELLANEOUS</h1>
+          <h4 class="miscellaneous__title footer__title">MISCELLANEOUS</h4>
           <ul class="miscellaneous__list">
             <li><a class="miscellaneous__list-item footer__list" href="#">About Us</a></li>
             <li><a class="miscellaneous__list-item footer__list" href="#">Careers</a></li>
@@ -180,22 +215,23 @@ Photo:Yoon&nbspSul</p>
         </div>
         <div class="footer__social footer__column">
           <div class="social__new-buyer">
-            <h1 class="social__title footer__title">NEWSLETTER SIGN UP</h1>
+            <h5 class="social__title footer__title">NEWSLETTER SIGN UP</h5>
             <p class="social__text">Get 10% Off Your Next Order!</p>
+            <p class="social__text-option">Get 10% Off Your Next<br>Order!</p>
             <a class="social__sign-up" href="#">SIGN UP</a>
           </div>
           <div class="social__icon">
             <a class="icon__facebook icon" href="#">
-              <img class="icon__facebook-img icon-img" src="img/Facebook.svg">
+              <img class="icon__facebook-img icon-img" src="img/Facebook.svg" alt="">
             </a>
             <a class="icon__twitter icon" href="#">
-              <img class="icon__twitter-img icon-img" src="img/Twitter.svg">
+              <img class="icon__twitter-img icon-img" src="img/Twitter.svg" alt="">
             </a>
             <a class="icon__instagram icon" href="#">
-              <img class="icon__instagram-img icon-img" src="img/Instagram.svg">
+              <img class="icon__instagram-img icon-img" src="img/Instagram.svg" alt="">
             </a>
             <a class="icon__pinterest icon" href="#">
-              <img class="icon__pinterest-img icon-img" src="img/Pinterest.svg">
+              <img class="icon__pinterest-img icon-img" src="img/Pinterest.svg" alt="">
             </a>
           </div>
         </div>
