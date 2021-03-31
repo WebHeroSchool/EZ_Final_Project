@@ -756,7 +756,7 @@ button,a:hover {
     opacity: .4;
   }
   .stories__content {
-    margin-bottom: 90px;
+    margin-bottom: 87px;
   }
   .stories__title {
     text-align: center;
@@ -769,7 +769,7 @@ button,a:hover {
     display: inline-block;
     vertical-align: top;
     width: 27vw;
-    margin-right: 45px;
+    margin-right: 46px;
     padding-top: 1%;
   }
   .stories__column:last-child {
@@ -810,6 +810,9 @@ button,a:hover {
   .stories__link:hover {
     opacity: .5;
   }
+  .stories__first-link,.stories__second-link {
+    margin-right: 34%;
+  }
   .stories__quote {
     font: 500 12px/12px Gotham Pro;
     color: #000;
@@ -817,7 +820,7 @@ button,a:hover {
     quotes: none;
   }
   .hashtag__content {
-    margin-bottom: 10%;
+    margin-bottom: 95px;
   }
   .hashtag__title {
     font: 500 18px/18px Gotham Pro;
@@ -845,16 +848,13 @@ button,a:hover {
   .footer__column {
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 5%;
+    margin-bottom: 53px;
     padding-top: 69px;
   }
   .footer__title {
     font: 500 12px/12px Gotham Pro;
     color: #fff;
-    margin-bottom: 8%;
-  }
-  .customer__title {
-    margin-bottom: 6%;
+    margin-bottom: 5px;
   }
   .footer__list {
     text-decoration: none;
@@ -868,15 +868,14 @@ button,a:hover {
   }
   .footer__personal-ac {
     padding-left: 13%;
-    margin-right: 10%;
+    margin-right: 110px;
   }
   .footer__customer {
-    padding-left: 1%;
-    margin-right: 63px;
+    margin-right: 64px;
   }
   .footer__miscellaneous {
     padding-left: 2px;
-    margin-right: 80px;
+    margin-right: 83px;
   }
   .footer__miscellaneous-for-mobile {
     display: none;
@@ -885,12 +884,12 @@ button,a:hover {
     margin-bottom: 24%;
   }
   .social__title {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
   .social__text {
     font: 300 12px/12px Gotham Pro;
     color: #fff;
-    margin-bottom: 7%;
+    margin-bottom: 14px;
   }
   .social__text-option {
     display: none;
@@ -921,8 +920,7 @@ button,a:hover {
     font: 300 12px/12px Gotham Pro;
     text-align: center;
     color: #fff;
-    padding: 0 0 3% 1%;
-    transform: translateX(-1%);
+    padding: 0 0 3% 0;
   }
 }
 
@@ -1161,7 +1159,7 @@ button,a:hover {
     margin-bottom: 21px;
   }
   .sneaker__content {
-    margin-bottom: 5%;
+    margin-bottom: 35px;
   }
   .sneaker__link {
     text-decoration: none;
@@ -1194,7 +1192,7 @@ button,a:hover {
   }
   .sneaker__text {
     font: 500 20px/20px Gotham Pro;
-    padding-bottom: 7%;
+    padding-bottom: 17px;
   }
   .sneaker__price,.sneaker__btn {
     display: inline;
@@ -1202,6 +1200,9 @@ button,a:hover {
   .sneaker__price {
     font: bold 25px/24px Gotham Pro;
     margin-right: 23%;
+  }
+  .sneaker__black-price {
+    padding-left: 1px;
   }
   .sneaker__beige-price {
     margin-right: 27%;
@@ -1324,13 +1325,14 @@ button,a:hover {
   .stories__column {
     display: inline-block;
     vertical-align: top;
-    width: 41vw;
-    margin-right: 49px;
+    margin-right: 28px;
   }
   .stories__column-first {
+    width: 44vw;
     padding-left: 6%;
   }
   .stories__column-second {
+    width: 41vw;
     margin-right: 0;
   }
   .stories__column-third {
@@ -1339,7 +1341,7 @@ button,a:hover {
   .stories__img {
     width: 312px;
     height: 166px;
-    margin-bottom: 9%;
+    margin-bottom: 28px;
   }
   .stories__subtitle {
     font: bold 25px/25px Gotham Pro;
@@ -1362,6 +1364,9 @@ button,a:hover {
     text-transform: uppercase;
     transition: .5s linear;
     margin-right: 9%;
+  }
+  .stories__first-link {
+    margin-right: 15%;
   }
   .stories__link-img_white {
     padding: 2% 0 0 2%;
@@ -1427,16 +1432,16 @@ button,a:hover {
   .footer__column {
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 9%;
-    padding-top: 60px;
+    margin-bottom: 72px;
+    padding-top: 61px;
   }
   .footer__title {
     font: 500 12px/12px Gotham Pro;
     color: #fff;
-    margin-bottom: 8%;
+    margin-bottom: 4px;
   }
   .customer__title,.miscellaneous__title {
-    margin-bottom: 5%;
+    margin-bottom: 5px;
   }
   .footer__list {
     text-decoration: none;
@@ -1462,7 +1467,7 @@ button,a:hover {
     display: none;
   }
   .social__new-buyer {
-    margin-bottom: 20%;
+    margin-bottom: 33px;
   }
   .social__title {
     padding-left: 1px;
@@ -1475,7 +1480,7 @@ button,a:hover {
     font: 300 12px/12px Gotham Pro;
     color: #fff;
     width: 110%;
-    padding-left: 2px;
+    padding-left: 3px;
     margin-bottom: 9%;
     letter-spacing: 1px;
   }
@@ -1484,7 +1489,7 @@ button,a:hover {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    padding: 7px 48px;
+    padding: 7px 49px;
     border: solid 2px #fff;
     transition: .3s ease;
   }
@@ -1492,21 +1497,43 @@ button,a:hover {
     border: double 3px #B22222;
     font: 500 11px/11px Gotham Pro;
   }
+  .social__icon {
+    padding-left: 2px;
+  }
   .icon {
+    vertical-align: bottom;
     margin-right: 11%;
     text-decoration: none;
     transition: .2s ease;
+  }
+  .icon__instagram {
+    margin-right: 13%;
   }
   .icon:hover {
     border: double 3px #B22222;
     border-radius: 4px;
   }
+  .icon__facebook-img {
+    height: 14px;
+    width: 7px;
+  }
+  .icon__twitter-img {
+    height: 13px;
+    width: 16px;
+  }
+  .icon__pinterest-img {
+    height: 17px;
+    width: 12px;
+  }
+  .icon__instagram-img {
+    height: 16px;
+    width: 16px;
+  }
   .footer__license {
     font: 300 12px/12px Gotham Pro;
     text-align: center;
     color: #fff;
-    padding: 2px 0 3% 2%;
-    transform: translateX(-1%);
+    padding: 2px 0 3% 3px;
   }
 }
 
@@ -2104,7 +2131,7 @@ button,a:hover {
     align-items: flex-end;
     padding-left: 27%;
     width: 168px;
-    margin-bottom: 7%;
+    margin-bottom: 6%;
   }
   .icon {
     margin-right: 31px;
@@ -2119,6 +2146,17 @@ button,a:hover {
   }
   .icon__twitter-img {
     height: 17px;
+  }
+  .icon__facebook-img {
+    height: 20px;
+    width: 10px;
+  }
+  .icon__pinterest {
+    padding-top: 3px;
+  }
+  .icon__pinterest-img {
+    height: 22px;
+    width: 17px;
   }
   .icon:hover {
     border: double 3px #B22222;
@@ -2333,9 +2371,9 @@ button,a:hover {
     background-size: 100% 100%;
     transform: translateX(-6%);
     padding-bottom: 13%;
-    width: 114%;
+    width: 320px;
     height: 12%;
-    margin-bottom: 13%;
+    margin-bottom: 36px;
   }
   .main__title {
     font: 500 20px/20px Gotham Pro;
@@ -2365,10 +2403,9 @@ button,a:hover {
     padding-left: 9%;
     text-transform: uppercase;
     font: bold 20px/20px Gotham Pro;
-    width: 100%;
   }
   .sneaker__content {
-    margin-bottom: 17%;
+    margin-bottom: 20%;
   }
   .sneaker__link {
     display: block;
@@ -2437,10 +2474,10 @@ button,a:hover {
   .video__content {
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 22% 27% 51%;
-    width: 114%;
+    grid-template-rows: 22% 26% 52%;
+    width: 320px;
     transform: translateX(-6%);
-    height: 490px;
+    height: 482px;
     background-color: #000;
     background-size: 100%;
     position: relative;
@@ -2450,7 +2487,7 @@ button,a:hover {
   .video__content::before {
     content: '';
     left: 0;
-    top: -9px;
+    top: -14px;
     height: 7%;
     width: 101%;
     position: absolute;
@@ -2461,7 +2498,7 @@ button,a:hover {
     order: 1;
     text-align: center;
     width: 80%;
-    padding: 19% 0 0 9%;
+    padding: 16% 0 0 9%;
     font: 500 20px/25px Gotham Pro;
     text-transform: uppercase;
     color: #fff;
@@ -2472,8 +2509,7 @@ button,a:hover {
     width: 281px;
     font: normal 14px/17px Gotham Pro;
     color: #fff;
-    padding: 6% 7% 0 6%;
-    margin-bottom: 1%;
+    padding: 13px 20px 0 6%;
     transition: 1s ease;
   }
   .video__text-link {
@@ -2515,7 +2551,7 @@ button,a:hover {
   }
   .stories__content {
     padding-bottom: 35%;
-    width: 114%;
+    width: 320px;
     transform: translate(-6%,-2px);
     background-color: #000;
   }
@@ -2543,7 +2579,6 @@ button,a:hover {
   .stories__subtitle {
     font: 500 20px/20px Gotham Pro;
     color: #fff;
-    width: 301px;
     margin-bottom: 10px;
   }
   .stories__text {
@@ -2579,16 +2614,16 @@ button,a:hover {
   }
   .hashtag__content {
     background-color: #000;
-    width: 114%;
-    padding-bottom: 44%;
+    width: 320px;
+    padding-bottom: 39%;
     transform: translate(-6%,-3px);
     position: relative;
-    margin-bottom: 85%;
+    margin-bottom: 89%;
   }
   .hashtag__content::after {
     content: '';
     left: -2px;
-    top: 90%;
+    top: 94%;
     height: 29%;
     width: 101%;
     position: absolute;
@@ -2600,7 +2635,7 @@ button,a:hover {
     font: 500 25px/24px Gotham Pro;
     color: #E8E8E8;
     text-transform: uppercase;
-    margin-bottom: 3%;
+    margin-bottom: 11px;
     padding: 1% 0 0 10%;
   }
   .hashtag__img {
@@ -2642,13 +2677,13 @@ button,a:hover {
     display: block;
     background-color: #000;
     transform: translateX(-6%);
-    width: 113%;
+    width: 320px;
+    padding-top: 39px;
   }
   .footer__column {
     display: block;
     vertical-align: top;
     text-align: center;
-    padding-top: 12%;
   }
   .footer__title {
     font: 500 15px/15px Gotham Pro;
@@ -2667,21 +2702,18 @@ button,a:hover {
   .footer__list:hover {
     border-bottom: solid 1px #fff;
   }
-  .footer__personal-ac {
-    margin-bottom: 3%;
+  .footer__personal-ac,.footer__miscellaneous-for-mobile {
+    margin-bottom: 48px;
   }
   .footer__customer {
-    margin: 0 7% 3% 0;
+    margin: 0 7% 48px 0;
     padding-left: 6%;
   }
   .customer__title {
-    margin-bottom: 1%;
+    margin-bottom: 4px;
   }
   .footer__third-list {
     margin-bottom: 2px;
-  }
-  .footer__miscellaneous-for-mobile {
-    margin-bottom: 3%;
   }
   .miscellaneous__title {
     margin-bottom: 1%;
@@ -2693,10 +2725,10 @@ button,a:hover {
     display: none;
   }
   .social__new-buyer {
-    margin-bottom: 36%;
+    margin-bottom: 113px;
   }
   .social__title {
-    margin-bottom: 3%;
+    margin-bottom: 10px;
   }
   .social__text {
     display: none;
@@ -2724,10 +2756,9 @@ button,a:hover {
   .social__icon {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
     padding-left: 23%;
     width: 168px;
-    margin-bottom: 7%;
+    margin-bottom: 21px;
   }
   .icon {
     margin-right: 31px;
@@ -2741,7 +2772,13 @@ button,a:hover {
     height: 22px;
   }
   .icon__twitter-img {
+    padding-top: 2px;
     height: 17px;
+  }
+  .icon__facebook-img {
+    padding-left: 1px;
+    width: 10px;
+    height: 20px;
   }
   .icon:hover {
     border: double 3px #B22222;
@@ -2751,6 +2788,6 @@ button,a:hover {
     font: 300 13px/13px Gotham Pro;
     text-align: center;
     color: #fff;
-    padding: 0 0 9% 1%;
+    padding: 0 0 11% 1%;
   }
 }
