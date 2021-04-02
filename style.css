@@ -1266,11 +1266,11 @@ button,a:hover {
     content: '';
     left: 0;
     top: -20px;
-    height: 5%;
+    height: 6%;
     width: 101%;
     position: absolute;
     background: #fff;
-    transform: rotate(2deg);
+    transform: rotate(2.2deg);
   }
   .video__title {
     order: 1;
@@ -1359,10 +1359,10 @@ button,a:hover {
     margin-bottom: 28px;
   }
   .stories__subtitle {
-    font: bold 25px/25px Gotham Pro;
+    font: 500 25px/25px Gotham Pro;
     color: #fff;
     width: 301px;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
   }
   .stories__text {
     font: normal 20px/25px Gotham Pro;
@@ -1408,12 +1408,12 @@ button,a:hover {
   .hashtag__content::after {
     content: '';
     left: 0;
-    top: 82%;
-    height: 30%;
+    top: 81%;
+    height: 35%;
     width: 101%;
     position: absolute;
     background: #fff;
-    transform: rotate(3deg);
+    transform: rotate(2.6deg);
     z-index: -1;
   }
   .hashtag__title {
@@ -1422,7 +1422,7 @@ button,a:hover {
     width: 94%;
     text-transform: uppercase;
     text-align: right;
-    margin-bottom: 2%;
+    margin-bottom: 14px;
     padding-top: 2px;
   }
   .hashtag__img {
@@ -1454,7 +1454,7 @@ button,a:hover {
   .footer__title {
     font: 500 12px/12px Gotham Pro;
     color: #fff;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
   }
   .customer__title,.miscellaneous__title {
     margin-bottom: 5px;
@@ -3317,6 +3317,10 @@ button,a:hover {
     color: #fff;
     margin-bottom: 2%;
   }
+  .personal-ac__title {
+    padding-top: 2px;
+    margin-bottom: 1%;
+  }
   .footer__first-list {
     margin-bottom: 6px;
   }
@@ -3330,7 +3334,7 @@ button,a:hover {
     border-bottom: solid 1px #fff;
   }
   .footer__personal-ac {
-    margin-bottom: 3%;
+    margin-bottom: 14px;
   }
   .footer__customer {
     margin: 0 7% 4% 0;
