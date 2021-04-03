@@ -321,14 +321,14 @@ button,a:hover {
   .stories__subtitle {
     font: bold 18px/18px Gotham Pro;
     color: #000;
-    margin-bottom: 3%;
+    margin-bottom: 11px;
   }
   .stories__text {
     font: normal 14px/17px Gotham Pro;
     font-style: normal;
     color: #000;
     height: 70%;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
   }
   .stories__first-text {
     width: 307px;
@@ -369,6 +369,7 @@ button,a:hover {
     font: 500 18px/18px Gotham Pro;
     color: #000;
     opacity: .3;
+    padding-top: 2px;
     text-transform: uppercase;
     text-align: right;
     margin-bottom: 1%;
@@ -385,19 +386,22 @@ button,a:hover {
   .footer__content {
     background-color: #000;
     transform: translateX(-6%);
-    width: 114%;
+    width: 1170px;
     height: 20%;
   }
   .footer__column {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 4%;
-    padding-top: 6%;
+    padding-top: 67px;
   }
   .footer__title {
     font: 500 12px/12px Gotham Pro;
     color: #fff;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
+  }
+  .personal-ac__title {
+    padding-bottom: 5%;
   }
   .footer__list {
     text-decoration: none;
@@ -435,7 +439,7 @@ button,a:hover {
     width: 179px;
     font: 300 12px/12px Gotham Pro;
     color: #fff;
-    margin-bottom: 9%;
+    margin-bottom: 10%;
     padding-left: 2px;
   }
   .social__text-option {
@@ -446,7 +450,7 @@ button,a:hover {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    padding: 7px 45px;
+    padding: 8px 45px;
     border: solid 2px #fff;
     transition: .3s ease;
   }
@@ -858,7 +862,7 @@ button,a:hover {
   .footer__content {
     background-color: #000;
     transform: translateX(-5%);
-    width: 111%;
+    width: 110.5%;
     height: 23%;
   }
   .footer__column {
@@ -1267,7 +1271,7 @@ button,a:hover {
     left: 0;
     top: -20px;
     height: 6%;
-    width: 101%;
+    width: 100.2%;
     position: absolute;
     background: #fff;
     transform: rotate(2.2deg);
@@ -1334,6 +1338,7 @@ button,a:hover {
     text-align: center;
     font: 500 30px/30px Gotham Pro;
     color: #fff;
+    padding-top: 2px;
     text-transform: uppercase;
     margin-bottom: 44px;
   }
@@ -1410,7 +1415,7 @@ button,a:hover {
     left: 0;
     top: 81%;
     height: 35%;
-    width: 101%;
+    width: 100.2%;
     position: absolute;
     background: #fff;
     transform: rotate(2.6deg);
@@ -1423,7 +1428,7 @@ button,a:hover {
     text-transform: uppercase;
     text-align: right;
     margin-bottom: 14px;
-    padding-top: 2px;
+    padding-top: 1px;
   }
   .hashtag__img {
     justify-content: center;
@@ -1457,7 +1462,7 @@ button,a:hover {
     margin-bottom: 3px;
   }
   .customer__title,.miscellaneous__title {
-    margin-bottom: 5px;
+    margin-bottom: 4px;
   }
   .footer__list {
     text-decoration: none;
@@ -3112,12 +3117,12 @@ button,a:hover {
   .video__content::before {
     content: '';
     left: 0;
-    top: -22px;
+    top: -23px;
     height: 11%;
-    width: 101%;
+    width: 100.4%;
     position: absolute;
     background: #fff;
-    transform: rotate(3deg);
+    transform: rotate(2.5deg);
   }
   .video__title {
     order: 1;
@@ -3752,7 +3757,7 @@ button,a:hover {
     left: 0;
     top: -14px;
     height: 7%;
-    width: 101%;
+    width: 100.2%;
     position: absolute;
     background: #fff;
     transform: rotate(3deg);
@@ -3887,7 +3892,7 @@ button,a:hover {
     left: -2px;
     top: 94%;
     height: 29%;
-    width: 101%;
+    width: 100.2%;
     position: absolute;
     background: #fff;
     transform: rotate(3deg);
@@ -3939,8 +3944,8 @@ button,a:hover {
   .footer__content {
     display: block;
     background-color: #000;
-    transform: translateX(-6%);
-    width: 114%;
+    transform: translateX(-5%);
+    width: 112%;
     padding-top: 39px;
   }
   .footer__column {
@@ -4019,7 +4024,7 @@ button,a:hover {
   .social__icon {
     display: flex;
     justify-content: space-between;
-    padding-left: 23%;
+    padding-left: 22%;
     width: 168px;
     margin-bottom: 23px;
   }
