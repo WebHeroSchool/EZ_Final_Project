@@ -34,7 +34,7 @@ button,a:hover {
     padding-top: 3%;
   }
   .menu__item {
-    font: bold 12px/12px Gotham Pro;
+    font: bold 12px/12px Gotham Pro, Helvetica;
     color: #000;
     text-decoration: none;
     margin-right: 30px;
