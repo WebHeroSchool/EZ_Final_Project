@@ -68,7 +68,7 @@ a:hover {
     border-bottom: solid 1px #000;
     width: 89%;
     transition: .5s linear;
-    font: 500 18px/19px 'Gotham Pro';
+    font: 500 18px/19px 'Gotham Pro', Helvetica;
   }
   .search__box:hover {
     background-color: #dcdcdc;
@@ -108,7 +108,7 @@ a:hover {
     margin-bottom: 5%;
   }
   .main__title {
-    font: 500 30px/29px 'Gotham Pro';
+    font: 500 30px/29px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     width: 19%;
@@ -118,7 +118,7 @@ a:hover {
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     padding-left: 6%;
     transition: opacity .5s ease-in-out;
@@ -130,7 +130,7 @@ a:hover {
   .sneaker__title {
     text-align: center;
     text-transform: uppercase;
-    font: bold 22px/22px 'Gotham Pro';
+    font: bold 22px/22px 'Gotham Pro', Helvetica;
     width: 100%;
     margin-bottom: 1%;
   }
@@ -152,11 +152,11 @@ a:hover {
     margin-right: 0;
   }
   .sneaker__text {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     padding: 0 0 2% 5%;
   }
   .sneaker__price {
-    font: bold 14px/14px 'Gotham Pro';
+    font: bold 14px/14px 'Gotham Pro', Helvetica;
     padding: 0 5%;
     margin-right: 39%;
   }
@@ -204,7 +204,7 @@ a:hover {
   .sneaker__beige-btn_grey,
   .sneaker__grey-btn_grey,
   .sneaker__white-btn_grey {
-    background: #C4C4C4;
+    background: #c4c4c4;
   }
   .sneaker__black-btn_black {
     background: #000;
@@ -213,22 +213,22 @@ a:hover {
   .sneaker__beige-btn_red,
   .sneaker__grey-btn_red,
   .sneaker__white-btn_red {
-    background: #B62E3C;
+    background: #b62e3c;
   }
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow,
   .sneaker__grey-btn_yellow,
   .sneaker__white-btn_yellow{
-    background: #FDB431;
+    background: #fdb431;
   }
   .sneaker__beige-btn_orange {
-    background: #E29D69;
+    background: #e29d69;
   }
   .sneaker__grey-btn_darkgrey {
-    background: #41479B;
+    background: #41479b;
   }
   .sneaker__white-btn_blue {
-    background: #257DA9;
+    background: #257da9;
   }
   .sneaker__btn,
   .sneaker__price {
@@ -253,7 +253,7 @@ a:hover {
   }
   .video__title {
     padding: 56% 0 0 0;
-    font: 500 22px/27px 'Gotham Pro';
+    font: 500 22px/27px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
   }
@@ -278,13 +278,13 @@ a:hover {
     transition: 1s linear;
   }
   .play__btn:hover {
-    border: solid 4px #B22222;
+    border: solid 4px #b22222;
     border-radius: 50%;
     opacity: .7;
   }
   .video__text {
     padding: 5px 0 0 0;
-    font: normal 14px/17px 'Gotham Pro';
+    font: normal 14px/17px 'Gotham Pro', Helvetica;
     color: #fff;
     text-decoration: none;
     transition: 1s linear;
@@ -294,11 +294,11 @@ a:hover {
   }
   .video__text:hover {
     opacity: .7;
-    color: #B22222;
+    color: #b22222;
   }
   .video__link {
     padding: 1% 0 0 1%;
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -312,7 +312,7 @@ a:hover {
   }
   .stories__title {
     text-align: center;
-    font: 500 22px/22px 'Gotham Pro';
+    font: 500 22px/22px 'Gotham Pro', Helvetica;
     color: #000;
     text-transform: uppercase;
     margin-bottom: 45px;
@@ -330,12 +330,12 @@ a:hover {
     margin-bottom: 8%;
   }
   .stories__subtitle {
-    font: bold 18px/18px 'Gotham Pro';
+    font: bold 18px/18px 'Gotham Pro', Helvetica;
     color: #000;
     margin-bottom: 11px;
   }
   .stories__text {
-    font: normal 14px/17px 'Gotham Pro';
+    font: normal 14px/17px 'Gotham Pro', Helvetica;
     font-style: normal;
     color: #000;
     height: 70%;
@@ -345,7 +345,7 @@ a:hover {
     width: 307px;
   }
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
@@ -365,7 +365,7 @@ a:hover {
     opacity: .5;
   }
   .stories__quote {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #000;
     opacity: .3;
     quotes: none;
@@ -377,7 +377,7 @@ a:hover {
     margin-bottom: 8%;
   }
   .hashtag__title {
-    font: 500 18px/18px 'Gotham Pro';
+    font: 500 18px/18px 'Gotham Pro', Helvetica;
     color: #000;
     opacity: .3;
     padding-top: 2px;
@@ -407,7 +407,7 @@ a:hover {
     padding-top: 67px;
   }
   .footer__title {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     padding-bottom: 4%;
   }
@@ -416,7 +416,7 @@ a:hover {
   }
   .footer__list {
     text-decoration: none;
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 1%;
     transition: .2s linear;
@@ -448,7 +448,7 @@ a:hover {
   }
   .social__text {
     width: 179px;
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 11%;
     padding-left: 2px;
@@ -457,7 +457,7 @@ a:hover {
     display: none;
   }
   .social__sign-up {
-    font: 500 10px/10px 'Gotham Pro';
+    font: 500 10px/10px 'Gotham Pro', Helvetica;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -466,8 +466,8 @@ a:hover {
     transition: .3s ease;
   }
   .social__sign-up:hover {
-    border: double 3px #B22222;
-    font: 500 11px/11px 'Gotham Pro';
+    border: double 3px #b22222;
+    font: 500 11px/11px 'Gotham Pro', Helvetica;
   }
   .icon {
     padding-left: 5%;
@@ -480,11 +480,11 @@ a:hover {
     margin-right: 0;
   }
   .icon:hover {
-    border: double 3px #B22222;
+    border: double 3px #b22222;
     border-radius: 4px;
   }
   .footer__license {
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     text-align: center;
     margin-right: 1%;
@@ -518,7 +518,7 @@ a:hover {
     padding-top: 5%;
   }
   .menu__item {
-    font: bold 12px/12px 'Gotham Pro';
+    font: bold 12px/12px 'Gotham Pro', Helvetica;
     color: #000;
     text-decoration: none;
     margin-right: 31px;
@@ -554,7 +554,7 @@ a:hover {
     border-bottom: solid 1px #000;
     width: 89%;
     transition: .5s linear;
-    font: 500 18px/19px 'Gotham Pro';
+    font: 500 18px/19px 'Gotham Pro', Helvetica;
   }
   .search__box:hover {
     background-color: #dcdcdc;
@@ -594,7 +594,7 @@ a:hover {
     margin-bottom: 7%;
   }
   .main__title {
-    font: 500 30px/29px 'Gotham Pro';
+    font: 500 30px/29px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     width: 19%;
@@ -604,7 +604,7 @@ a:hover {
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     padding-left: 6%;
     transition: opacity .5s ease-in-out;
@@ -619,7 +619,7 @@ a:hover {
   .sneaker__title {
     text-align: center;
     text-transform: uppercase;
-    font: bold 22px/22px 'Gotham Pro';
+    font: bold 22px/22px 'Gotham Pro', Helvetica;
     width: 100%;
     margin-bottom: 3%;
   }
@@ -639,11 +639,11 @@ a:hover {
     margin-right: 0;
   }
   .sneaker__text {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     padding: 0 0 2% 5%;
   }
   .sneaker__price {
-    font: bold 14px/14px 'Gotham Pro';
+    font: bold 14px/14px 'Gotham Pro', Helvetica;
     padding: 0 5%;
     margin-right: 37%;
   }
@@ -695,7 +695,7 @@ a:hover {
   .sneaker__beige-btn_grey,
   .sneaker__grey-btn_grey,
   .sneaker__white-btn_grey {
-    background: #C4C4C4;
+    background: #c4c4c4;
   }
   .sneaker__black-btn_black {
     background: #000;
@@ -704,22 +704,22 @@ a:hover {
   .sneaker__beige-btn_red,
   .sneaker__grey-btn_red,
   .sneaker__white-btn_red {
-    background: #B62E3C;
+    background: #b62e3c;
   }
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow,
   .sneaker__grey-btn_yellow,
   .sneaker__white-btn_yellow{
-    background: #FDB431;
+    background: #fdb431;
   }
   .sneaker__beige-btn_orange {
-    background: #E29D69;
+    background: #e29d69;
   }
   .sneaker__grey-btn_darkgrey {
-    background: #41479B;
+    background: #41479b;
   }
   .sneaker__white-btn_blue {
-    background: #257DA9;
+    background: #257da9;
   }
   .sneaker__btn,
   .sneaker__price {
@@ -743,7 +743,7 @@ a:hover {
   .video__title {
     padding: 55% 0 0 0;
     margin-bottom: 3%;
-    font: 500 22px/27px 'Gotham Pro';
+    font: 500 22px/27px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
   }
@@ -765,12 +765,12 @@ a:hover {
     transition: 1s linear;
   }
   .play__btn:hover {
-    border: solid 4px #B22222;
+    border: solid 4px #b22222;
     border-radius: 50%;
     opacity: .7;
   }
   .video__text {
-    font: normal 13px/16px 'Gotham Pro';
+    font: normal 13px/16px 'Gotham Pro', Helvetica;
     color: #fff;
     text-decoration: none;
     margin-bottom: 6%;
@@ -781,10 +781,10 @@ a:hover {
   }
   .video__text:hover {
     opacity: .7;
-    color: #B22222;
+    color: #b22222;
   }
   .video__link {
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -802,7 +802,7 @@ a:hover {
   }
   .stories__title {
     text-align: center;
-    font: 500 22px/22px 'Gotham Pro';
+    font: 500 22px/22px 'Gotham Pro', Helvetica;
     color: #000;
     text-transform: uppercase;
     margin-bottom: 4%;
@@ -823,19 +823,19 @@ a:hover {
     height: 147px;
   }
   .stories__subtitle {
-    font: bold 18px/18px 'Gotham Pro';
+    font: bold 18px/18px 'Gotham Pro', Helvetica;
     color: #000;
     margin-bottom: 3%;
   }
   .stories__text {
-    font: normal 13px/16px 'Gotham Pro';
+    font: normal 13px/16px 'Gotham Pro', Helvetica;
     font-style: normal;
     color: #000;
     height: 70%;
     margin-bottom: 7%;
   }
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
@@ -857,7 +857,7 @@ a:hover {
     margin-right: 34%;
   }
   .stories__quote {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #000;
     opacity: .3;
     quotes: none;
@@ -866,7 +866,7 @@ a:hover {
     margin-bottom: 95px;
   }
   .hashtag__title {
-    font: 500 18px/18px 'Gotham Pro';
+    font: 500 18px/18px 'Gotham Pro', Helvetica;
     color: #000;
     opacity: .3;
     text-transform: uppercase;
@@ -895,13 +895,13 @@ a:hover {
     padding-top: 69px;
   }
   .footer__title {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 5px;
   }
   .footer__list {
     text-decoration: none;
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 1%;
     transition: .2s linear;
@@ -930,7 +930,7 @@ a:hover {
     margin-bottom: 6px;
   }
   .social__text {
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 14px;
   }
@@ -938,7 +938,7 @@ a:hover {
     display: none;
   }
   .social__sign-up {
-    font: 500 10px/10px 'Gotham Pro';
+    font: 500 10px/10px 'Gotham Pro', Helvetica;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -947,8 +947,8 @@ a:hover {
     transition: .3s ease;
   }
   .social__sign-up:hover {
-    border: double 3px #B22222;
-    font: 500 11px/11px 'Gotham Pro';
+    border: double 3px #b22222;
+    font: 500 11px/11px 'Gotham Pro', Helvetica;
   }
   .icon {
     margin-right: 12%;
@@ -956,11 +956,11 @@ a:hover {
     transition: .2s ease;
   }
   .icon:hover {
-    border: double 3px #B22222;
+    border: double 3px #b22222;
     border-radius: 4px;
   }
   .footer__license {
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     text-align: center;
     color: #fff;
     padding: 0 0 3% 0;
@@ -1033,7 +1033,7 @@ a:hover {
     margin: 0;
     padding: 15% 0;
     text-align: center;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .15s ease;
   }
   .burger__language {
@@ -1042,7 +1042,7 @@ a:hover {
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     width: 30px;
     height: 30px;
     transition: opacity .5s ease-in;
@@ -1058,9 +1058,9 @@ a:hover {
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .3s linear;
-    font: 500 25px/25px 'Gotham Pro';
+    font: 500 25px/25px 'Gotham Pro', Helvetica;
   }
   .burger-search__box:hover {
     background-color: #fff;
@@ -1083,7 +1083,7 @@ a:hover {
     display: block;
     padding: 12px 0;
     color: #000;
-    font: bold 18px/18px 'Gotham Pro';
+    font: bold 18px/18px 'Gotham Pro', Helvetica;
     text-decoration: none;
     transition: .10s ease;
     position: relative;
@@ -1172,7 +1172,7 @@ a:hover {
     margin-bottom: 63px;
   }
   .main__title {
-    font: 500 50px/50px 'Gotham Pro';
+    font: 500 50px/50px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
@@ -1182,7 +1182,7 @@ a:hover {
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     padding-left: 6%;
     transition: opacity .5s ease-in-out;
@@ -1199,7 +1199,7 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
     transform: translateX(-1%);
-    font: bold 30px/30px 'Gotham Pro';
+    font: bold 30px/30px 'Gotham Pro', Helvetica;
     width: 100%;
     margin-bottom: 21px;
   }
@@ -1237,7 +1237,7 @@ a:hover {
     padding-left: 39px;
   }
   .sneaker__text {
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     padding-bottom: 17px;
   }
   .sneaker__price,
@@ -1245,7 +1245,7 @@ a:hover {
     display: inline;
   }
   .sneaker__price {
-    font: bold 25px/24px 'Gotham Pro';
+    font: bold 25px/24px 'Gotham Pro', Helvetica;
     margin-right: 23%;
   }
   .sneaker__black-price {
@@ -1263,21 +1263,21 @@ a:hover {
   }
   .sneaker__black-btn_grey,
   .sneaker__beige-btn_grey {
-    background: #C4C4C4;
+    background: #c4c4c4;
   }
   .sneaker__black-btn_black {
     background: #000;
   }
   .sneaker__black-btn_red,
   .sneaker__beige-btn_red {
-    background: #B62E3C;
+    background: #b62e3c;
   }
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow {
-    background: #FDB431;
+    background: #fdb431;
   }
   .sneaker__beige-btn_orange {
-    background: #E29D69;
+    background: #e29d69;
   }
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
@@ -1312,14 +1312,14 @@ a:hover {
     order: 1;
     text-align: center;
     padding-top: 12%;
-    font: 500 30px/37px 'Gotham Pro';
+    font: 500 30px/37px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 2%;
   }
   .video__text {
     text-align: center;
-    font: normal 20px/25px 'Gotham Pro';
+    font: normal 20px/25px 'Gotham Pro', Helvetica;
     color: #fff;
     padding: 0 6% 0 7%;
     margin-bottom: 15px;
@@ -1331,7 +1331,7 @@ a:hover {
   }
   .video__text:hover {
     opacity: .7;
-    color: #B22222;
+    color: #b22222;
   }
   .video__link {
     display: none;
@@ -1356,7 +1356,7 @@ a:hover {
     transition: 1s linear;
   }
   .play__btn:hover {
-    border: solid 4px #B22222;
+    border: solid 4px #b22222;
     border-radius: 50%;
     opacity: .7;
   }
@@ -1368,7 +1368,7 @@ a:hover {
   }
   .stories__title {
     text-align: center;
-    font: 500 30px/30px 'Gotham Pro';
+    font: 500 30px/30px 'Gotham Pro', Helvetica;
     color: #fff;
     padding-top: 2px;
     text-transform: uppercase;
@@ -1396,13 +1396,13 @@ a:hover {
     margin-bottom: 28px;
   }
   .stories__subtitle {
-    font: 500 25px/25px 'Gotham Pro';
+    font: 500 25px/25px 'Gotham Pro', Helvetica;
     color: #fff;
     width: 301px;
     margin-bottom: 3%;
   }
   .stories__text {
-    font: normal 20px/25px 'Gotham Pro';
+    font: normal 20px/25px 'Gotham Pro', Helvetica;
     width: 312px;
     font-style: normal;
     color: #fff;
@@ -1410,7 +1410,7 @@ a:hover {
     margin-bottom: 31px;
   }
   .stories__link {
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -1430,8 +1430,8 @@ a:hover {
     opacity: .5;
   }
   .stories__quote {
-    font: 500 15px/15px 'Gotham Pro';
-    color: #D1D1D1;
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    color: #d1d1d1;
     quotes: none;
   }
   .hashtag__content {
@@ -1454,8 +1454,8 @@ a:hover {
     z-index: -1;
   }
   .hashtag__title {
-    font: 500 30px/30px 'Gotham Pro';
-    color: #E8E8E8;
+    font: 500 30px/30px 'Gotham Pro', Helvetica;
+    color: #e8e8e8;
     width: 94%;
     text-transform: uppercase;
     text-align: right;
@@ -1489,7 +1489,7 @@ a:hover {
     padding-top: 61px;
   }
   .footer__title {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 3px;
   }
@@ -1499,7 +1499,7 @@ a:hover {
   }
   .footer__list {
     text-decoration: none;
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 1%;
     transition: .2s linear;
@@ -1531,7 +1531,7 @@ a:hover {
     display: none;
   }
   .social__text-option {
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     width: 110%;
     padding-left: 3px;
@@ -1539,7 +1539,7 @@ a:hover {
     letter-spacing: 1px;
   }
   .social__sign-up {
-    font: 500 10px/10px 'Gotham Pro';
+    font: 500 10px/10px 'Gotham Pro', Helvetica;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -1548,8 +1548,8 @@ a:hover {
     transition: .3s ease;
   }
   .social__sign-up:hover {
-    border: double 3px #B22222;
-    font: 500 11px/11px 'Gotham Pro';
+    border: double 3px #b22222;
+    font: 500 11px/11px 'Gotham Pro', Helvetica;
   }
   .social__icon {
     padding-left: 2px;
@@ -1564,7 +1564,7 @@ a:hover {
     margin-right: 13%;
   }
   .icon:hover {
-    border: double 3px #B22222;
+    border: double 3px #b22222;
     border-radius: 4px;
   }
   .icon__facebook-img {
@@ -1584,7 +1584,7 @@ a:hover {
     width: 16px;
   }
   .footer__license {
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     text-align: center;
     color: #fff;
     padding: 2px 0 3% 3px;
@@ -1657,7 +1657,7 @@ a:hover {
     margin: 0;
     padding: 15% 0;
     text-align: center;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .15s ease;
   }
   .burger__language {
@@ -1666,7 +1666,7 @@ a:hover {
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     width: 30px;
     height: 30px;
     transition: opacity .5s ease-in;
@@ -1682,9 +1682,9 @@ a:hover {
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .3s linear;
-    font: 500 25px/25px 'Gotham Pro';
+    font: 500 25px/25px 'Gotham Pro', Helvetica;
   }
   .burger-search__box:hover {
     background-color: #fff;
@@ -1707,7 +1707,7 @@ a:hover {
     display: block;
     padding: 12px 0;
     color: #000;
-    font: bold 18px/18px 'Gotham Pro';
+    font: bold 18px/18px 'Gotham Pro', Helvetica;
     text-decoration: none;
     transition: .10s ease;
     position: relative;
@@ -1796,7 +1796,7 @@ a:hover {
     margin-bottom: 63px;
   }
   .main__title {
-    font: 500 50px/50px 'Gotham Pro';
+    font: 500 50px/50px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
@@ -1806,7 +1806,7 @@ a:hover {
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     padding-left: 6%;
     transition: opacity .5s ease-in-out;
@@ -1823,7 +1823,7 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
     transform: translateX(-1%);
-    font: bold 30px/30px 'Gotham Pro';
+    font: bold 30px/30px 'Gotham Pro', Helvetica;
     width: 100%;
     margin-bottom: 21px;
   }
@@ -1861,7 +1861,7 @@ a:hover {
     padding-left: 39px;
   }
   .sneaker__text {
-    font: 500 18px/18px 'Gotham Pro';
+    font: 500 18px/18px 'Gotham Pro', Helvetica;
     padding-bottom: 17px;
   }
   .sneaker__price,
@@ -1869,7 +1869,7 @@ a:hover {
     display: inline;
   }
   .sneaker__price {
-    font: bold 20px/20px 'Gotham Pro';
+    font: bold 20px/20px 'Gotham Pro', Helvetica;
     margin-right: 20%;
   }
   .sneaker__black-price {
@@ -1887,21 +1887,21 @@ a:hover {
   }
   .sneaker__black-btn_grey,
   .sneaker__beige-btn_grey {
-    background: #C4C4C4;
+    background: #c4c4c4;
   }
   .sneaker__black-btn_black {
     background: #000;
   }
   .sneaker__black-btn_red,
   .sneaker__beige-btn_red {
-    background: #B62E3C;
+    background: #b62e3c;
   }
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow {
-    background: #FDB431;
+    background: #fdb431;
   }
   .sneaker__beige-btn_orange {
-    background: #E29D69;
+    background: #e29d69;
   }
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
@@ -1936,14 +1936,14 @@ a:hover {
     order: 1;
     text-align: center;
     padding: 12% 23% 0 23%;
-    font: 500 28px/35px 'Gotham Pro';
+    font: 500 28px/35px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 2%;
   }
   .video__text {
     text-align: center;
-    font: normal 20px/25px 'Gotham Pro';
+    font: normal 20px/25px 'Gotham Pro', Helvetica;
     color: #fff;
     padding: 0 9% 0 9%;
     margin-bottom: 15px;
@@ -1955,7 +1955,7 @@ a:hover {
   }
   .video__text:hover {
     opacity: .7;
-    color: #B22222;
+    color: #b22222;
   }
   .video__link {
     display: none;
@@ -1980,7 +1980,7 @@ a:hover {
     transition: 1s linear;
   }
   .play__btn:hover {
-    border: solid 4px #B22222;
+    border: solid 4px #b22222;
     border-radius: 50%;
     opacity: .7;
   }
@@ -1992,7 +1992,7 @@ a:hover {
   }
   .stories__title {
     text-align: center;
-    font: 500 30px/30px 'Gotham Pro';
+    font: 500 30px/30px 'Gotham Pro', Helvetica;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 34px;
@@ -2019,20 +2019,20 @@ a:hover {
     margin-bottom: 28px;
   }
   .stories__subtitle {
-    font: 500 23px/22px 'Gotham Pro';
+    font: 500 23px/22px 'Gotham Pro', Helvetica;
     color: #fff;
     width: 301px;
     margin-bottom: 5%;
   }
   .stories__text {
-    font: normal 16px/18px 'Gotham Pro';
+    font: normal 16px/18px 'Gotham Pro', Helvetica;
     font-style: normal;
     color: #fff;
     height: 70%;
     margin-bottom: 5%;
   }
   .stories__link {
-    font: 500 16px/16px 'Gotham Pro';
+    font: 500 16px/16px 'Gotham Pro', Helvetica;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -2052,8 +2052,8 @@ a:hover {
     opacity: .5;
   }
   .stories__quote {
-    font: 500 14px/15px 'Gotham Pro';
-    color: #D1D1D1;
+    font: 500 14px/15px 'Gotham Pro', Helvetica;
+    color: #d1d1d1;
     quotes: none;
   }
   .hashtag__content {
@@ -2076,8 +2076,8 @@ a:hover {
     z-index: -1;
   }
   .hashtag__title {
-    font: 500 30px/30px 'Gotham Pro';
-    color: #E8E8E8;
+    font: 500 30px/30px 'Gotham Pro', Helvetica;
+    color: #e8e8e8;
     width: 94%;
     text-transform: uppercase;
     text-align: right;
@@ -2111,7 +2111,7 @@ a:hover {
     padding-top: 61px;
   }
   .footer__title {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 4px;
   }
@@ -2121,7 +2121,7 @@ a:hover {
   }
   .footer__list {
     text-decoration: none;
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 1%;
     transition: .2s linear;
@@ -2151,7 +2151,7 @@ a:hover {
     display: none;
   }
   .social__text-option {
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     width: 110%;
     padding-left: 3px;
@@ -2159,7 +2159,7 @@ a:hover {
     letter-spacing: 1px;
   }
   .social__sign-up {
-    font: 500 10px/10px 'Gotham Pro';
+    font: 500 10px/10px 'Gotham Pro', Helvetica;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -2168,8 +2168,8 @@ a:hover {
     transition: .3s ease;
   }
   .social__sign-up:hover {
-    border: double 3px #B22222;
-    font: 500 11px/11px 'Gotham Pro';
+    border: double 3px #b22222;
+    font: 500 11px/11px 'Gotham Pro', Helvetica;
   }
   .social__icon {
     padding-left: 2px;
@@ -2184,7 +2184,7 @@ a:hover {
     margin-right: 13%;
   }
   .icon:hover {
-    border: double 3px #B22222;
+    border: double 3px #b22222;
     border-radius: 4px;
   }
   .icon__facebook-img {
@@ -2204,7 +2204,7 @@ a:hover {
     width: 16px;
   }
   .footer__license {
-    font: 300 12px/12px 'Gotham Pro';
+    font: 300 12px/12px 'Gotham Pro', Helvetica;
     text-align: center;
     color: #fff;
     padding: 2px 0 3% 3px;
@@ -2278,7 +2278,7 @@ a:hover {
     margin: 0;
     padding: 15% 0;
     text-align: center;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .15s ease;
   }
   .burger__language {
@@ -2287,7 +2287,7 @@ a:hover {
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     width: 30px;
     height: 30px;
     transition: opacity .5s ease-in;
@@ -2303,9 +2303,9 @@ a:hover {
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .5s linear;
-    font: 500 25px/25px 'Gotham Pro';
+    font: 500 25px/25px 'Gotham Pro', Helvetica;
   }
   .burger-search__box:hover {
     background-color: #fff;
@@ -2328,7 +2328,7 @@ a:hover {
     display: block;
     padding: 10px 0;
     color: #000;
-    font: bold 15px/15px 'Gotham Pro';
+    font: bold 15px/15px 'Gotham Pro', Helvetica;
     text-decoration: none;
     transition: .10s ease;
     position: relative;
@@ -2418,7 +2418,7 @@ a:hover {
     margin-bottom: 13%;
   }
   .main__title {
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
@@ -2428,7 +2428,7 @@ a:hover {
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     padding: 0 0 0 7%;
     transition: opacity .5s ease-in-out;
@@ -2444,7 +2444,7 @@ a:hover {
   .sneaker__title {
     text-align: center;
     text-transform: uppercase;
-    font: bold 20px/20px 'Gotham Pro';
+    font: bold 20px/20px 'Gotham Pro', Helvetica;
     width: 100%;
     margin-bottom: 2%;
   }
@@ -2476,7 +2476,7 @@ a:hover {
     margin-bottom: 3%;
   }
   .sneaker__text {
-    font: 500 15px/15px 'Gotham Pro';
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
     padding-left: 6%;
     margin-bottom: 2%;
     color: #000;
@@ -2487,7 +2487,7 @@ a:hover {
   }
   .sneaker__price {
     padding-left: 6%;
-    font: bold 20px/20px 'Gotham Pro';
+    font: bold 20px/20px 'Gotham Pro', Helvetica;
     margin-right: 45%;
     color: #000;
   }
@@ -2501,16 +2501,16 @@ a:hover {
     margin-right: 1px;
   }
   .sneaker__black-btn_grey {
-    background: #C4C4C4;
+    background: #c4c4c4;
   }
   .sneaker__black-btn_black {
     background: #000;
   }
   .sneaker__black-btn_red {
-    background: #B62E3C;
+    background: #b62e3c;
   }
   .sneaker__black-btn_yellow {
-    background: #FDB431;
+    background: #fdb431;
   }
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
@@ -2547,13 +2547,13 @@ a:hover {
     text-align: center;
     padding: 17% 20% 0 20%;
     margin-bottom: 4%;
-    font: 500 20px/25px 'Gotham Pro';
+    font: 500 20px/25px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
   }
   .video__text {
     text-align: center;
-    font: normal 14px/17px 'Gotham Pro';
+    font: normal 14px/17px 'Gotham Pro', Helvetica;
     color: #fff;
     padding: 0 13% 0 13%;
     margin-bottom: 15px;
@@ -2565,7 +2565,7 @@ a:hover {
   }
   .video__text:hover {
     opacity: .7;
-    color: #B22222;
+    color: #b22222;
   }
   .video__link {
     display: none;
@@ -2593,7 +2593,7 @@ a:hover {
     border-radius: 50%;
   }
   .play__btn:hover {
-    border: solid 4px #B22222;
+    border: solid 4px #b22222;
     border-radius: 50%;
     opacity: .7;
   }
@@ -2605,7 +2605,7 @@ a:hover {
   }
   .stories__title {
     text-align: center;
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 7%;
@@ -2626,13 +2626,13 @@ a:hover {
     margin-bottom: 25px;
   }
   .stories__subtitle {
-    font: bold 20px/20px 'Gotham Pro';
+    font: bold 20px/20px 'Gotham Pro', Helvetica;
     color: #fff;
     width: 301px;
     margin-bottom: 4%;
   }
   .stories__text {
-    font: normal 14px/17px 'Gotham Pro';
+    font: normal 14px/17px 'Gotham Pro', Helvetica;
     width: 100%;
     font-style: normal;
     color: #fff;
@@ -2640,7 +2640,7 @@ a:hover {
     margin-bottom: 7px;
   }
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -2658,8 +2658,8 @@ a:hover {
     opacity: .5;
   }
   .stories__quote {
-    font: 500 15px/15px 'Gotham Pro';
-    color: #D1D1D1;
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    color: #d1d1d1;
     quotes: none;
   }
   .hashtag__content {
@@ -2682,8 +2682,8 @@ a:hover {
     z-index: -1;
   }
   .hashtag__title {
-    font: 500 25px/24px 'Gotham Pro';
-    color: #E8E8E8;
+    font: 500 25px/24px 'Gotham Pro', Helvetica;
+    color: #e8e8e8;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3%;
@@ -2738,7 +2738,7 @@ a:hover {
     padding-top: 9%;
   }
   .footer__title {
-    font: 500 15px/15px 'Gotham Pro';
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 2%;
   }
@@ -2747,7 +2747,7 @@ a:hover {
   }
   .footer__list {
     text-decoration: none;
-    font: 300 15px/15px 'Gotham Pro';
+    font: 300 15px/15px 'Gotham Pro', Helvetica;
     color: #fff;
     transition: .2s linear;
   }
@@ -2790,13 +2790,13 @@ a:hover {
   }
   .social__text-option {
     text-align: center;
-    font: 300 15px/15px 'Gotham Pro';
+    font: 300 15px/15px 'Gotham Pro', Helvetica;
     color: #fff;
     width: 100%;
     margin-bottom: 7%;
   }
   .social__sign-up {
-    font: 500 12px/11px 'Gotham Pro';
+    font: 500 12px/11px 'Gotham Pro', Helvetica;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -2805,8 +2805,8 @@ a:hover {
     transition: .3s ease;
   }
   .social__sign-up:hover {
-    border: double 3px #B22222;
-    font: 500 11px/11px 'Gotham Pro';
+    border: double 3px #b22222;
+    font: 500 11px/11px 'Gotham Pro', Helvetica;
   }
   .social__icon {
     display: flex;
@@ -2842,11 +2842,11 @@ a:hover {
     width: 17px;
   }
   .icon:hover {
-    border: double 3px #B22222;
+    border: double 3px #b22222;
     border-radius: 4px;
   }
   .footer__license {
-    font: 300 13px/13px 'Gotham Pro';
+    font: 300 13px/13px 'Gotham Pro', Helvetica;
     text-align: center;
     color: #fff;
     padding: 0 0 7% 2%;
@@ -2921,7 +2921,7 @@ a:hover {
     margin: 0;
     padding: 15% 0;
     text-align: center;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .15s ease;
   }
   .burger__language {
@@ -2930,7 +2930,7 @@ a:hover {
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     width: 30px;
     height: 30px;
     transition: opacity .5s ease-in;
@@ -2946,9 +2946,9 @@ a:hover {
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .5s linear;
-    font: 500 25px/25px 'Gotham Pro';
+    font: 500 25px/25px 'Gotham Pro', Helvetica;
   }
   .burger-search__box:hover {
     background-color: #fff;
@@ -2971,7 +2971,7 @@ a:hover {
     display: block;
     padding: 10px 0;
     color: #000;
-    font: bold 15px/15px 'Gotham Pro';
+    font: bold 15px/15px 'Gotham Pro', Helvetica;
     text-decoration: none;
     transition: .10s ease;
     position: relative;
@@ -3061,7 +3061,7 @@ a:hover {
     margin-bottom: 13%;
   }
   .main__title {
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
@@ -3071,7 +3071,7 @@ a:hover {
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     padding: 0 0 0 13%;
     transition: opacity .5s ease-in-out;
@@ -3087,7 +3087,7 @@ a:hover {
   .sneaker__title {
     padding-left: 10%;
     text-transform: uppercase;
-    font: bold 20px/20px 'Gotham Pro';
+    font: bold 20px/20px 'Gotham Pro', Helvetica;
     width: 100%;
   }
   .sneaker__content {
@@ -3119,7 +3119,7 @@ a:hover {
     transform: translateY(-3%);
   }
   .sneaker__text {
-    font: 500 15px/15px 'Gotham Pro';
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
     padding-left: 6%;
     margin-bottom: 2%;
     color: #000;
@@ -3130,7 +3130,7 @@ a:hover {
   }
   .sneaker__price {
     padding-left: 6%;
-    font: bold 20px/20px 'Gotham Pro';
+    font: bold 20px/20px 'Gotham Pro', Helvetica;
     margin-right: 40%;
     color: #000;
   }
@@ -3144,16 +3144,16 @@ a:hover {
     margin-right: 1px;
   }
   .sneaker__black-btn_grey {
-    background: #C4C4C4;
+    background: #c4c4c4;
   }
   .sneaker__black-btn_black {
     background: #000;
   }
   .sneaker__black-btn_red {
-    background: #B62E3C;
+    background: #b62e3c;
   }
   .sneaker__black-btn_yellow {
-    background: #FDB431;
+    background: #fdb431;
   }
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
@@ -3190,13 +3190,13 @@ a:hover {
     text-align: center;
     padding: 17% 20% 0 20%;
     margin-bottom: 4%;
-    font: 500 20px/25px 'Gotham Pro';
+    font: 500 20px/25px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
   }
   .video__text {
     text-align: center;
-    font: normal 14px/17px 'Gotham Pro';
+    font: normal 14px/17px 'Gotham Pro', Helvetica;
     color: #fff;
     padding: 0 13% 0 13%;
     margin-bottom: 15px;
@@ -3208,7 +3208,7 @@ a:hover {
   }
   .video__text:hover {
     opacity: .7;
-    color: #B22222;
+    color: #b22222;
   }
   .video__link {
     display: none;
@@ -3236,7 +3236,7 @@ a:hover {
     border-radius: 50%;
   }
   .play__btn:hover {
-    border: solid 4px #B22222;
+    border: solid 4px #b22222;
     border-radius: 50%;
     opacity: .7;
   }
@@ -3248,7 +3248,7 @@ a:hover {
   }
   .stories__title {
     text-align: center;
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 7%;
@@ -3269,13 +3269,13 @@ a:hover {
     margin-bottom: 25px;
   }
   .stories__subtitle {
-    font: bold 20px/20px 'Gotham Pro';
+    font: bold 20px/20px 'Gotham Pro', Helvetica;
     color: #fff;
     width: 301px;
     margin-bottom: 4%;
   }
   .stories__text {
-    font: normal 14px/17px 'Gotham Pro';
+    font: normal 14px/17px 'Gotham Pro', Helvetica;
     width: 100%;
     font-style: normal;
     color: #fff;
@@ -3283,7 +3283,7 @@ a:hover {
     margin-bottom: 7px;
   }
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -3301,8 +3301,8 @@ a:hover {
     opacity: .5;
   }
   .stories__quote {
-    font: 500 15px/15px 'Gotham Pro';
-    color: #D1D1D1;
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    color: #d1d1d1;
     quotes: none;
   }
   .hashtag__content {
@@ -3325,8 +3325,8 @@ a:hover {
     z-index: -1;
   }
   .hashtag__title {
-    font: 500 25px/24px 'Gotham Pro';
-    color: #E8E8E8;
+    font: 500 25px/24px 'Gotham Pro', Helvetica;
+    color: #e8e8e8;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3%;
@@ -3381,7 +3381,7 @@ a:hover {
     padding-top: 9%;
   }
   .footer__title {
-    font: 500 15px/15px 'Gotham Pro';
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 2%;
   }
@@ -3394,7 +3394,7 @@ a:hover {
   }
   .footer__list {
     text-decoration: none;
-    font: 300 15px/15px 'Gotham Pro';
+    font: 300 15px/15px 'Gotham Pro', Helvetica;
     color: #fff;
     transition: .2s linear;
   }
@@ -3437,13 +3437,13 @@ a:hover {
   }
   .social__text-option {
     text-align: center;
-    font: 300 15px/15px 'Gotham Pro';
+    font: 300 15px/15px 'Gotham Pro', Helvetica;
     color: #fff;
     width: 100%;
     margin-bottom: 7%;
   }
   .social__sign-up {
-    font: 500 12px/11px 'Gotham Pro';
+    font: 500 12px/11px 'Gotham Pro', Helvetica;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -3452,8 +3452,8 @@ a:hover {
     transition: .3s ease;
   }
   .social__sign-up:hover {
-    border: double 3px #B22222;
-    font: 500 11px/11px 'Gotham Pro';
+    border: double 3px #b22222;
+    font: 500 11px/11px 'Gotham Pro', Helvetica;
   }
   .social__icon {
     display: flex;
@@ -3489,11 +3489,11 @@ a:hover {
     width: 17px;
   }
   .icon:hover {
-    border: double 3px #B22222;
+    border: double 3px #b22222;
     border-radius: 4px;
   }
   .footer__license {
-    font: 300 13px/13px 'Gotham Pro';
+    font: 300 13px/13px 'Gotham Pro', Helvetica;
     text-align: center;
     color: #fff;
     padding: 0 0 7% 2%;
@@ -3568,7 +3568,7 @@ a:hover {
     margin: 0;
     padding: 15% 0;
     text-align: center;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .15s ease;
   }
   .burger__language {
@@ -3577,7 +3577,7 @@ a:hover {
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     width: 30px;
     height: 30px;
     transition: opacity .5s ease-in;
@@ -3593,9 +3593,9 @@ a:hover {
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     transition: .5s linear;
-    font: 500 25px/25px 'Gotham Pro';
+    font: 500 25px/25px 'Gotham Pro', Helvetica;
   }
   .burger-search__box:hover {
     background-color: #fff;
@@ -3618,7 +3618,7 @@ a:hover {
     display: block;
     padding: 10px 0;
     color: #000;
-    font: bold 15px/15px 'Gotham Pro';
+    font: bold 15px/15px 'Gotham Pro', Helvetica;
     text-decoration: none;
     transition: .10s ease;
     position: relative;
@@ -3708,7 +3708,7 @@ a:hover {
     margin-bottom: 34px;
   }
   .main__title {
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
@@ -3718,7 +3718,7 @@ a:hover {
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     padding: 0 0 0 6%;
     transition: opacity .5s ease-in-out;
@@ -3735,7 +3735,7 @@ a:hover {
     text-align: center;
     transform: translateX(-2%);
     text-transform: uppercase;
-    font: bold 20px/20px 'Gotham Pro';
+    font: bold 20px/20px 'Gotham Pro', Helvetica;
   }
   .sneaker__content {
     margin-bottom: 20%;
@@ -3766,7 +3766,7 @@ a:hover {
     transform: translateY(-3%);
   }
   .sneaker__text {
-    font: 500 15px/15px 'Gotham Pro';
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
     padding-left: 6%;
     margin-bottom: 3%;
     color: #000;
@@ -3777,7 +3777,7 @@ a:hover {
   }
   .sneaker__price {
     padding-left: 5%;
-    font: bold 20px/20px 'Gotham Pro';
+    font: bold 20px/20px 'Gotham Pro', Helvetica;
     margin-right: 41%;
     color: #000;
   }
@@ -3790,18 +3790,18 @@ a:hover {
     transition: .5s linear;
   }
   .sneaker__black-btn_grey {
-    background: #C4C4C4;
+    background: #c4c4c4;
   }
   .sneaker__black-btn_black {
     background: #000;
     margin-right: 1px;
   }
   .sneaker__black-btn_red {
-    background: #B62E3C;
+    background: #b62e3c;
     margin-right: 1px;
   }
   .sneaker__black-btn_yellow {
-    background: #FDB431;
+    background: #fdb431;
   }
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
@@ -3837,14 +3837,14 @@ a:hover {
     text-align: center;
     width: 80%;
     padding: 16% 0 0 9%;
-    font: 500 20px/25px 'Gotham Pro';
+    font: 500 20px/25px 'Gotham Pro', Helvetica;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 6%;
   }
   .video__text {
     text-align: center;
-    font: normal 14px/17px 'Gotham Pro';
+    font: normal 14px/17px 'Gotham Pro', Helvetica;
     color: #fff;
     padding: 0 20px 0 6%;
     transition: 1s ease;
@@ -3855,7 +3855,7 @@ a:hover {
   }
   .video__text:hover {
     opacity: .7;
-    color: #B22222;
+    color: #b22222;
   }
   .video__link {
     display: none;
@@ -3882,7 +3882,7 @@ a:hover {
     border-radius: 50%;
   }
   .play__btn:hover {
-    border: solid 4px #B22222;
+    border: solid 4px #b22222;
     border-radius: 50%;
     opacity: .7;
   }
@@ -3894,7 +3894,7 @@ a:hover {
   }
   .stories__title {
     text-align: center;
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 26px;
@@ -3915,12 +3915,12 @@ a:hover {
     margin-bottom: 9%;
   }
   .stories__subtitle {
-    font: 500 20px/20px 'Gotham Pro';
+    font: 500 20px/20px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 12px;
   }
   .stories__text {
-    font: normal 14px/17px 'Gotham Pro';
+    font: normal 14px/17px 'Gotham Pro', Helvetica;
     width: 102%;
     font-style: normal;
     color: #fff;
@@ -3928,7 +3928,7 @@ a:hover {
     margin-bottom: 2%;
   }
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro';
+    font: 500 12px/12px 'Gotham Pro', Helvetica;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -3946,8 +3946,8 @@ a:hover {
     opacity: .5;
   }
   .stories__quote {
-    font: 500 15px/15px 'Gotham Pro';
-    color: #D1D1D1;
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    color: #d1d1d1;
     quotes: none;
   }
   .hashtag__content {
@@ -3970,8 +3970,8 @@ a:hover {
     z-index: -1;
   }
   .hashtag__title {
-    font: 500 25px/24px 'Gotham Pro';
-    color: #E8E8E8;
+    font: 500 25px/24px 'Gotham Pro', Helvetica;
+    color: #e8e8e8;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 11px;
@@ -4026,7 +4026,7 @@ a:hover {
     text-align: center;
   }
   .footer__title {
-    font: 500 15px/15px 'Gotham Pro';
+    font: 500 15px/15px 'Gotham Pro', Helvetica;
     color: #fff;
     margin-bottom: 1%;
   }
@@ -4035,7 +4035,7 @@ a:hover {
   }
   .footer__list {
     text-decoration: none;
-    font: 300 15px/15px 'Gotham Pro';
+    font: 300 15px/15px 'Gotham Pro', Helvetica;
     color: #fff;
     transition: .2s linear;
   }
@@ -4076,13 +4076,13 @@ a:hover {
   }
   .social__text-option {
     text-align: center;
-    font: 300 15px/15px 'Gotham Pro';
+    font: 300 15px/15px 'Gotham Pro', Helvetica;
     color: #fff;
     width: 100%;
     margin-bottom: 10%;
   }
   .social__sign-up {
-    font: 500 12px/11px 'Gotham Pro';
+    font: 500 12px/11px 'Gotham Pro', Helvetica;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -4091,8 +4091,8 @@ a:hover {
     transition: .3s ease;
   }
   .social__sign-up:hover {
-    border: double 3px #B22222;
-    font: 500 11px/11px 'Gotham Pro';
+    border: double 3px #b22222;
+    font: 500 11px/11px 'Gotham Pro', Helvetica;
   }
   .social__icon {
     display: flex;
@@ -4122,11 +4122,11 @@ a:hover {
     height: 20px;
   }
   .icon:hover {
-    border: double 3px #B22222;
+    border: double 3px #b22222;
     border-radius: 4px;
   }
   .footer__license {
-    font: 300 13px/13px 'Gotham Pro';
+    font: 300 13px/13px 'Gotham Pro', Helvetica;
     text-align: center;
     color: #fff;
     padding: 0 0 11% 0;
