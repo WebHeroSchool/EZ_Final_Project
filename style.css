@@ -3,7 +3,6 @@
   margin: 0;
   border: 0;
 }
-
 button,
 a:hover {
   cursor: pointer;
@@ -143,7 +142,7 @@ a:hover {
     width: 22%;
   }
   .sneaker__link:hover {
-    border: double 2px #c0c0c0;
+    border: double 2px #C0C0C0;
     width: 20%;
   }
   .sneaker-beige__column {
@@ -201,16 +200,25 @@ a:hover {
     border-radius: 4px;
     margin-right: 2px;
   }
-  .sneaker__black-btn_grey,.sneaker__beige-btn_grey,.sneaker__grey-btn_grey,.sneaker__white-btn_grey {
+  .sneaker__black-btn_grey,
+  .sneaker__beige-btn_grey,
+  .sneaker__grey-btn_grey,
+  .sneaker__white-btn_grey {
     background: #C4C4C4;
   }
   .sneaker__black-btn_black {
     background: #000;
   }
-  .sneaker__black-btn_red,.sneaker__beige-btn_red,.sneaker__grey-btn_red,.sneaker__white-btn_red {
+  .sneaker__black-btn_red,
+  .sneaker__beige-btn_red,
+  .sneaker__grey-btn_red,
+  .sneaker__white-btn_red {
     background: #B62E3C;
   }
-  .sneaker__black-btn_yellow,.sneaker__beige-btn_yellow,.sneaker__grey-btn_yellow,.sneaker__white-btn_yellow{
+  .sneaker__black-btn_yellow,
+  .sneaker__beige-btn_yellow,
+  .sneaker__grey-btn_yellow,
+  .sneaker__white-btn_yellow{
     background: #FDB431;
   }
   .sneaker__beige-btn_orange {
@@ -222,7 +230,8 @@ a:hover {
   .sneaker__white-btn_blue {
     background: #257DA9;
   }
-  .sneaker__btn, .sneaker__price {
+  .sneaker__btn,
+  .sneaker__price {
     display: inline;
   }
   .sneaker__content {
@@ -638,7 +647,8 @@ a:hover {
     padding: 0 5%;
     margin-right: 37%;
   }
-  .sneaker__grey-price,.sneaker__white-price {
+  .sneaker__grey-price,
+  .sneaker__white-price {
     margin-right: 35%;
   }
   .sneaker__img {
@@ -681,16 +691,25 @@ a:hover {
     border-radius: 4px;
     margin-right: 2px;
   }
-  .sneaker__black-btn_grey,.sneaker__beige-btn_grey,.sneaker__grey-btn_grey,.sneaker__white-btn_grey {
+  .sneaker__black-btn_grey,
+  .sneaker__beige-btn_grey,
+  .sneaker__grey-btn_grey,
+  .sneaker__white-btn_grey {
     background: #C4C4C4;
   }
   .sneaker__black-btn_black {
     background: #000;
   }
-  .sneaker__black-btn_red,.sneaker__beige-btn_red,.sneaker__grey-btn_red,.sneaker__white-btn_red {
+  .sneaker__black-btn_red,
+  .sneaker__beige-btn_red,
+  .sneaker__grey-btn_red,
+  .sneaker__white-btn_red {
     background: #B62E3C;
   }
-  .sneaker__black-btn_yellow,.sneaker__beige-btn_yellow,.sneaker__grey-btn_yellow,.sneaker__white-btn_yellow{
+  .sneaker__black-btn_yellow,
+  .sneaker__beige-btn_yellow,
+  .sneaker__grey-btn_yellow,
+  .sneaker__white-btn_yellow{
     background: #FDB431;
   }
   .sneaker__beige-btn_orange {
@@ -702,7 +721,8 @@ a:hover {
   .sneaker__white-btn_blue {
     background: #257DA9;
   }
-  .sneaker__btn, .sneaker__price {
+  .sneaker__btn,
+  .sneaker__price {
     display: inline;
   }
   .sneaker__content {
@@ -832,7 +852,8 @@ a:hover {
   .stories__link:hover {
     opacity: .5;
   }
-  .stories__first-link,.stories__second-link {
+  .stories__first-link,
+  .stories__second-link {
     margin-right: 34%;
   }
   .stories__quote {
@@ -964,7 +985,9 @@ a:hover {
     align-items: center;
     margin-bottom: 40px;
   }
-  .menu,.search,.language {
+  .menu,
+  .search,
+  .language {
     display: none;
   }
   .burger__menu {
@@ -1200,7 +1223,8 @@ a:hover {
     width: 40%;
     border: solid 2px #c0c0c0;
   }
-  .sneaker__link-white,.sneaker__link-grey {
+  .sneaker__link-white,
+  .sneaker__link-grey {
     display: none;
   }
   .sneaker__img {
@@ -1216,7 +1240,8 @@ a:hover {
     font: 500 20px/20px 'Gotham Pro';
     padding-bottom: 17px;
   }
-  .sneaker__price,.sneaker__btn {
+  .sneaker__price,
+  .sneaker__btn {
     display: inline;
   }
   .sneaker__price {
@@ -1229,28 +1254,33 @@ a:hover {
   .sneaker__beige-price {
     margin-right: 27%;
   }
-  .sneaker__btn_small,.sneaker__btn_big {
+  .sneaker__btn_small,
+  .sneaker__btn_big {
     height: 20px;
     width: 20px;
     border-radius: 50%;
     transition: .5s linear;
   }
-  .sneaker__black-btn_grey,.sneaker__beige-btn_grey {
+  .sneaker__black-btn_grey,
+  .sneaker__beige-btn_grey {
     background: #C4C4C4;
   }
   .sneaker__black-btn_black {
     background: #000;
   }
-  .sneaker__black-btn_red,.sneaker__beige-btn_red {
+  .sneaker__black-btn_red,
+  .sneaker__beige-btn_red {
     background: #B62E3C;
   }
-  .sneaker__black-btn_yellow,.sneaker__beige-btn_yellow {
+  .sneaker__black-btn_yellow,
+  .sneaker__beige-btn_yellow {
     background: #FDB431;
   }
   .sneaker__beige-btn_orange {
     background: #E29D69;
   }
-  .sneaker__btn_big:hover,.sneaker__btn_small:hover {
+  .sneaker__btn_big:hover,
+  .sneaker__btn_small:hover {
     opacity: .7;
     border: solid 2px #000;
     border-radius: 50%;
@@ -1463,7 +1493,8 @@ a:hover {
     color: #fff;
     margin-bottom: 3px;
   }
-  .customer__title,.miscellaneous__title {
+  .customer__title,
+  .miscellaneous__title {
     margin-bottom: 4px;
   }
   .footer__list {
@@ -1578,7 +1609,9 @@ a:hover {
     align-items: center;
     margin-bottom: 40px;
   }
-  .menu,.search,.language {
+  .menu,
+  .search,
+  .language {
     display: none;
   }
   .burger__menu {
@@ -1814,7 +1847,8 @@ a:hover {
     width: 40%;
     border: solid 2px #c0c0c0;
   }
-  .sneaker__link-white,.sneaker__link-grey {
+  .sneaker__link-white,
+  .sneaker__link-grey {
     display: none;
   }
   .sneaker__img {
@@ -1830,7 +1864,8 @@ a:hover {
     font: 500 18px/18px 'Gotham Pro';
     padding-bottom: 17px;
   }
-  .sneaker__price,.sneaker__btn {
+  .sneaker__price,
+  .sneaker__btn {
     display: inline;
   }
   .sneaker__price {
@@ -1843,28 +1878,33 @@ a:hover {
   .sneaker__beige-price {
     margin-right: 27%;
   }
-  .sneaker__btn_small,.sneaker__btn_big {
+  .sneaker__btn_small,
+  .sneaker__btn_big {
     height: 20px;
     width: 20px;
     border-radius: 50%;
     transition: .5s linear;
   }
-  .sneaker__black-btn_grey,.sneaker__beige-btn_grey {
+  .sneaker__black-btn_grey,
+  .sneaker__beige-btn_grey {
     background: #C4C4C4;
   }
   .sneaker__black-btn_black {
     background: #000;
   }
-  .sneaker__black-btn_red,.sneaker__beige-btn_red {
+  .sneaker__black-btn_red,
+  .sneaker__beige-btn_red {
     background: #B62E3C;
   }
-  .sneaker__black-btn_yellow,.sneaker__beige-btn_yellow {
+  .sneaker__black-btn_yellow,
+  .sneaker__beige-btn_yellow {
     background: #FDB431;
   }
   .sneaker__beige-btn_orange {
     background: #E29D69;
   }
-  .sneaker__btn_big:hover,.sneaker__btn_small:hover {
+  .sneaker__btn_big:hover,
+  .sneaker__btn_small:hover {
     opacity: .7;
     border: solid 2px #000;
     border-radius: 50%;
@@ -2075,7 +2115,8 @@ a:hover {
     color: #fff;
     margin-bottom: 4px;
   }
-  .customer__title,.miscellaneous__title {
+  .customer__title,
+  .miscellaneous__title {
     margin-bottom: 5px;
   }
   .footer__list {
@@ -2091,7 +2132,9 @@ a:hover {
   .footer__personal-ac {
     padding-left: 4%;
   }
-  .footer__personal-ac,.footer__miscellaneous,.footer__customer {
+  .footer__personal-ac,
+  .footer__miscellaneous,
+  .footer__customer {
     margin-right: 5%;
   }
   .footer__miscellaneous-for-mobile {
@@ -2187,7 +2230,9 @@ a:hover {
     align-items: center;
     margin-bottom: 7%;
   }
-  .menu,.search,.language {
+  .menu,
+  .search,
+  .language {
     display: none;
   }
   .burger__menu {
@@ -2419,7 +2464,9 @@ a:hover {
   .sneaker__link:hover {
     border: double 4px #c0c0c0;
   }
-  .sneaker__link-white,.sneaker__link-grey,.sneaker__link-beige {
+  .sneaker__link-white,
+  .sneaker__link-grey,
+  .sneaker__link-beige {
     display: none;
   }
   .sneaker__img {
@@ -2434,7 +2481,8 @@ a:hover {
     margin-bottom: 2%;
     color: #000;
   }
-  .sneaker__price,.sneaker__btn {
+  .sneaker__price,
+  .sneaker__btn {
     display: inline;
   }
   .sneaker__price {
@@ -2443,7 +2491,8 @@ a:hover {
     margin-right: 45%;
     color: #000;
   }
-  .sneaker__btn_small,.sneaker__btn_big {
+  .sneaker__btn_small,
+  .sneaker__btn_big {
     transform: translateY(20%);
     height: 15px;
     width: 15px;
@@ -2463,7 +2512,8 @@ a:hover {
   .sneaker__black-btn_yellow {
     background: #FDB431;
   }
-  .sneaker__btn_big:hover,.sneaker__btn_small:hover {
+  .sneaker__btn_big:hover,
+  .sneaker__btn_small:hover {
     opacity: .7;
     border: solid 2px #000;
     border-radius: 50%;
@@ -2566,7 +2616,8 @@ a:hover {
     vertical-align: top;
     width: 75%;
   }
-  .stories__column-second,.stories__column-third {
+  .stories__column-second,
+  .stories__column-third {
     display: none;
   }
   .stories__img {
@@ -2670,7 +2721,8 @@ a:hover {
   .hashtag__img-sixth {
     order: 3;
   }
-  .hashtag__img-fourth,.hashtag__img-first-repeat {
+  .hashtag__img-fourth,
+  .hashtag__img-first-repeat {
     display: none;
   }
   .footer__content {
@@ -2821,7 +2873,9 @@ a:hover {
     align-items: center;
     margin-bottom: 9%;
   }
-  .menu,.search,.language {
+  .menu,
+  .search,
+  .language {
     display: none;
   }
   .burger__menu {
@@ -3052,7 +3106,9 @@ a:hover {
   .sneaker__link:hover {
     border: double 4px #c0c0c0;
   }
-  .sneaker__link-white,.sneaker__link-grey,.sneaker__link-beige {
+  .sneaker__link-white,
+  .sneaker__link-grey,
+  .sneaker__link-beige {
     display: none;
   }
   .sneaker__img {
@@ -3068,7 +3124,8 @@ a:hover {
     margin-bottom: 2%;
     color: #000;
   }
-  .sneaker__price,.sneaker__btn {
+  .sneaker__price,
+  .sneaker__btn {
     display: inline;
   }
   .sneaker__price {
@@ -3077,7 +3134,8 @@ a:hover {
     margin-right: 40%;
     color: #000;
   }
-  .sneaker__btn_small,.sneaker__btn_big {
+  .sneaker__btn_small,
+  .sneaker__btn_big {
     transform: translateY(20%);
     height: 15px;
     width: 15px;
@@ -3097,7 +3155,8 @@ a:hover {
   .sneaker__black-btn_yellow {
     background: #FDB431;
   }
-  .sneaker__btn_big:hover,.sneaker__btn_small:hover {
+  .sneaker__btn_big:hover,
+  .sneaker__btn_small:hover {
     opacity: .7;
     border: solid 2px #000;
     border-radius: 50%;
@@ -3200,7 +3259,8 @@ a:hover {
     vertical-align: top;
     width: 75%;
   }
-  .stories__column-second,.stories__column-third {
+  .stories__column-second,
+  .stories__column-third {
     display: none;
   }
   .stories__img {
@@ -3304,7 +3364,8 @@ a:hover {
   .hashtag__img-sixth {
     order: 3;
   }
-  .hashtag__img-fourth,.hashtag__img-first-repeat {
+  .hashtag__img-fourth,
+  .hashtag__img-first-repeat {
     display: none;
   }
   .footer__content {
@@ -3459,7 +3520,9 @@ a:hover {
     align-items: center;
     margin-bottom: 9%;
   }
-  .menu,.search,.language {
+  .menu,
+  .search,
+  .language {
     display: none;
   }
   .burger__menu {
@@ -3690,7 +3753,9 @@ a:hover {
   .sneaker__link:hover {
     border: double 4px #c0c0c0;
   }
-  .sneaker__link-white,.sneaker__link-grey,.sneaker__link-beige {
+  .sneaker__link-white,
+  .sneaker__link-grey,
+  .sneaker__link-beige {
     display: none;
   }
   .sneaker__img {
@@ -3706,7 +3771,8 @@ a:hover {
     margin-bottom: 3%;
     color: #000;
   }
-  .sneaker__price,.sneaker__btn {
+  .sneaker__price,
+  .sneaker__btn {
     display: inline;
   }
   .sneaker__price {
@@ -3715,7 +3781,8 @@ a:hover {
     margin-right: 41%;
     color: #000;
   }
-  .sneaker__btn_small,.sneaker__btn_big {
+  .sneaker__btn_small,
+  .sneaker__btn_big {
     transform: translateY(20%);
     height: 15px;
     width: 15px;
@@ -3736,7 +3803,8 @@ a:hover {
   .sneaker__black-btn_yellow {
     background: #FDB431;
   }
-  .sneaker__btn_big:hover,.sneaker__btn_small:hover {
+  .sneaker__btn_big:hover,
+  .sneaker__btn_small:hover {
     opacity: .7;
     border: solid 2px #000;
     border-radius: 50%;
@@ -3837,7 +3905,8 @@ a:hover {
     vertical-align: top;
     width: 86%;
   }
-  .stories__column-second,.stories__column-third {
+  .stories__column-second,
+  .stories__column-third {
     display: none;
   }
   .stories__img {
@@ -3940,7 +4009,8 @@ a:hover {
   .hashtag__img-sixth {
     order: 3;
   }
-  .hashtag__img-fourth,.hashtag__img-first-repeat {
+  .hashtag__img-fourth,
+  .hashtag__img-first-repeat {
     display: none;
   }
   .footer__content {
@@ -3972,7 +4042,8 @@ a:hover {
   .footer__list:hover {
     border-bottom: solid 1px #fff;
   }
-  .footer__personal-ac,.footer__miscellaneous-for-mobile {
+  .footer__personal-ac,
+  .footer__miscellaneous-for-mobile {
     margin-bottom: 48px;
   }
   .footer__customer {
