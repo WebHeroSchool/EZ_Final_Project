@@ -142,7 +142,7 @@ a:hover {
     width: 22%;
   }
   .sneaker__link:hover {
-    border: double 2px #C0C0C0;
+    border: double 2px #c0c0c0;
     width: 20%;
   }
   .sneaker-beige__column {
@@ -557,7 +557,7 @@ a:hover {
     font: 500 18px/19px 'Gotham Pro';
   }
   .search__box:hover {
-    background-color: #DCDCDC;
+    background-color: #dcdcdc;
     opacity: .5;
   }
   .search__btn {
@@ -632,7 +632,7 @@ a:hover {
     width: 22%;
   }
   .sneaker__link:hover {
-    border: double 2px #C0C0C0;
+    border: double 2px #c0c0c0;
     width: 20%;
   }
   .sneaker__link:last-child {
