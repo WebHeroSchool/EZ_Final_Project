@@ -210,7 +210,7 @@ a:hover {
     animation: size-up 1s ease-out;
   }
 
-  @keyframes size-up {}
+  @keyframes size-up {
     from {
       border: double 2px #696969;
     }
@@ -226,6 +226,7 @@ a:hover {
       height: 9px;
       width: 9px;
     }
+  }
 
   .sneaker__btn_big {
     height: 9px;
@@ -800,7 +801,7 @@ a:hover {
     animation: size-up 1s ease-out;
   }
 
-  @keyframes size-up {}
+  @keyframes size-up {
     from {
       border: double 2px #696969;
     }
@@ -816,6 +817,7 @@ a:hover {
       height: 8px;
       width: 9px;
     }
+  }
 
   .sneaker__btn_big {
     height: 8px;
