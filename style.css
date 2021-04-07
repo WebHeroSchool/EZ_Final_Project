@@ -210,7 +210,7 @@ a:hover {
     animation: size-up 1s ease-out;
   }
 
-  @keyframes size-up {
+  @keyframes size-up {}
     from {
       border: double 2px #696969;
     }
@@ -226,7 +226,6 @@ a:hover {
       height: 9px;
       width: 9px;
     }
-  }
 
   .sneaker__btn_big {
     height: 9px;
@@ -460,10 +459,6 @@ a:hover {
   }
 
   .hashtag__img {
-    /* display: flex;
-    justify-content: space-between;
-    width: 147px;
-    height: 147px; */
     display: grid;
     grid-template-columns: repeat(7, 14.3%);
     grid-gap: 0;
@@ -805,7 +800,7 @@ a:hover {
     animation: size-up 1s ease-out;
   }
 
-  @keyframes size-up {
+  @keyframes size-up {}
     from {
       border: double 2px #696969;
     }
@@ -821,7 +816,6 @@ a:hover {
       height: 8px;
       width: 9px;
     }
-  }
 
   .sneaker__btn_big {
     height: 8px;
@@ -1193,10 +1187,6 @@ a:hover {
   .language {
     display: none;
   }
-/*
-  .burger__menu {
-    z-index: 1;
-  } */
 
   #menu__toggle {
     opacity: 0;
@@ -1552,7 +1542,7 @@ a:hover {
 
   .video__content {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 34% 66%;
     grid-gap: 0;
     width: 113%;
@@ -1760,8 +1750,7 @@ a:hover {
     justify-content: center;
     padding-left: 39%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template: repeat(2, 1fr)/repeat(4, 1fr);
     gap: 0;
     width: 170px;
     height: 170px;
@@ -1939,10 +1928,6 @@ a:hover {
     display: none;
   }
 
-  .burger__menu {
-    z-index: 1;
-  }
-
   #menu__toggle {
     opacity: 0;
   }
@@ -1955,7 +1940,7 @@ a:hover {
     height: 25px;
     cursor: pointer;
     z-index: 2;
-    }
+  }
 
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -1978,6 +1963,7 @@ a:hover {
   }
 
   .burger__menu {
+    z-index: 1;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -2102,7 +2088,7 @@ a:hover {
     width: 20%;
   }
 
-    .burger-menu__item-second:hover::after {
+  .burger-menu__item-second:hover::after {
     opacity: 1;
     width: 22%;
   }
@@ -2296,7 +2282,7 @@ a:hover {
 
   .video__content {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 40% 60%;
     grid-gap: 0;
     width: 113%;
@@ -2469,7 +2455,6 @@ a:hover {
   }
 
   .hashtag__content {
-    margin-bottom: 10%;
     background-color: #000;
     width: 113%;
     transform: translate(-6%, -3px);
@@ -2503,8 +2488,7 @@ a:hover {
     justify-content: center;
     padding-left: 39%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template: repeat(2, 1fr)/repeat(4, 1fr);
     gap: 0;
     width: 150px;
     height: 150px;
@@ -2680,10 +2664,6 @@ a:hover {
     display: none;
   }
 
-  .burger__menu {
-    z-index: 1;
-  }
-
   #menu__toggle {
     opacity: 0;
   }
@@ -2719,6 +2699,7 @@ a:hover {
   }
 
   .burger__menu {
+    z-index: 1;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -3219,8 +3200,7 @@ a:hover {
   .hashtag__img {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template: repeat(3, 1fr)/repeat(2, 1fr);
     gap: 0;
     width: 150px;
     height: 150px;
@@ -3448,10 +3428,6 @@ a:hover {
     display: none;
   }
 
-  .burger__menu {
-    z-index: 1;
-  }
-
   #menu__toggle {
     opacity: 0;
   }
@@ -3487,6 +3463,7 @@ a:hover {
   }
 
   .burger__menu {
+    z-index: 1;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -3788,7 +3765,7 @@ a:hover {
 
   .video__content {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 44% 56%;
     grid-gap: 0;
     width: 133%;
@@ -3987,8 +3964,7 @@ a:hover {
   .hashtag__img {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template: repeat(3, 1fr)/repeat(2, 1fr);
     gap: 0;
     width: 140px;
     height: 140px;
@@ -4221,10 +4197,6 @@ a:hover {
     display: none;
   }
 
-  .burger__menu {
-    z-index: 1;
-  }
-
   #menu__toggle {
     opacity: 0;
   }
@@ -4260,6 +4232,7 @@ a:hover {
   }
 
   .burger__menu {
+    z-index: 1;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -4562,7 +4535,7 @@ a:hover {
 
   .video__content {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: auto;
     grid-template-rows: 43% 57%;
     width: 114%;
     transform: translateX(-6%);
@@ -4758,8 +4731,7 @@ a:hover {
   .hashtag__img {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template: repeat(3, 1fr)/repeat(2, 1fr);
     gap: 0;
     width: 140px;
     height: 140px;
@@ -4975,10 +4947,6 @@ a:hover {
     display: none;
   }
 
-  .burger__menu {
-    z-index: 1;
-  }
-
   #menu__toggle {
     opacity: 0;
   }
@@ -5014,6 +4982,7 @@ a:hover {
   }
 
   .burger__menu {
+    z-index: 1;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -5512,8 +5481,7 @@ a:hover {
   .hashtag__img {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template: repeat(3, 1fr)/repeat(2, 1fr);
     gap: 0;
     width: 120px;
     height: 120px;
