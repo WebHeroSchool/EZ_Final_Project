@@ -3,6 +3,7 @@
   margin: 0;
   border: 0;
 }
+
 button,
 a:hover {
   cursor: pointer;
@@ -13,34 +14,41 @@ a:hover {
     margin: auto;
     width: 88%;
   }
+
   .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 3%;
+    margin-bottom: 30px;
   }
+
   .burger-menu {
     display: none;
   }
+
   .logo {
     padding-top: 3%;
     margin-right: 41px;
     height: 55px;
     width: 55px;
   }
+
   .logo__second {
     display: none;
   }
+
   .menu {
     padding-top: 3%;
   }
+
   .menu__item {
-    font: bold 12px/12px 'Gotham Pro', Helvetica;
+    font: bold 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     margin-right: 30px;
     position: relative;
   }
+
   .menu__item::after {
     display: block;
     content: '';
@@ -50,30 +58,36 @@ a:hover {
     background: #000;
     position: absolute;
     opacity: 0;
-    transition: .5s linear;
+    transition: 0.5s linear;
   }
+
   .menu__item:hover {
-    opacity: .7;
+    opacity: 0.7;
   }
+
   .menu__item:hover::after {
     opacity: 1;
     width: 100%;
   }
+
   .search {
     padding: 3% 0 0 15%;
     width: 18%;
     margin-right: 25px;
   }
+
   .search__box {
     border-bottom: solid 1px #000;
     width: 89%;
-    transition: .5s linear;
-    font: 500 18px/19px 'Gotham Pro', Helvetica;
+    transition: 0.5s linear;
+    font: 500 18px/19px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .search__box:hover {
     background-color: #dcdcdc;
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .search__btn {
     background: center no-repeat url(img/Vector.svg);
     background-size: 95%;
@@ -82,24 +96,29 @@ a:hover {
     border-bottom: solid 1px #000;
     padding: 3px 0;
     transform: translateX(-30%);
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
   }
+
   .search__btn:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .language {
     padding-top: 3%;
   }
+
   .language__link {
     background: top url('img/united-states.svg');
     background-color: #fff;
     width: 20px;
     height: 19px;
-    transition: opacity .5s ease-in;
+    transition: opacity 0.5s ease-in;
   }
+
   .language__link:hover {
-    opacity: .6;
+    opacity: 0.6;
   }
+
   .main__content {
     background: top center no-repeat url(img/rob-potter-422534-unsplash.png);
     background-size: 100% 100%;
@@ -107,33 +126,38 @@ a:hover {
     height: 280px;
     margin-bottom: 5%;
   }
+
   .main__title {
-    font: 500 30px/29px 'Gotham Pro', Helvetica;
+    font: 500 30px/29px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     width: 19%;
     padding: 86px 0 0 6%;
     margin-bottom: 15px;
   }
+
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     padding-left: 6%;
-    transition: opacity .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     position: relative;
   }
+
   .main__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .sneaker__title {
     text-align: center;
     text-transform: uppercase;
-    font: bold 22px/22px 'Gotham Pro', Helvetica;
+    font: bold 22px/22px 'Gotham Pro', Helvetica, sans-serif;
     width: 100%;
-    margin-bottom: 1%;
+    margin-bottom: 15px;
   }
+
   .sneaker__link {
     text-decoration: none;
     color: #000;
@@ -141,22 +165,27 @@ a:hover {
     margin-right: 37px;
     width: 22%;
   }
+
   .sneaker__link:hover {
     border: double 2px #c0c0c0;
     width: 20%;
   }
+
   .sneaker-beige__column {
     margin-right: 4%;
   }
+
   .sneaker__link:last-child {
     margin-right: 0;
   }
+
   .sneaker__text {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     padding: 0 0 2% 5%;
   }
+
   .sneaker__price {
-    font: bold 14px/14px 'Gotham Pro', Helvetica;
+    font: bold 14px/14px 'Gotham Pro', Helvetica, sans-serif;
     padding: 0 5%;
     margin-right: 39%;
   }
@@ -165,15 +194,17 @@ a:hover {
     width: 84%;
     height: 20%;
     padding-left: 10%;
-    margin-bottom: 12%;
-    transition: .5s linear;
+    margin-bottom: 11%;
+    transition: 0.5s linear;
   }
+
   .sneaker__btn_small {
     height: 7px;
     width: 7px;
     border-radius: 4px;
     margin-right: 2px;
   }
+
   .sneaker__btn_small:hover {
     animation: size-up 1s ease-out;
   }
@@ -182,13 +213,15 @@ a:hover {
     from {
       border: double 2px #696969;
     }
+
     50% {
       border: double 3px #696969;
       height: 10px;
       width: 10px;
     }
+
     to {
-      border: double .5px #696969;
+      border: double 0.5px #696969;
       height: 9px;
       width: 9px;
     }
@@ -200,76 +233,92 @@ a:hover {
     border-radius: 4px;
     margin-right: 2px;
   }
+
   .sneaker__black-btn_grey,
   .sneaker__beige-btn_grey,
   .sneaker__grey-btn_grey,
   .sneaker__white-btn_grey {
     background: #c4c4c4;
   }
+
   .sneaker__black-btn_black {
     background: #000;
   }
+
   .sneaker__black-btn_red,
   .sneaker__beige-btn_red,
   .sneaker__grey-btn_red,
   .sneaker__white-btn_red {
     background: #b62e3c;
   }
+
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow,
   .sneaker__grey-btn_yellow,
   .sneaker__white-btn_yellow{
     background: #fdb431;
   }
+
   .sneaker__beige-btn_orange {
     background: #e29d69;
   }
+
   .sneaker__grey-btn_darkgrey {
     background: #41479b;
   }
+
   .sneaker__white-btn_blue {
     background: #257da9;
   }
+
   .sneaker__btn,
   .sneaker__price {
     display: inline;
   }
+
   .sneaker__content {
     margin-bottom: 5%;
   }
+
   .video__content {
     width: 100%;
-    height: 494px;
+    height: 82.5vh;
     display: grid;
     grid-template-columns: 69% 27%;
     background: #000;
     position: relative;
-    margin-bottom: 77px;
+    margin-bottom: 76px;
   }
+
   .video__description {
     display: grid;
     grid-template-rows: 44% 22% 10%;
     padding-left: 2%;
   }
+
   .video__title {
-    padding: 56% 0 0 0;
-    font: 500 22px/27px 'Gotham Pro', Helvetica;
+    padding: 56% 0 0 2px;
+    font: 500 22px/27px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
   }
+
   .video {
     padding-top: 9%;
     text-align: center;
   }
+
   .video__img {
     width: 90%;
     height: 85%;
   }
+
   .video__play {
     top: 45%;
     left: 32%;
     position: absolute;
   }
+
   .play__btn {
     background: center no-repeat url('img/Group 17.svg');
     width: 48px;
@@ -277,218 +326,270 @@ a:hover {
     border-radius: 50%;
     transition: 1s linear;
   }
+
   .play__btn:hover {
     border: solid 4px #b22222;
     border-radius: 50%;
-    opacity: .7;
+    opacity: 0.7;
   }
+
   .video__text {
-    padding: 5px 0 0 0;
-    font: normal 14px/17px 'Gotham Pro', Helvetica;
+    padding: 1% 0 0 0;
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     transition: 1s linear;
   }
+
   .video__text-link {
     text-decoration: none;
   }
+
   .video__text:hover {
-    opacity: .7;
+    opacity: 0.7;
     color: #b22222;
   }
+
   .video__link {
-    padding: 1% 0 0 1%;
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    padding: 0 0 0 1%;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     transition: opacity 2s ease;
   }
+
   .video__link:hover {
-    opacity: .4;
+    opacity: 0.4;
   }
+
   .stories__content {
     margin-bottom: 7%;
   }
+
   .stories__title {
     text-align: center;
-    font: 500 22px/22px 'Gotham Pro', Helvetica;
+    font: 500 22px/22px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
     text-transform: uppercase;
-    margin-bottom: 45px;
+    margin-bottom: 44px;
   }
+
   .stories__column {
     display: inline-block;
     vertical-align: top;
     width: 26vw;
     margin-right: 52px;
   }
+
   .stories__column:last-child {
     margin-right: 0;
   }
+
   .stories__img {
     margin-bottom: 8%;
   }
+
   .stories__subtitle {
-    font: bold 18px/18px 'Gotham Pro', Helvetica;
+    font: bold 18px/18px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
     margin-bottom: 11px;
   }
+
   .stories__text {
-    font: normal 14px/17px 'Gotham Pro', Helvetica;
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
     font-style: normal;
     color: #000;
     height: 70%;
     margin-bottom: 13px;
   }
+
   .stories__first-text {
     width: 307px;
   }
+
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
     margin: 0 39% 0 0;
-    transition: .5s linear;
+    transition: 0.5s linear;
   }
+
   .stories__third-link {
     margin: 0 38% 0 0;
   }
+
   .stories__link-img {
     padding-left: 2px;
   }
+
   .stories__link-img_white {
     display: none;
   }
+
   .stories__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .stories__quote {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
-    opacity: .3;
+    opacity: 0.3;
     quotes: none;
   }
+
   .stories__third-quote {
     padding-left: 1px;
   }
+
   .hashtag__content {
     margin-bottom: 8%;
   }
+
   .hashtag__title {
-    font: 500 18px/18px 'Gotham Pro', Helvetica;
+    font: 500 18px/18px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
-    opacity: .3;
+    opacity: 0.3;
     padding-top: 2px;
     text-transform: uppercase;
     text-align: right;
     margin-bottom: 1%;
   }
+
   .hashtag__img {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    width: 14vw;
-    height: 147px;
+    width: 147px;
+    height: 147px; */
+    display: grid;
+    grid-template-columns: repeat(7, 14.3%);
+    grid-gap: 0px;
   }
+
   .hashtag__img-first-repeat {
     display: none;
   }
+
   .footer__content {
     background-color: #000;
     transform: translateX(-6%);
-    width: 1170px;
+    width: 113.7%;
     height: 20%;
   }
+
   .footer__column {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 4%;
     padding-top: 67px;
   }
+
   .footer__title {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     padding-bottom: 4%;
   }
+
   .personal-ac__title {
     padding-bottom: 5%;
   }
+
   .footer__list {
     text-decoration: none;
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 1%;
-    transition: .2s linear;
+    transition: 0.2s linear;
   }
+
   .footer__list:hover {
     border-bottom: solid 1px #fff;
   }
+
   .footer__personal-ac {
     padding-left: 17%;
     margin-right: 9%;
   }
+
   .footer__customer {
     padding-left: 5px;
     margin-right: 6%;
   }
+
   .footer__miscellaneous {
     margin-right: 6%;
   }
+
   .footer__miscellaneous-for-mobile {
     display: none;
   }
+
   .social__new-buyer {
     padding-left: 5%;
-    margin-bottom: 24%;
+    margin-bottom: 40px;
   }
+
   .social__title {
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     padding: 0;
   }
+
   .social__text {
     width: 179px;
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 11%;
     padding-left: 2px;
   }
+
   .social__text-option {
     display: none;
   }
+
   .social__sign-up {
-    font: 500 10px/10px 'Gotham Pro', Helvetica;
+    font: 500 10px/10px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     padding: 8px 45px;
     border: solid 2px #fff;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
+
   .social__sign-up:hover {
     border: double 3px #b22222;
-    font: 500 11px/11px 'Gotham Pro', Helvetica;
+    font: 500 11px/11px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .icon {
     padding-left: 5%;
     margin-right: 7%;
     width: 50%;
     text-decoration: none;
-    transition: .2s ease;
+    transition: 0.2s ease;
   }
+
+  .icon__facebook-img {
+    padding-left: 1%;
+  }
+
   .icon:last-child {
     margin-right: 0;
   }
+
   .icon:hover {
     border: double 3px #b22222;
     border-radius: 4px;
   }
+
   .footer__license {
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-align: center;
     margin-right: 1%;
-    padding: 6px 0 3% 4px;
+    padding: 6px 0 34px 4px;
   }
 }
 
@@ -497,33 +598,41 @@ a:hover {
     margin: auto;
     width: 91%;
   }
+
   .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 4%;
   }
+
   .burger-menu {
     display: none;
   }
+
   .logo {
     padding-top: 3%;
     width: 61px;
-    margin-right: 35px;
+    height: 62px;
+    margin-right: 31px;
   }
+
   .logo__second {
     display: none;
   }
+
   .menu {
     padding-top: 5%;
   }
+
   .menu__item {
-    font: bold 12px/12px 'Gotham Pro', Helvetica;
+    font: bold 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     margin-right: 31px;
     position: relative;
   }
+
   .menu__item::after {
     display: block;
     content: '';
@@ -533,33 +642,40 @@ a:hover {
     background: #000;
     position: absolute;
     opacity: 0;
-    transition: .5s linear;
+    transition: 0.5s linear;
   }
+
   .menu__item-sign-in {
     margin-right: 25px
   }
+
   .menu__item:hover {
-    opacity: .7;
+    opacity: 0.7;
   }
+
   .menu__item:hover::after {
     opacity: 1;
     width: 100%;
   }
+
   .search {
-    padding: 3% 0 0 12%;
+    padding: 3% 0 0 13%;
     width: 19%;
-    margin-right: 23px;
+    margin-right: 24px;
   }
+
   .search__box {
     border-bottom: solid 1px #000;
     width: 89%;
-    transition: .5s linear;
-    font: 500 18px/19px 'Gotham Pro', Helvetica;
+    transition: 0.5s linear;
+    font: 500 18px/19px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .search__box:hover {
     background-color: #dcdcdc;
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .search__btn {
     background: center no-repeat url(img/Vector.svg);
     background-size: 95%;
@@ -568,24 +684,29 @@ a:hover {
     border-bottom: solid 1px #000;
     padding: 3px 0;
     transform: translateX(-30%);
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
   }
+
   .search__btn:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .language {
     padding-top: 3%;
   }
+
   .language__link {
     background: top url('img/united-states.svg');
     background-color: #fff;
     width: 20px;
     height: 19px;
-    transition: opacity .5s ease-in;
+    transition: opacity 0.5s ease-in;
   }
+
   .language__link:hover {
-    opacity: .6;
+    opacity: 0.6;
   }
+
   .main__content {
     background: top center no-repeat url(img/rob-potter-422534-unsplash.png);
     background-size: 100% 100%;
@@ -593,36 +714,42 @@ a:hover {
     height: 255px;
     margin-bottom: 7%;
   }
+
   .main__title {
-    font: 500 30px/29px 'Gotham Pro', Helvetica;
+    font: 500 30px/29px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     width: 19%;
     padding: 80px 0 0 6%;
     margin-bottom: 6px;
   }
+
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     padding-left: 6%;
-    transition: opacity .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     position: relative;
   }
+
   .main__link-img {
     padding-left: 7px;
   }
+
   .main__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .sneaker__title {
     text-align: center;
     text-transform: uppercase;
-    font: bold 22px/22px 'Gotham Pro', Helvetica;
+    font: bold 22px/22px 'Gotham Pro', Helvetica, sans-serif;
     width: 100%;
-    margin-bottom: 3%;
+    margin-bottom: 27px;
   }
+
   .sneaker__link {
     text-decoration: none;
     color: #000;
@@ -631,40 +758,48 @@ a:hover {
     margin-right: 33px;
     width: 22%;
   }
+
   .sneaker__link:hover {
     border: double 2px #c0c0c0;
     width: 20%;
   }
+
   .sneaker__link:last-child {
     margin-right: 0;
   }
+
   .sneaker__text {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     padding: 0 0 2% 5%;
   }
+
   .sneaker__price {
-    font: bold 14px/14px 'Gotham Pro', Helvetica;
+    font: bold 14px/14px 'Gotham Pro', Helvetica, sans-serif;
     padding: 0 5%;
     margin-right: 37%;
   }
+
   .sneaker__grey-price,
   .sneaker__white-price {
     margin-right: 35%;
   }
+
   .sneaker__img {
     text-align: center;
     width: 84%;
     height: 20%;
     padding-left: 10%;
-    margin-bottom: 15%;
-    transition: .5s linear;
+    margin-bottom: 14%;
+    transition: 0.5s linear;
   }
+
   .sneaker__btn_small {
     height: 7px;
     width: 6px;
     border-radius: 4px;
     margin-right: 2px;
   }
+
   .sneaker__btn_small:hover {
     animation: size-up 1s ease-out;
   }
@@ -673,13 +808,15 @@ a:hover {
     from {
       border: double 2px #696969;
     }
+
     50% {
       border: double 3px #696969;
       height: 9px;
       width: 10px;
     }
+
     to {
-      border: double .5px #696969;
+      border: double 0.5px #696969;
       height: 8px;
       width: 9px;
     }
@@ -691,43 +828,53 @@ a:hover {
     border-radius: 4px;
     margin-right: 2px;
   }
+
   .sneaker__black-btn_grey,
   .sneaker__beige-btn_grey,
   .sneaker__grey-btn_grey,
   .sneaker__white-btn_grey {
     background: #c4c4c4;
   }
+
   .sneaker__black-btn_black {
     background: #000;
   }
+
   .sneaker__black-btn_red,
   .sneaker__beige-btn_red,
   .sneaker__grey-btn_red,
   .sneaker__white-btn_red {
     background: #b62e3c;
   }
+
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow,
   .sneaker__grey-btn_yellow,
   .sneaker__white-btn_yellow{
     background: #fdb431;
   }
+
   .sneaker__beige-btn_orange {
     background: #e29d69;
   }
+
   .sneaker__grey-btn_darkgrey {
     background: #41479b;
   }
+
   .sneaker__white-btn_blue {
     background: #257da9;
   }
+
   .sneaker__btn,
   .sneaker__price {
     display: inline;
   }
+
   .sneaker__content {
-    margin-bottom: 8%;
+    margin-bottom: 76px;
   }
+
   .video__content {
     display: grid;
     grid-template-columns: 69% 27%;
@@ -737,26 +884,31 @@ a:hover {
     position: relative;
     margin-bottom: 10%;
   }
+
   .video__description {
     padding-left: 2%;
   }
+
   .video__title {
     padding: 55% 0 0 0;
     margin-bottom: 3%;
-    font: 500 22px/27px 'Gotham Pro', Helvetica;
+    font: 500 22px/27px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
   }
+
   .video__img {
     padding: 9% 0 0 5%;
     width: 90%;
     height: 74%;
   }
+
   .video__play {
     position: absolute;
     top: 46%;
     left: 32%;
   }
+
   .play__btn {
     background: center no-repeat url('img/Group 17.svg');
     width: 42px;
@@ -764,49 +916,59 @@ a:hover {
     border-radius: 50%;
     transition: 1s linear;
   }
+
   .play__btn:hover {
     border: solid 4px #b22222;
     border-radius: 50%;
-    opacity: .7;
+    opacity: 0.7;
   }
+
   .video__text {
-    font: normal 13px/16px 'Gotham Pro', Helvetica;
+    font: normal 13px/16px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     margin-bottom: 6%;
     transition: 1s linear;
   }
+
   .video__text-link {
     text-decoration: none;
   }
+
   .video__text:hover {
-    opacity: .7;
+    opacity: 0.7;
     color: #b22222;
   }
+
   .video__link {
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     transition: opacity 2s ease;
   }
+
   .video__link-img {
     padding-left: 10px;
     width: 45px;
   }
+
   .video__link:hover {
-    opacity: .4;
+    opacity: 0.4;
   }
+
   .stories__content {
     margin-bottom: 87px;
   }
+
   .stories__title {
     text-align: center;
-    font: 500 22px/22px 'Gotham Pro', Helvetica;
+    font: 500 22px/22px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
     text-transform: uppercase;
-    margin-bottom: 4%;
+    margin-bottom: 36px;
   }
+
   .stories__column {
     display: inline-block;
     vertical-align: top;
@@ -814,156 +976,192 @@ a:hover {
     margin-right: 46px;
     padding-top: 1%;
   }
+
   .stories__column:last-child {
     margin-right: 0;
   }
+
   .stories__img {
     margin-bottom: 9%;
     width: 100%;
     height: 147px;
   }
+
   .stories__subtitle {
-    font: bold 18px/18px 'Gotham Pro', Helvetica;
+    font: bold 18px/18px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
   }
+
   .stories__text {
-    font: normal 13px/16px 'Gotham Pro', Helvetica;
+    font: normal 13px/16px 'Gotham Pro', Helvetica, sans-serif;
     font-style: normal;
     color: #000;
     height: 70%;
     margin-bottom: 7%;
   }
+
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
     margin: 0 33% 0 0;
-    transition: .5s linear;
+    transition: 0.5s linear;
   }
+
   .stories__link-img {
     width: 24px;
     padding-right: 2%;
   }
+
   .stories__link-img_white {
     display: none;
   }
+
   .stories__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .stories__first-link,
   .stories__second-link {
     margin-right: 34%;
   }
+
   .stories__quote {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
-    opacity: .3;
+    opacity: 0.3;
     quotes: none;
   }
+
   .hashtag__content {
-    margin-bottom: 95px;
+    margin-bottom: 93px;
   }
+
   .hashtag__title {
-    font: 500 18px/18px 'Gotham Pro', Helvetica;
+    font: 500 18px/18px 'Gotham Pro', Helvetica, sans-serif;
     color: #000;
-    opacity: .3;
+    opacity: 0.3;
     text-transform: uppercase;
     text-align: right;
     margin-bottom: 1%;
   }
+
   .hashtag__img {
     display: flex;
     justify-content: space-between;
     width: 14vw;
     height: 133px;
   }
+
   .hashtag__img-first-repeat {
     display: none;
   }
+
   .footer__content {
     background-color: #000;
     transform: translateX(-5%);
     width: 110.5%;
     height: 23%;
   }
+
   .footer__column {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 53px;
     padding-top: 69px;
   }
+
   .footer__title {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 5px;
   }
+
   .footer__list {
     text-decoration: none;
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 1%;
     transition: .2s linear;
   }
+
   .footer__list:hover {
     border-bottom: solid 1px #fff;
   }
+
   .footer__personal-ac {
     padding-left: 13%;
     margin-right: 110px;
   }
+
   .footer__customer {
     margin-right: 64px;
   }
+
   .footer__miscellaneous {
     padding-left: 2px;
     margin-right: 83px;
   }
+
   .footer__miscellaneous-for-mobile {
     display: none;
   }
+
   .social__new-buyer {
     margin-bottom: 24%;
   }
+
   .social__title {
     margin-bottom: 6px;
   }
+
   .social__text {
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
   }
+
   .social__text-option {
     display: none;
   }
+
   .social__sign-up {
-    font: 500 10px/10px 'Gotham Pro', Helvetica;
+    font: 500 10px/10px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     padding: 8px 44px;
     border: solid 2px #fff;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
+
   .social__sign-up:hover {
     border: double 3px #b22222;
-    font: 500 11px/11px 'Gotham Pro', Helvetica;
+    font: 500 11px/11px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .icon {
     margin-right: 12%;
     text-decoration: none;
     transition: .2s ease;
   }
+
+  .icon__pinterest-img {
+    padding-top: 1px;
+  }
+
   .icon:hover {
     border: double 3px #b22222;
     border-radius: 4px;
   }
+
   .footer__license {
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     text-align: center;
     color: #fff;
-    padding: 0 0 3% 0;
+    padding: 0 0 34px 0;
   }
 }
 
@@ -972,30 +1170,37 @@ a:hover {
     margin: auto;
     width: 89%;
   }
+
   .logo {
     display: none;
   }
+
   .logo__second {
     padding-top: 6%;
     width: 156px;
   }
+
   .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
   }
+
   .menu,
   .search,
   .language {
     display: none;
   }
+
   .burger__menu {
     z-index: 1;
   }
+
   #menu__toggle {
     opacity: 0;
   }
+
   .menu__btn {
     position: relative;
     top: 25px;
@@ -1005,6 +1210,7 @@ a:hover {
     cursor: pointer;
     z-index: 2;
     }
+
   .menu__btn > span::before,
   .menu__btn > span::after {
     display: block;
@@ -1014,14 +1220,17 @@ a:hover {
     background-color: #000;
     transition: .20s ease;
   }
+
   .menu__btn > span::before {
     content: '';
     top: -7px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 9px;
   }
+
   .burger__menu {
     display: block;
     position: absolute;
@@ -1034,38 +1243,45 @@ a:hover {
     padding: 15% 0;
     text-align: center;
     background-color: #e5e5e5;
-    transition: .15s ease;
+    transition: 0.15s ease;
   }
+
   .burger__language {
     padding-top: 3%;
   }
+
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
     background-color: #e5e5e5;
     width: 30px;
     height: 30px;
-    transition: opacity .5s ease-in;
+    transition: opacity 0.5s ease-in;
   }
+
   .burger-language__link:hover {
-    opacity: .6;
+    opacity: 0.6;
   }
+
   .burger__search {
     padding: 3% 0 0 15%;
     width: 70%;
     margin-bottom: 3%;
   }
+
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
     background-color: #e5e5e5;
-    transition: .3s linear;
-    font: 500 25px/25px 'Gotham Pro', Helvetica;
+    transition: 0.3s linear;
+    font: 500 25px/25px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .burger-search__box:hover {
     background-color: #fff;
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-search__btn {
     background: center no-repeat url(img/Vector.svg);
     background-size: 95%;
@@ -1074,20 +1290,23 @@ a:hover {
     border-bottom: solid 3px #000;
     padding: 5px 0;
     transform: translateX(-30%);
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
   }
+
   .burger-search__btn:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item {
     display: block;
     padding: 12px 0;
     color: #000;
-    font: bold 18px/18px 'Gotham Pro', Helvetica;
+    font: bold 18px/18px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: .10s ease;
+    transition: 0.1s ease;
     position: relative;
   }
+
   .burger-menu__item::after {
     display: block;
     content: '';
@@ -1097,72 +1316,91 @@ a:hover {
     height: 2px;
     background: #000;
     opacity: 0;
-    transition: opacity .5s ease, width .5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease;
   }
+
   .burger-menu__item-first::after {
     left: 40%;
   }
+
   .burger-menu__item-second::after {
     left: 39%;
   }
+
   .burger-menu__item-third::after {
     left: 40%;
   }
+
   .burger-menu__item-fourth::after {
     left: 36%;
   }
+
   .burger-menu__item-fifth::after {
     left: 40%;
   }
+
   .burger-menu__item-sixth::after {
     left: 36%;
   }
+
   .burger-menu__item-seventh::after {
     left: 37%;
   }
+
   .burger-menu__item:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item-first:hover::after {
     opacity: 1;
     width: 20%;
   }
+
     .burger-menu__item-second:hover::after {
     opacity: 1;
     width: 22%;
   }
+
   .burger-menu__item-third:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-fourth:hover::after {
     opacity: 1;
     width: 27%;
   }
+
   .burger-menu__item-fifth:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-sixth:hover::after {
     opacity: 1;
     width: 28%;
   }
+
   .burger-menu__item-seventh:hover::after {
     opacity: 1;
     width: 26%;
   }
+
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(45deg);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(135deg);
   }
+
   #menu__toggle:checked ~ .burger__menu {
     visibility: visible;
     right: 0;
   }
+
   .main__content {
     background: top center no-repeat url('img/rob-potter-422534-unsplash (2).png');
     background-size: 100% 100%;
@@ -1171,41 +1409,48 @@ a:hover {
     height: 415px;
     margin-bottom: 63px;
   }
+
   .main__title {
-    font: 500 50px/50px 'Gotham Pro', Helvetica;
+    font: 500 50px/50px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
     padding: 15% 0 0 6%;
     margin-bottom: 41px;
   }
+
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     padding-left: 6%;
-    transition: opacity .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     position: relative;
   }
+
   .main__link-img {
     width: 71px;
     padding-left: 1%;
   }
+
   .main__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .sneaker__title {
     text-align: center;
     text-transform: uppercase;
     transform: translateX(-1%);
-    font: bold 30px/30px 'Gotham Pro', Helvetica;
+    font: bold 30px/30px 'Gotham Pro', Helvetica, sans-serif;
     width: 100%;
     margin-bottom: 21px;
   }
+
   .sneaker__content {
     margin-bottom: 35px;
   }
+
   .sneaker__link {
     text-decoration: none;
     color: #000;
@@ -1213,78 +1458,96 @@ a:hover {
     vertical-align: top;
     width: 41%;
     margin-right: 68px;
-    transition: .5s linear;
+    transition: 0.5s linear;
     padding-bottom: 1%;
   }
+
   .sneaker__link-beige {
     margin-right: 0;
   }
+
   .sneaker__link:hover {
     width: 40%;
     border: solid 2px #c0c0c0;
   }
+
   .sneaker__link-white,
   .sneaker__link-grey {
     display: none;
   }
+
   .sneaker__img {
     padding-left: 15px;
     width: 230px;
     height: 233px;
     margin-bottom: 20px;
   }
+
   .sneaker__link-black {
     padding-left: 39px;
   }
+
   .sneaker__text {
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     padding-bottom: 17px;
   }
+
   .sneaker__price,
   .sneaker__btn {
     display: inline;
   }
+
   .sneaker__price {
-    font: bold 25px/24px 'Gotham Pro', Helvetica;
+    font: bold 25px/24px 'Gotham Pro', Helvetica, sans-serif;
     margin-right: 23%;
   }
+
   .sneaker__black-price {
     padding-left: 1px;
   }
+
   .sneaker__beige-price {
     margin-right: 27%;
   }
+
   .sneaker__btn_small,
   .sneaker__btn_big {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    transition: .5s linear;
+    transition: 0.5s linear;
   }
+
   .sneaker__black-btn_grey,
   .sneaker__beige-btn_grey {
     background: #c4c4c4;
   }
+
   .sneaker__black-btn_black {
     background: #000;
   }
+
   .sneaker__black-btn_red,
   .sneaker__beige-btn_red {
     background: #b62e3c;
   }
+
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow {
     background: #fdb431;
   }
+
   .sneaker__beige-btn_orange {
     background: #e29d69;
   }
+
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
-    opacity: .7;
+    opacity: 0.7;
     border: solid 2px #000;
     border-radius: 50%;
   }
+
   .video__content {
     display: grid;
     grid-template-columns: 1fr;
@@ -1298,6 +1561,7 @@ a:hover {
     position: relative;
     padding-bottom: 9%;
   }
+
   .video__content::before {
     content: '';
     left: 0;
@@ -1308,46 +1572,55 @@ a:hover {
     background: #fff;
     transform: rotate(2.2deg);
   }
+
   .video__title {
     order: 1;
     text-align: center;
     padding-top: 12%;
-    font: 500 30px/37px 'Gotham Pro', Helvetica;
+    font: 500 30px/37px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 2%;
   }
+
   .video__text {
     text-align: center;
-    font: normal 20px/25px 'Gotham Pro', Helvetica;
+    font: normal 20px/25px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     padding: 0 6% 0 7%;
     margin-bottom: 15px;
     transition: 1s ease;
   }
+
   .video__text-link {
     order: 2;
     text-decoration: none;
   }
+
   .video__text:hover {
-    opacity: .7;
+    opacity: 0.7;
     color: #b22222;
   }
+
   .video__link {
     display: none;
   }
+
   .video {
     order: 3;
   }
+
   .video__img {
     padding: 2% 0 0 5%;
     width: 90%;
     height: 87%;
   }
+
   .video__play {
     transform: translateY(-410%);
     padding: 0 0 0 47%;
   }
+
   .play__btn {
     background: center no-repeat url('img/Group 17.svg');
     width: 51px;
@@ -1355,85 +1628,102 @@ a:hover {
     border-radius: 50%;
     transition: 1s linear;
   }
+
   .play__btn:hover {
     border: solid 4px #b22222;
     border-radius: 50%;
-    opacity: .7;
+    opacity: 0.7;
   }
+
   .stories__content {
     padding-bottom: 18%;
     width: 113%;
     transform: translate(-6%,-2px);
     background-color: #000;
   }
+
   .stories__title {
     text-align: center;
-    font: 500 30px/30px 'Gotham Pro', Helvetica;
+    font: 500 30px/30px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     padding-top: 2px;
     text-transform: uppercase;
     margin-bottom: 44px;
   }
+
   .stories__column {
     display: inline-block;
     vertical-align: top;
     margin-right: 28px;
   }
+
   .stories__column-first {
     width: 44vw;
     padding-left: 6%;
   }
+
   .stories__column-second {
     width: 41vw;
     margin-right: 0;
   }
+
   .stories__column-third {
     display: none;
   }
+
   .stories__img {
     width: 312px;
     height: 166px;
     margin-bottom: 28px;
   }
+
   .stories__subtitle {
-    font: 500 25px/25px 'Gotham Pro', Helvetica;
+    font: 500 25px/25px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     width: 301px;
     margin-bottom: 3%;
   }
+
   .stories__text {
-    font: normal 20px/25px 'Gotham Pro', Helvetica;
+    font: normal 20px/25px 'Gotham Pro', Helvetica, sans-serif;
     width: 312px;
     font-style: normal;
     color: #fff;
     height: 70%;
     margin-bottom: 31px;
   }
+
   .stories__link {
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    transition: .5s linear;
+    transition: 0.5s linear;
     margin-right: 9%;
   }
+
   .stories__first-link {
     margin-right: 15%;
   }
+
   .stories__link-img_white {
     padding: 2% 0 0 2%;
   }
+
   .stories__link-img {
     display: none;
   }
+
   .stories__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .stories__quote {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #d1d1d1;
     quotes: none;
   }
+
   .hashtag__content {
     margin-bottom: 10%;
     background-color: #000;
@@ -1442,6 +1732,7 @@ a:hover {
     position: relative;
     margin-bottom: 42%;
   }
+
   .hashtag__content::after {
     content: '';
     left: 0;
@@ -1453,8 +1744,9 @@ a:hover {
     transform: rotate(2.6deg);
     z-index: -1;
   }
+
   .hashtag__title {
-    font: 500 30px/30px 'Gotham Pro', Helvetica;
+    font: 500 30px/30px 'Gotham Pro', Helvetica, sans-serif;
     color: #e8e8e8;
     width: 94%;
     text-transform: uppercase;
@@ -1462,6 +1754,7 @@ a:hover {
     margin-bottom: 14px;
     padding-top: 1px;
   }
+
   .hashtag__img {
     justify-content: center;
     padding-left: 39%;
@@ -1472,122 +1765,148 @@ a:hover {
     width: 170px;
     height: 170px;
   }
+
   .hashtag__img * {
     width: 170px;
     height: 170px;
   }
+
   .footer__content {
     background-color: #000;
     transform: translateX(-6%);
     width: 113%;
     height: 13%;
   }
+
   .footer__column {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 72px;
     padding-top: 61px;
   }
+
   .footer__title {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 3px;
   }
+
   .customer__title,
   .miscellaneous__title {
     margin-bottom: 4px;
   }
+
   .footer__list {
     text-decoration: none;
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 1%;
-    transition: .2s linear;
+    transition: 0.2s linear;
   }
+
   .footer__list:hover {
     border-bottom: solid 1px #fff;
   }
+
   .footer__personal-ac {
     padding-left: 7%;
     margin-right: 7%;
   }
+
   .footer__customer {
     margin-right: 8%;
   }
+
   .footer__miscellaneous {
     margin-right: 8%;
   }
+
   .footer__miscellaneous-for-mobile {
     display: none;
   }
+
   .social__new-buyer {
     margin-bottom: 33px;
   }
+
   .social__title {
     padding-left: 1px;
     margin-bottom: 3%;
   }
+
   .social__text {
     display: none;
   }
+
   .social__text-option {
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     width: 110%;
     padding-left: 3px;
     margin-bottom: 9%;
     letter-spacing: 1px;
   }
+
   .social__sign-up {
-    font: 500 10px/10px 'Gotham Pro', Helvetica;
+    font: 500 10px/10px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    padding: 7px 49px;
+    padding: 6px 49px;
     border: solid 2px #fff;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
+
   .social__sign-up:hover {
     border: double 3px #b22222;
-    font: 500 11px/11px 'Gotham Pro', Helvetica;
+    font: 500 11px/11px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .social__icon {
     padding-left: 2px;
   }
+
   .icon {
     vertical-align: bottom;
     margin-right: 11%;
     text-decoration: none;
-    transition: .2s ease;
+    transition: 0.2s ease;
   }
+
   .icon__instagram {
     margin-right: 13%;
   }
+
   .icon:hover {
     border: double 3px #b22222;
     border-radius: 4px;
   }
+
   .icon__facebook-img {
     height: 14px;
     width: 7px;
   }
+
   .icon__twitter-img {
     height: 13px;
     width: 16px;
   }
+
   .icon__pinterest-img {
     height: 17px;
     width: 12px;
   }
+
   .icon__instagram-img {
     height: 16px;
     width: 16px;
   }
+
   .footer__license {
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     text-align: center;
     color: #fff;
-    padding: 2px 0 3% 3px;
+    padding: 2px 0 4% 3px;
   }
 }
 
@@ -1596,30 +1915,37 @@ a:hover {
     margin: auto;
     width: 89%;
   }
+
   .logo {
     display: none;
   }
+
   .logo__second {
     padding-top: 6%;
     width: 134px;
   }
+
   .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
   }
+
   .menu,
   .search,
   .language {
     display: none;
   }
+
   .burger__menu {
     z-index: 1;
   }
+
   #menu__toggle {
     opacity: 0;
   }
+
   .menu__btn {
     position: relative;
     top: 25px;
@@ -1629,6 +1955,7 @@ a:hover {
     cursor: pointer;
     z-index: 2;
     }
+
   .menu__btn > span::before,
   .menu__btn > span::after {
     display: block;
@@ -1636,16 +1963,19 @@ a:hover {
     width: 61px;
     height: 9px;
     background-color: #000;
-    transition: .20s ease;
+    transition: 0.20s ease;
   }
+
   .menu__btn > span::before {
     content: '';
     top: -7px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 9px;
   }
+
   .burger__menu {
     display: block;
     position: absolute;
@@ -1658,38 +1988,45 @@ a:hover {
     padding: 15% 0;
     text-align: center;
     background-color: #e5e5e5;
-    transition: .15s ease;
+    transition: 0.15s ease;
   }
+
   .burger__language {
     padding-top: 3%;
   }
+
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
     background-color: #e5e5e5;
     width: 30px;
     height: 30px;
-    transition: opacity .5s ease-in;
+    transition: opacity 0.5s ease-in;
   }
+
   .burger-language__link:hover {
-    opacity: .6;
+    opacity: 0.6;
   }
+
   .burger__search {
     padding: 3% 0 0 15%;
     width: 70%;
     margin-bottom: 3%;
   }
+
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
     background-color: #e5e5e5;
-    transition: .3s linear;
-    font: 500 25px/25px 'Gotham Pro', Helvetica;
+    transition: 0.3s linear;
+    font: 500 25px/25px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .burger-search__box:hover {
     background-color: #fff;
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-search__btn {
     background: center no-repeat url(img/Vector.svg);
     background-size: 95%;
@@ -1698,20 +2035,23 @@ a:hover {
     border-bottom: solid 3px #000;
     padding: 5px 0;
     transform: translateX(-30%);
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
   }
+
   .burger-search__btn:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item {
     display: block;
     padding: 12px 0;
     color: #000;
-    font: bold 18px/18px 'Gotham Pro', Helvetica;
+    font: bold 18px/18px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: .10s ease;
+    transition: 0.10s ease;
     position: relative;
   }
+
   .burger-menu__item::after {
     display: block;
     content: '';
@@ -1721,32 +2061,41 @@ a:hover {
     height: 2px;
     background: #000;
     opacity: 0;
-    transition: opacity .5s ease, width .5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease;
   }
+
   .burger-menu__item-first::after {
     left: 40%;
   }
+
   .burger-menu__item-second::after {
     left: 39%;
   }
+
   .burger-menu__item-third::after {
     left: 40%;
   }
+
   .burger-menu__item-fourth::after {
     left: 36%;
   }
+
   .burger-menu__item-fifth::after {
     left: 40%;
   }
+
   .burger-menu__item-sixth::after {
     left: 36%;
   }
+
   .burger-menu__item-seventh::after {
     left: 37%;
   }
+
   .burger-menu__item:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item-first:hover::after {
     opacity: 1;
     width: 20%;
@@ -1755,38 +2104,47 @@ a:hover {
     opacity: 1;
     width: 22%;
   }
+
   .burger-menu__item-third:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-fourth:hover::after {
     opacity: 1;
     width: 27%;
   }
+
   .burger-menu__item-fifth:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-sixth:hover::after {
     opacity: 1;
     width: 28%;
   }
+
   .burger-menu__item-seventh:hover::after {
     opacity: 1;
     width: 26%;
   }
+
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(45deg);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(135deg);
   }
+
   #menu__toggle:checked ~ .burger__menu {
     visibility: visible;
     right: 0;
   }
+
   .main__content {
     background: top center no-repeat url('img/rob-potter-422534-unsplash (2).png');
     background-size: 100% 100%;
@@ -1795,41 +2153,48 @@ a:hover {
     height: 415px;
     margin-bottom: 63px;
   }
+
   .main__title {
-    font: 500 50px/50px 'Gotham Pro', Helvetica;
+    font: 500 50px/50px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
     padding: 15% 0 0 6%;
     margin-bottom: 41px;
   }
+
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     padding-left: 6%;
-    transition: opacity .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     position: relative;
   }
+
   .main__link-img {
     width: 71px;
     padding-left: 1%;
   }
+
   .main__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .sneaker__title {
     text-align: center;
     text-transform: uppercase;
     transform: translateX(-1%);
-    font: bold 30px/30px 'Gotham Pro', Helvetica;
+    font: bold 30px/30px 'Gotham Pro', Helvetica, sans-serif;
     width: 100%;
     margin-bottom: 21px;
   }
+
   .sneaker__content {
     margin-bottom: 35px;
   }
+
   .sneaker__link {
     text-decoration: none;
     color: #000;
@@ -1837,78 +2202,96 @@ a:hover {
     vertical-align: top;
     width: 43%;
     margin-right: 28px;
-    transition: .5s linear;
+    transition: 0.5s linear;
     padding-bottom: 1%;
   }
+
   .sneaker__link-beige {
     margin-right: 0;
   }
+
   .sneaker__link:hover {
     width: 40%;
     border: solid 2px #c0c0c0;
   }
+
   .sneaker__link-white,
   .sneaker__link-grey {
     display: none;
   }
+
   .sneaker__img {
     padding-left: 15px;
     width: 230px;
     height: 233px;
     margin-bottom: 20px;
   }
+
   .sneaker__link-black {
     padding-left: 39px;
   }
+
   .sneaker__text {
-    font: 500 18px/18px 'Gotham Pro', Helvetica;
+    font: 500 18px/18px 'Gotham Pro', Helvetica, sans-serif;
     padding-bottom: 17px;
   }
+
   .sneaker__price,
   .sneaker__btn {
     display: inline;
   }
+
   .sneaker__price {
-    font: bold 20px/20px 'Gotham Pro', Helvetica;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     margin-right: 20%;
   }
+
   .sneaker__black-price {
     padding-left: 1px;
   }
+
   .sneaker__beige-price {
     margin-right: 27%;
   }
+
   .sneaker__btn_small,
   .sneaker__btn_big {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    transition: .5s linear;
+    transition: 0.5s linear;
   }
+
   .sneaker__black-btn_grey,
   .sneaker__beige-btn_grey {
     background: #c4c4c4;
   }
+
   .sneaker__black-btn_black {
     background: #000;
   }
+
   .sneaker__black-btn_red,
   .sneaker__beige-btn_red {
     background: #b62e3c;
   }
+
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow {
     background: #fdb431;
   }
+
   .sneaker__beige-btn_orange {
     background: #e29d69;
   }
+
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
-    opacity: .7;
+    opacity: 0.7;
     border: solid 2px #000;
     border-radius: 50%;
   }
+
   .video__content {
     display: grid;
     grid-template-columns: 1fr;
@@ -1922,6 +2305,7 @@ a:hover {
     position: relative;
     padding-bottom: 9%;
   }
+
   .video__content::before {
     content: '';
     left: 0;
@@ -1932,46 +2316,55 @@ a:hover {
     background: #fff;
     transform: rotate(2deg);
   }
+
   .video__title {
     order: 1;
     text-align: center;
     padding: 12% 23% 0 23%;
-    font: 500 28px/35px 'Gotham Pro', Helvetica;
+    font: 500 28px/35px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 2%;
   }
+
   .video__text {
     text-align: center;
-    font: normal 20px/25px 'Gotham Pro', Helvetica;
+    font: normal 20px/25px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     padding: 0 9% 0 9%;
     margin-bottom: 15px;
     transition: 1s ease;
   }
+
   .video__text-link {
     order: 2;
     text-decoration: none;
   }
+
   .video__text:hover {
-    opacity: .7;
+    opacity: 0.7;
     color: #b22222;
   }
+
   .video__link {
     display: none;
   }
+
   .video {
     order: 3;
   }
+
   .video__img {
     padding: 2% 0 0 5%;
     width: 90%;
     height: 80%;
   }
+
   .video__play {
     transform: translateY(-380%);
     padding: 0 0 0 47%;
   }
+
   .play__btn {
     background: center no-repeat url('img/Group 17.svg');
     width: 51px;
@@ -1979,83 +2372,100 @@ a:hover {
     border-radius: 50%;
     transition: 1s linear;
   }
+
   .play__btn:hover {
     border: solid 4px #b22222;
     border-radius: 50%;
-    opacity: .7;
+    opacity: 0.7;
   }
+
   .stories__content {
     padding-bottom: 18%;
     width: 113%;
     transform: translate(-6%,-2px);
     background-color: #000;
   }
+
   .stories__title {
     text-align: center;
-    font: 500 30px/30px 'Gotham Pro', Helvetica;
+    font: 500 30px/30px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 34px;
   }
+
   .stories__column {
     display: inline-block;
     vertical-align: top;
     margin-right: 30px;
   }
+
   .stories__column-first {
     width: 42vw;
     padding-left: 6%;
   }
+
   .stories__column-second {
     width: 42vw;
     margin-right: 0;
   }
+
   .stories__column-third {
     display: none;
   }
+
   .stories__img {
     width: 280px;
     height: 146px;
     margin-bottom: 28px;
   }
+
   .stories__subtitle {
-    font: 500 23px/22px 'Gotham Pro', Helvetica;
+    font: 500 23px/22px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     width: 301px;
     margin-bottom: 5%;
   }
+
   .stories__text {
-    font: normal 16px/18px 'Gotham Pro', Helvetica;
+    font: normal 16px/18px 'Gotham Pro', Helvetica, sans-serif;
     font-style: normal;
     color: #fff;
     height: 70%;
     margin-bottom: 5%;
   }
+
   .stories__link {
-    font: 500 16px/16px 'Gotham Pro', Helvetica;
+    font: 500 16px/16px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    transition: .5s linear;
+    transition: 0.5s linear;
     margin-right: 9%;
   }
+
   .stories__first-link {
     margin-right: 10%;
   }
+
   .stories__link-img_white {
     padding: 2% 0 0 2%;
   }
+
   .stories__link-img {
     display: none;
   }
+
   .stories__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .stories__quote {
-    font: 500 14px/15px 'Gotham Pro', Helvetica;
+    font: 500 14px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #d1d1d1;
     quotes: none;
   }
+
   .hashtag__content {
     margin-bottom: 10%;
     background-color: #000;
@@ -2064,6 +2474,7 @@ a:hover {
     position: relative;
     margin-bottom: 42%;
   }
+
   .hashtag__content::after {
     content: '';
     left: 0;
@@ -2075,8 +2486,9 @@ a:hover {
     transform: rotate(3deg);
     z-index: -1;
   }
+
   .hashtag__title {
-    font: 500 30px/30px 'Gotham Pro', Helvetica;
+    font: 500 30px/30px 'Gotham Pro', Helvetica, sans-serif;
     color: #e8e8e8;
     width: 94%;
     text-transform: uppercase;
@@ -2084,6 +2496,7 @@ a:hover {
     margin-bottom: 2%;
     padding-top: 2px;
   }
+
   .hashtag__img {
     justify-content: center;
     padding-left: 39%;
@@ -2094,117 +2507,142 @@ a:hover {
     width: 150px;
     height: 150px;
   }
+
   .hashtag__img * {
     width: 150px;
     height: 150px;
   }
+
   .footer__content {
     background-color: #000;
     transform: translateX(-6%);
     width: 113%;
     height: 13%;
   }
+
   .footer__column {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 72px;
     padding-top: 61px;
   }
+
   .footer__title {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 4px;
   }
+
   .customer__title,
   .miscellaneous__title {
     margin-bottom: 5px;
   }
+
   .footer__list {
     text-decoration: none;
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 1%;
-    transition: .2s linear;
+    transition: 0.2s linear;
   }
+
   .footer__list:hover {
     border-bottom: solid 1px #fff;
   }
+
   .footer__personal-ac {
     padding-left: 4%;
   }
+
   .footer__personal-ac,
   .footer__miscellaneous,
   .footer__customer {
     margin-right: 5%;
   }
+
   .footer__miscellaneous-for-mobile {
     display: none;
   }
+
   .social__new-buyer {
     margin-bottom: 33px;
   }
+
   .social__title {
     padding-left: 1px;
     margin-bottom: 3%;
   }
+
   .social__text {
     display: none;
   }
+
   .social__text-option {
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     width: 110%;
     padding-left: 3px;
     margin-bottom: 9%;
     letter-spacing: 1px;
   }
+
   .social__sign-up {
-    font: 500 10px/10px 'Gotham Pro', Helvetica;
+    font: 500 10px/10px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     padding: 7px 49px;
     border: solid 2px #fff;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
+
   .social__sign-up:hover {
     border: double 3px #b22222;
-    font: 500 11px/11px 'Gotham Pro', Helvetica;
+    font: 500 11px/11px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .social__icon {
     padding-left: 2px;
   }
+
   .icon {
     vertical-align: bottom;
     margin-right: 13%;
     text-decoration: none;
-    transition: .2s ease;
+    transition: 0.2s ease;
   }
+
   .icon__instagram {
     margin-right: 13%;
   }
+
   .icon:hover {
     border: double 3px #b22222;
     border-radius: 4px;
   }
+
   .icon__facebook-img {
     height: 14px;
     width: 7px;
   }
+
   .icon__twitter-img {
     height: 13px;
     width: 16px;
   }
+
   .icon__pinterest-img {
     height: 17px;
     width: 12px;
   }
+
   .icon__instagram-img {
     height: 16px;
     width: 16px;
   }
+
   .footer__license {
-    font: 300 12px/12px 'Gotham Pro', Helvetica;
+    font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     text-align: center;
     color: #fff;
     padding: 2px 0 3% 3px;
@@ -2216,31 +2654,38 @@ a:hover {
     margin: auto;
     width: 86%;
   }
+
   .logo {
     display: none;
   }
+
   .logo__second {
     padding-top: 8%;
     width: 110px;
     height: 24px;
   }
+
   .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 7%;
   }
+
   .menu,
   .search,
   .language {
     display: none;
   }
+
   .burger__menu {
     z-index: 1;
   }
+
   #menu__toggle {
     opacity: 0;
   }
+
   .menu__btn {
     position: relative;
     top: 21px;
@@ -2249,7 +2694,8 @@ a:hover {
     height: 25px;
     cursor: pointer;
     z-index: 2;
-    }
+  }
+
   .menu__btn > span::before,
   .menu__btn > span::after {
     display: block;
@@ -2257,16 +2703,19 @@ a:hover {
     width: 41px;
     height: 5px;
     background-color: #000;
-    transition: .20s ease;
+    transition: 0.20s ease;
   }
+
   .menu__btn > span::before {
     content: '';
     top: -7px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 3px;
   }
+
   .burger__menu {
     display: block;
     position: absolute;
@@ -2279,38 +2728,45 @@ a:hover {
     padding: 15% 0;
     text-align: center;
     background-color: #e5e5e5;
-    transition: .15s ease;
+    transition: 0.15s ease;
   }
+
   .burger__language {
     padding-top: 3%;
   }
+
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
     background-color: #e5e5e5;
     width: 30px;
     height: 30px;
-    transition: opacity .5s ease-in;
+    transition: opacity 0.5s ease-in;
   }
+
   .burger-language__link:hover {
-    opacity: .6;
+    opacity: 0.6;
   }
+
   .burger__search {
     padding: 3% 0 0 15%;
     width: 70%;
     margin-bottom: 3%;
   }
+
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
     background-color: #e5e5e5;
-    transition: .5s linear;
-    font: 500 25px/25px 'Gotham Pro', Helvetica;
+    transition: 0.5s linear;
+    font: 500 25px/25px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .burger-search__box:hover {
     background-color: #fff;
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-search__btn {
     background: center no-repeat url(img/Vector.svg);
     background-size: 95%;
@@ -2319,20 +2775,23 @@ a:hover {
     border-bottom: solid 3px #000;
     padding: 5px 0;
     transform: translateX(-30%);
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
   }
+
   .burger-search__btn:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item {
     display: block;
     padding: 10px 0;
     color: #000;
-    font: bold 15px/15px 'Gotham Pro', Helvetica;
+    font: bold 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: .10s ease;
+    transition: 0.10s ease;
     position: relative;
   }
+
   .burger-menu__item::after {
     display: block;
     content: '';
@@ -2342,72 +2801,91 @@ a:hover {
     height: 2px;
     background: #000;
     opacity: 0;
-    transition: opacity .5s ease, width .5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease;
   }
+
   .burger-menu__item-first::after {
     left: 40%;
   }
+
   .burger-menu__item-second::after {
     left: 39%;
   }
+
   .burger-menu__item-third::after {
     left: 40%;
   }
+
   .burger-menu__item-fourth::after {
     left: 36%;
   }
+
   .burger-menu__item-fifth::after {
     left: 40%;
   }
+
   .burger-menu__item-sixth::after {
     left: 36%;
   }
+
   .burger-menu__item-seventh::after {
     left: 37%;
   }
+
   .burger-menu__item:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item-first:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-second:hover::after {
     opacity: 1;
     width: 22%;
   }
+
   .burger-menu__item-third:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-fourth:hover::after {
     opacity: 1;
     width: 27%;
   }
+
   .burger-menu__item-fifth:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-sixth:hover::after {
     opacity: 1;
     width: 28%;
   }
+
   .burger-menu__item-seventh:hover::after {
     opacity: 1;
     width: 26%;
   }
+
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(45deg);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(135deg);
   }
+
   #menu__toggle:checked ~ .burger__menu {
     visibility: visible;
     right: 0;
   }
+
   .main__content {
     background: top center no-repeat url('img/rob-potter-422534-unsplash 375.png');
     background-size: 100% 100%;
@@ -2417,40 +2895,47 @@ a:hover {
     height: 12%;
     margin-bottom: 13%;
   }
+
   .main__title {
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
     padding: 17% 0 0 7%;
     margin-bottom: 12px;
   }
+
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0 0 0 7%;
-    transition: opacity .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     position: relative;
   }
+
   .main__link-img {
     width: 46px;
     padding-left: 1%;
   }
+
   .main__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .sneaker__title {
     text-align: center;
     text-transform: uppercase;
-    font: bold 20px/20px 'Gotham Pro', Helvetica;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     width: 100%;
     margin-bottom: 2%;
   }
+
   .sneaker__content {
     margin-bottom: 17%;
   }
+
   .sneaker__link {
     display: block;
     margin: auto;
@@ -2458,66 +2943,79 @@ a:hover {
     width: 100%;
     color: #000;
     vertical-align: top;
-    transition: .5s linear;
+    transition: 0.5s linear;
     padding-bottom: 1%;
   }
+
   .sneaker__link:hover {
     border: double 4px #c0c0c0;
   }
+
   .sneaker__link-white,
   .sneaker__link-grey,
   .sneaker__link-beige {
     display: none;
   }
+
   .sneaker__img {
     padding: 0 27% 0 27%;
     width: 168px;
     height: 170px;
     margin-bottom: 3%;
   }
+
   .sneaker__text {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     padding-left: 6%;
     margin-bottom: 2%;
     color: #000;
   }
+
   .sneaker__price,
   .sneaker__btn {
     display: inline;
   }
+
   .sneaker__price {
     padding-left: 6%;
-    font: bold 20px/20px 'Gotham Pro', Helvetica;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     margin-right: 45%;
     color: #000;
   }
+
   .sneaker__btn_small,
   .sneaker__btn_big {
     transform: translateY(20%);
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    transition: .5s linear;
+    transition: 0.5s linear;
     margin-right: 1px;
   }
+
   .sneaker__black-btn_grey {
     background: #c4c4c4;
   }
+
   .sneaker__black-btn_black {
     background: #000;
   }
+
   .sneaker__black-btn_red {
     background: #b62e3c;
   }
+
   .sneaker__black-btn_yellow {
     background: #fdb431;
   }
+
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
-    opacity: .7;
+    opacity: 0.7;
     border: solid 2px #000;
     border-radius: 50%;
   }
+
   .video__content {
     display: grid;
     grid-template-columns: 1fr;
@@ -2532,6 +3030,7 @@ a:hover {
     z-index: 1;
     padding-bottom: 5%;
   }
+
   .video__content::before {
     content: '';
     left: 0;
@@ -2542,47 +3041,56 @@ a:hover {
     background: #fff;
     transform: rotate(3deg);
   }
+
   .video__title {
     order: 1;
     text-align: center;
     padding: 17% 20% 0 20%;
     margin-bottom: 4%;
-    font: 500 20px/25px 'Gotham Pro', Helvetica;
+    font: 500 20px/25px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
   }
+
   .video__text {
     text-align: center;
-    font: normal 14px/17px 'Gotham Pro', Helvetica;
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     padding: 0 13% 0 13%;
     margin-bottom: 15px;
-    transition: .5s linear;
+    transition: 0.5s linear;
   }
+
   .video__text-link {
     order: 2;
     text-decoration: none;
   }
+
   .video__text:hover {
-    opacity: .7;
+    opacity: 0.7;
     color: #b22222;
   }
+
   .video__link {
     display: none;
   }
+
   .video {
     order: 3;
   }
+
   .video__img {
     padding: 8% 0 0 13%;
     align-items: center;
     width: 76%;
     height: 158px;
   }
+
   .video__play {
     transform: translateY(-310%);
     padding: 0 0 0 46%;
   }
+
   .play__btn {
     background: center no-repeat url('img/Group 17.svg');
     background-size: 115%;
@@ -2592,76 +3100,90 @@ a:hover {
     border: 4px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
   }
+
   .play__btn:hover {
     border: solid 4px #b22222;
     border-radius: 50%;
-    opacity: .7;
+    opacity: 0.7;
   }
+
   .stories__content {
     padding: 0 0 34% 2%;
     width: 114%;
     transform: translate(-7%,-2px);
     background-color: #000;
   }
+
   .stories__title {
     text-align: center;
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 7%;
   }
+
   .stories__column {
     display: block;
     margin: auto;
     vertical-align: top;
     width: 75%;
   }
+
   .stories__column-second,
   .stories__column-third {
     display: none;
   }
+
   .stories__img {
     width: 279px;
     height: 148px;
     margin-bottom: 25px;
   }
+
   .stories__subtitle {
-    font: bold 20px/20px 'Gotham Pro', Helvetica;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     width: 301px;
     margin-bottom: 4%;
   }
+
   .stories__text {
-    font: normal 14px/17px 'Gotham Pro', Helvetica;
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
     width: 100%;
     font-style: normal;
     color: #fff;
     height: 70%;
     margin-bottom: 7px;
   }
+
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    transition: .5s linear;
+    transition: 0.5s linear;
     margin-right: 23%;
   }
+
   .stories__link-img_white {
     width: 39px;
     padding: 6% 0 0 3%;
   }
+
   .stories__link-img {
     display: none;
   }
+
   .stories__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .stories__quote {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #d1d1d1;
     quotes: none;
   }
+
   .hashtag__content {
     background-color: #000;
     width: 116%;
@@ -2670,6 +3192,7 @@ a:hover {
     position: relative;
     margin-bottom: 84%;
   }
+
   .hashtag__content::after {
     content: '';
     left: -2px;
@@ -2681,14 +3204,16 @@ a:hover {
     transform: rotate(3deg);
     z-index: -1;
   }
+
   .hashtag__title {
-    font: 500 25px/24px 'Gotham Pro', Helvetica;
+    font: 500 25px/24px 'Gotham Pro', Helvetica, sans-serif;
     color: #e8e8e8;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3%;
     padding: 1% 0 0 4%;
   }
+
   .hashtag__img {
     display: grid;
     justify-content: center;
@@ -2699,115 +3224,144 @@ a:hover {
     height: 150px;
     padding: 0 0 0 32%;
   }
+
   .hashtag__img * {
     width: 150px;
     height: 150px;
   }
+
   .hashtag__img-first {
     order: 1;
   }
+
   .hashtag__img-second {
     order: 2;
   }
+
   .hashtag__img-third {
     order: 6;
   }
+
   .hashtag__img-seventh {
     order: 4;
   }
+
   .hashtag__img-fifth {
     order: 5;
   }
+
   .hashtag__img-sixth {
     order: 3;
   }
+
   .hashtag__img-fourth,
   .hashtag__img-first-repeat {
     display: none;
   }
+
   .footer__content {
     display: block;
     background-color: #000;
     transform: translateX(-7%);
     width: 116%;
   }
+
   .footer__column {
     display: block;
     vertical-align: top;
     text-align: center;
     padding-top: 9%;
   }
+
   .footer__title {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 2%;
   }
+
   .footer__first-list {
     margin-bottom: 6px;
   }
+
   .footer__list {
     text-decoration: none;
-    font: 300 15px/15px 'Gotham Pro', Helvetica;
+    font: 300 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
-    transition: .2s linear;
+    transition: 0.2s linear;
   }
+
   .footer__list:hover {
     border-bottom: solid 1px #fff;
   }
+
   .footer__personal-ac {
     margin-bottom: 3%;
   }
+
   .footer__customer {
     margin: 0 7% 4% 0;
     padding-left: 6%;
   }
+
   .customer__title {
     margin-bottom: 1%;
   }
+
   .footer__third-list {
     margin-bottom: 2px;
   }
+
   .footer__miscellaneous-for-mobile {
     margin-bottom: 4%;
   }
+
   .miscellaneous__title {
     margin-bottom: 1%;
   }
+
   .footer__second-list {
     margin-bottom: 2px;
   }
+
   .footer__miscellaneous {
     display: none;
   }
+
   .social__new-buyer {
     margin-bottom: 30%;
   }
+
   .social__title {
     margin-bottom: 3%;
   }
+
   .social__text {
     display: none;
   }
+
   .social__text-option {
     text-align: center;
-    font: 300 15px/15px 'Gotham Pro', Helvetica;
+    font: 300 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     width: 100%;
     margin-bottom: 7%;
   }
+
   .social__sign-up {
-    font: 500 12px/11px 'Gotham Pro', Helvetica;
+    font: 500 12px/11px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     padding: 10px 48px;
     border: solid 2px #fff;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
+
   .social__sign-up:hover {
     border: double 3px #b22222;
-    font: 500 11px/11px 'Gotham Pro', Helvetica;
+    font: 500 11px/11px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .social__icon {
     display: flex;
     justify-content: space-between;
@@ -2816,37 +3370,46 @@ a:hover {
     padding-left: 27%;
     margin-bottom: 6%;
   }
+
   .icon {
     margin-right: 5%;
     text-decoration: none;
-    transition: .2s ease;
+    transition: 0.2s ease;
   }
+
   .icon:last-child {
     margin-right: 0;
   }
+
   .icon-img {
     height: 22px;
   }
+
   .icon__twitter-img {
     height: 17px;
   }
+
   .icon__facebook-img {
     height: 20px;
     width: 10px;
   }
+
   .icon__pinterest {
     padding-top: 3px;
   }
+
   .icon__pinterest-img {
     height: 22px;
     width: 17px;
   }
+
   .icon:hover {
     border: double 3px #b22222;
     border-radius: 4px;
   }
+
   .footer__license {
-    font: 300 13px/13px 'Gotham Pro', Helvetica;
+    font: 300 13px/13px 'Gotham Pro', Helvetica, sans-serif;
     text-align: center;
     color: #fff;
     padding: 0 0 7% 2%;
@@ -2859,31 +3422,38 @@ a:hover {
     margin: auto;
     width: 76%;
   }
+
   .logo {
     display: none;
   }
+
   .logo__second {
     padding-top: 8%;
     width: 110px;
     height: 24px;
   }
+
   .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 9%;
   }
+
   .menu,
   .search,
   .language {
     display: none;
   }
+
   .burger__menu {
     z-index: 1;
   }
+
   #menu__toggle {
     opacity: 0;
   }
+
   .menu__btn {
     position: relative;
     top: 21px;
@@ -2892,7 +3462,8 @@ a:hover {
     height: 25px;
     cursor: pointer;
     z-index: 2;
-    }
+  }
+
   .menu__btn > span::before,
   .menu__btn > span::after {
     display: block;
@@ -2900,16 +3471,19 @@ a:hover {
     width: 41px;
     height: 5px;
     background-color: #000;
-    transition: .20s ease;
+    transition: 0.20s ease;
   }
+
   .menu__btn > span::before {
     content: '';
     top: -7px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 3px;
   }
+
   .burger__menu {
     display: block;
     position: absolute;
@@ -2922,38 +3496,45 @@ a:hover {
     padding: 15% 0;
     text-align: center;
     background-color: #e5e5e5;
-    transition: .15s ease;
+    transition: 0.15s ease;
   }
+
   .burger__language {
     padding-top: 3%;
   }
+
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
     background-color: #e5e5e5;
     width: 30px;
     height: 30px;
-    transition: opacity .5s ease-in;
+    transition: opacity 0.5s ease-in;
   }
+
   .burger-language__link:hover {
-    opacity: .6;
+    opacity: 0.6;
   }
+
   .burger__search {
     padding: 3% 0 0 15%;
     width: 70%;
     margin-bottom: 3%;
   }
+
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
     background-color: #e5e5e5;
-    transition: .5s linear;
-    font: 500 25px/25px 'Gotham Pro', Helvetica;
+    transition: 0.5s linear;
+    font: 500 25px/25px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .burger-search__box:hover {
     background-color: #fff;
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-search__btn {
     background: center no-repeat url(img/Vector.svg);
     background-size: 95%;
@@ -2962,20 +3543,23 @@ a:hover {
     border-bottom: solid 3px #000;
     padding: 5px 0;
     transform: translateX(-30%);
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
   }
+
   .burger-search__btn:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item {
     display: block;
     padding: 10px 0;
     color: #000;
-    font: bold 15px/15px 'Gotham Pro', Helvetica;
+    font: bold 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: .10s ease;
+    transition: 0.10s ease;
     position: relative;
   }
+
   .burger-menu__item::after {
     display: block;
     content: '';
@@ -2985,72 +3569,91 @@ a:hover {
     height: 2px;
     background: #000;
     opacity: 0;
-    transition: opacity .5s ease, width .5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease;
   }
+
   .burger-menu__item-first::after {
     left: 40%;
   }
+
   .burger-menu__item-second::after {
     left: 39%;
   }
+
   .burger-menu__item-third::after {
     left: 40%;
   }
+
   .burger-menu__item-fourth::after {
     left: 36%;
   }
+
   .burger-menu__item-fifth::after {
     left: 40%;
   }
+
   .burger-menu__item-sixth::after {
     left: 36%;
   }
+
   .burger-menu__item-seventh::after {
     left: 37%;
   }
+
   .burger-menu__item:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item-first:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-second:hover::after {
     opacity: 1;
     width: 22%;
   }
+
   .burger-menu__item-third:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-fourth:hover::after {
     opacity: 1;
     width: 27%;
   }
+
   .burger-menu__item-fifth:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-sixth:hover::after {
     opacity: 1;
     width: 28%;
   }
+
   .burger-menu__item-seventh:hover::after {
     opacity: 1;
     width: 26%;
   }
+
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(45deg);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(135deg);
   }
+
   #menu__toggle:checked ~ .burger__menu {
     visibility: visible;
     right: 0;
   }
+
   .main__content {
     background: top center no-repeat url('img/rob-potter-422534-unsplash 375.png');
     background-size: 100% 100%;
@@ -3060,39 +3663,46 @@ a:hover {
     height: 12%;
     margin-bottom: 13%;
   }
+
   .main__title {
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
     padding: 17% 0 0 13%;
     margin-bottom: 12px;
   }
+
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0 0 0 13%;
-    transition: opacity .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     position: relative;
   }
+
   .main__link-img {
     width: 46px;
     padding-left: 1%;
   }
+
   .main__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .sneaker__title {
     padding-left: 10%;
     text-transform: uppercase;
-    font: bold 20px/20px 'Gotham Pro', Helvetica;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     width: 100%;
   }
+
   .sneaker__content {
     margin-bottom: 17%;
   }
+
   .sneaker__link {
     display: block;
     margin: auto;
@@ -3100,17 +3710,20 @@ a:hover {
     width: 100%;
     color: #000;
     vertical-align: top;
-    transition: .5s linear;
+    transition: 0.5s linear;
     padding-bottom: 1%;
   }
+
   .sneaker__link:hover {
     border: double 4px #c0c0c0;
   }
+
   .sneaker__link-white,
   .sneaker__link-grey,
   .sneaker__link-beige {
     display: none;
   }
+
   .sneaker__img {
     padding-left: 22%;
     width: 163px;
@@ -3118,49 +3731,59 @@ a:hover {
     margin-bottom: 3%;
     transform: translateY(-3%);
   }
+
   .sneaker__text {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     padding-left: 6%;
     margin-bottom: 2%;
     color: #000;
   }
+
   .sneaker__price,
   .sneaker__btn {
     display: inline;
   }
+
   .sneaker__price {
     padding-left: 6%;
-    font: bold 20px/20px 'Gotham Pro', Helvetica;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     margin-right: 40%;
     color: #000;
   }
+
   .sneaker__btn_small,
   .sneaker__btn_big {
     transform: translateY(20%);
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    transition: .5s linear;
+    transition: 0.5s linear;
     margin-right: 1px;
   }
+
   .sneaker__black-btn_grey {
     background: #c4c4c4;
   }
+
   .sneaker__black-btn_black {
     background: #000;
   }
+
   .sneaker__black-btn_red {
     background: #b62e3c;
   }
+
   .sneaker__black-btn_yellow {
     background: #fdb431;
   }
+
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
-    opacity: .7;
+    opacity: 0.7;
     border: solid 2px #000;
     border-radius: 50%;
   }
+
   .video__content {
     display: grid;
     grid-template-columns: 1fr;
@@ -3175,6 +3798,7 @@ a:hover {
     z-index: 1;
     padding-bottom: 5%;
   }
+
   .video__content::before {
     content: '';
     left: 0;
@@ -3185,47 +3809,56 @@ a:hover {
     background: #fff;
     transform: rotate(2.5deg);
   }
+
   .video__title {
     order: 1;
     text-align: center;
     padding: 17% 20% 0 20%;
     margin-bottom: 4%;
-    font: 500 20px/25px 'Gotham Pro', Helvetica;
+    font: 500 20px/25px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
   }
+
   .video__text {
     text-align: center;
-    font: normal 14px/17px 'Gotham Pro', Helvetica;
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     padding: 0 13% 0 13%;
     margin-bottom: 15px;
-    transition: .5s linear;
+    transition: 0.5s linear;
   }
+
   .video__text-link {
     order: 2;
     text-decoration: none;
   }
+
   .video__text:hover {
-    opacity: .7;
+    opacity: 0.7;
     color: #b22222;
   }
+
   .video__link {
     display: none;
   }
+
   .video {
     order: 3;
   }
+
   .video__img {
     padding: 8% 0 0 13%;
     align-items: center;
     width: 76%;
     height: 158px;
   }
+
   .video__play {
     transform: translateY(-310%);
     padding: 0 0 0 46%;
   }
+
   .play__btn {
     background: center no-repeat url('img/Group 17.svg');
     background-size: 115%;
@@ -3235,76 +3868,90 @@ a:hover {
     border: 4px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
   }
+
   .play__btn:hover {
     border: solid 4px #b22222;
     border-radius: 50%;
-    opacity: .7;
+    opacity: 0.7;
   }
+
   .stories__content {
     padding: 0 0 34% 2%;
     width: 131%;
     transform: translate(-13%,-2px);
     background-color: #000;
   }
+
   .stories__title {
     text-align: center;
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 7%;
   }
+
   .stories__column {
     display: block;
     margin: auto;
     vertical-align: top;
     width: 75%;
   }
+
   .stories__column-second,
   .stories__column-third {
     display: none;
   }
+
   .stories__img {
     width: 279px;
     height: 148px;
     margin-bottom: 25px;
   }
+
   .stories__subtitle {
-    font: bold 20px/20px 'Gotham Pro', Helvetica;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     width: 301px;
     margin-bottom: 4%;
   }
+
   .stories__text {
-    font: normal 14px/17px 'Gotham Pro', Helvetica;
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
     width: 100%;
     font-style: normal;
     color: #fff;
     height: 70%;
     margin-bottom: 7px;
   }
+
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    transition: .5s linear;
+    transition: 0.5s linear;
     margin-right: 23%;
   }
+
   .stories__link-img_white {
     width: 39px;
     padding: 6% 0 0 3%;
   }
+
   .stories__link-img {
     display: none;
   }
+
   .stories__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .stories__quote {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #d1d1d1;
     quotes: none;
   }
+
   .hashtag__content {
     background-color: #000;
     width: 133%;
@@ -3313,6 +3960,7 @@ a:hover {
     position: relative;
     margin-bottom: 84%;
   }
+
   .hashtag__content::after {
     content: '';
     left: 0;
@@ -3324,14 +3972,16 @@ a:hover {
     transform: rotate(3deg);
     z-index: -1;
   }
+
   .hashtag__title {
-    font: 500 25px/24px 'Gotham Pro', Helvetica;
+    font: 500 25px/24px 'Gotham Pro', Helvetica, sans-serif;
     color: #e8e8e8;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3%;
     padding: 1% 0 0 4%;
   }
+
   .hashtag__img {
     display: grid;
     justify-content: center;
@@ -3342,119 +3992,149 @@ a:hover {
     height: 140px;
     padding: 0 0 0 32%;
   }
+
   .hashtag__img * {
     width: 140px;
     height: 140px;
   }
+
   .hashtag__img-first {
     order: 1;
   }
+
   .hashtag__img-second {
     order: 2;
   }
+
   .hashtag__img-third {
     order: 6;
   }
+
   .hashtag__img-seventh {
     order: 4;
   }
+
   .hashtag__img-fifth {
     order: 5;
   }
+
   .hashtag__img-sixth {
     order: 3;
   }
+
   .hashtag__img-fourth,
   .hashtag__img-first-repeat {
     display: none;
   }
+
   .footer__content {
     display: block;
     background-color: #000;
     transform: translateX(-12%);
     width: 132%;
   }
+
   .footer__column {
     display: block;
     vertical-align: top;
     text-align: center;
     padding-top: 9%;
   }
+
   .footer__title {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 2%;
   }
+
   .personal-ac__title {
     padding-top: 2px;
     margin-bottom: 1%;
   }
+
   .footer__first-list {
     margin-bottom: 6px;
   }
+
   .footer__list {
     text-decoration: none;
-    font: 300 15px/15px 'Gotham Pro', Helvetica;
+    font: 300 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
-    transition: .2s linear;
+    transition: 0.2s linear;
   }
+
   .footer__list:hover {
     border-bottom: solid 1px #fff;
   }
+
   .footer__personal-ac {
     margin-bottom: 14px;
   }
+
   .footer__customer {
     margin: 0 7% 4% 0;
     padding-left: 6%;
   }
+
   .customer__title {
     margin-bottom: 1%;
   }
+
   .footer__third-list {
     margin-bottom: 2px;
   }
+
   .footer__miscellaneous-for-mobile {
     margin-bottom: 4%;
   }
+
   .miscellaneous__title {
     margin-bottom: 1%;
   }
+
   .footer__second-list {
     margin-bottom: 2px;
   }
+
   .footer__miscellaneous {
     display: none;
   }
+
   .social__new-buyer {
     margin-bottom: 30%;
   }
+
   .social__title {
     margin-bottom: 3%;
   }
+
   .social__text {
     display: none;
   }
+
   .social__text-option {
     text-align: center;
-    font: 300 15px/15px 'Gotham Pro', Helvetica;
+    font: 300 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     width: 100%;
     margin-bottom: 7%;
   }
+
   .social__sign-up {
-    font: 500 12px/11px 'Gotham Pro', Helvetica;
+    font: 500 12px/11px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     padding: 10px 48px;
     border: solid 2px #fff;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
+
   .social__sign-up:hover {
     border: double 3px #b22222;
-    font: 500 11px/11px 'Gotham Pro', Helvetica;
+    font: 500 11px/11px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .social__icon {
     display: flex;
     justify-content: space-between;
@@ -3463,40 +4143,49 @@ a:hover {
     width: 168px;
     margin-bottom: 6%;
   }
+
   .icon {
     margin-right: 31px;
     text-decoration: none;
-    transition: .2s ease;
+    transition: 0.2s ease;
   }
+
   .icon:last-child {
     margin-right: 0;
   }
+
   .icon-img {
     height: 22px;
   }
+
   .icon__twitter-img {
     height: 17px;
   }
+
   .icon__facebook-img {
     height: 20px;
     width: 10px;
   }
+
   .icon__pinterest {
     padding-top: 3px;
   }
+
   .icon__pinterest-img {
     height: 22px;
     width: 17px;
   }
+
   .icon:hover {
     border: double 3px #b22222;
     border-radius: 4px;
   }
+
   .footer__license {
-    font: 300 13px/13px 'Gotham Pro', Helvetica;
+    font: 300 13px/13px 'Gotham Pro', Helvetica, sans-serif;
     text-align: center;
     color: #fff;
-    padding: 0 0 7% 2%;
+    padding: 0 0 9% 2%;
     transform: translateX(-1%);
   }
 }
@@ -3506,31 +4195,38 @@ a:hover {
     margin: auto;
     width: 88%;
   }
+
   .logo {
     display: none;
   }
+
   .logo__second {
     padding-top: 8%;
     width: 106px;
     height: 24px;
   }
+
   .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 9%;
   }
+
   .menu,
   .search,
   .language {
     display: none;
   }
+
   .burger__menu {
     z-index: 1;
   }
+
   #menu__toggle {
     opacity: 0;
   }
+
   .menu__btn {
     position: relative;
     top: 21px;
@@ -3539,7 +4235,8 @@ a:hover {
     height: 25px;
     cursor: pointer;
     z-index: 2;
-    }
+  }
+
   .menu__btn > span::before,
   .menu__btn > span::after {
     display: block;
@@ -3547,16 +4244,19 @@ a:hover {
     width: 41px;
     height: 5px;
     background-color: #000;
-    transition: .20s ease;
+    transition: 0.20s ease;
   }
+
   .menu__btn > span::before {
     content: '';
     top: -7px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 3px;
   }
+
   .burger__menu {
     display: block;
     position: absolute;
@@ -3569,38 +4269,45 @@ a:hover {
     padding: 15% 0;
     text-align: center;
     background-color: #e5e5e5;
-    transition: .15s ease;
+    transition: 0.15s ease;
   }
+
   .burger__language {
     padding-top: 3%;
   }
+
   .burger-language__link {
     background: top no-repeat url('img/united-states.svg');
     background-size: 100%;
     background-color: #e5e5e5;
     width: 30px;
     height: 30px;
-    transition: opacity .5s ease-in;
+    transition: opacity 0.5s ease-in;
   }
+
   .burger-language__link:hover {
-    opacity: .6;
+    opacity: 0.6;
   }
+
   .burger__search {
     padding: 3% 0 0 15%;
     width: 70%;
     margin-bottom: 3%;
   }
+
   .burger-search__box {
     border-bottom: solid 3px #000;
     width: 80%;
     background-color: #e5e5e5;
-    transition: .5s linear;
-    font: 500 25px/25px 'Gotham Pro', Helvetica;
+    transition: 0.5s linear;
+    font: 500 25px/25px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .burger-search__box:hover {
     background-color: #fff;
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-search__btn {
     background: center no-repeat url(img/Vector.svg);
     background-size: 95%;
@@ -3609,20 +4316,23 @@ a:hover {
     border-bottom: solid 3px #000;
     padding: 5px 0;
     transform: translateX(-30%);
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
   }
+
   .burger-search__btn:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item {
     display: block;
     padding: 10px 0;
     color: #000;
-    font: bold 15px/15px 'Gotham Pro', Helvetica;
+    font: bold 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: .10s ease;
+    transition: 0.10s ease;
     position: relative;
   }
+
   .burger-menu__item::after {
     display: block;
     content: '';
@@ -3632,72 +4342,91 @@ a:hover {
     height: 2px;
     background: #000;
     opacity: 0;
-    transition: opacity .5s ease, width .5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease;
   }
+
   .burger-menu__item-first::after {
     left: 40%;
   }
+
   .burger-menu__item-second::after {
     left: 39%;
   }
+
   .burger-menu__item-third::after {
     left: 40%;
   }
+
   .burger-menu__item-fourth::after {
     left: 36%;
   }
+
   .burger-menu__item-fifth::after {
     left: 40%;
   }
+
   .burger-menu__item-sixth::after {
     left: 36%;
   }
+
   .burger-menu__item-seventh::after {
     left: 37%;
   }
+
   .burger-menu__item:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .burger-menu__item-first:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-second:hover::after {
     opacity: 1;
     width: 22%;
   }
+
   .burger-menu__item-third:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-fourth:hover::after {
     opacity: 1;
     width: 27%;
   }
+
   .burger-menu__item-fifth:hover::after {
     opacity: 1;
     width: 20%;
   }
+
   .burger-menu__item-sixth:hover::after {
     opacity: 1;
     width: 28%;
   }
+
   .burger-menu__item-seventh:hover::after {
     opacity: 1;
     width: 26%;
   }
+
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(45deg);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(135deg);
   }
+
   #menu__toggle:checked ~ .burger__menu {
     visibility: visible;
     right: 0;
   }
+
   .main__content {
     background: top center no-repeat url('img/rob-potter-422534-unsplash (3).png');
     background-size: 100% 100%;
@@ -3707,39 +4436,46 @@ a:hover {
     height: 12%;
     margin-bottom: 34px;
   }
+
   .main__title {
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     width: 52%;
     padding: 20% 0 0 6%;
     margin-bottom: 14px;
   }
+
   .main__link {
     text-decoration: none;
     color: #fff;
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 0 0 0 6%;
-    transition: opacity .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     position: relative;
   }
+
   .main__link-img {
     width: 46px;
     padding-left: 1%;
   }
+
   .main__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .sneaker__title {
     text-align: center;
     transform: translateX(-2%);
     text-transform: uppercase;
-    font: bold 20px/20px 'Gotham Pro', Helvetica;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .sneaker__content {
     margin-bottom: 20%;
   }
+
   .sneaker__link {
     display: block;
     margin: auto;
@@ -3747,17 +4483,20 @@ a:hover {
     width: 100%;
     color: #000;
     vertical-align: top;
-    transition: .5s linear;
+    transition: 0.5s linear;
     padding-bottom: 1%;
   }
+
   .sneaker__link:hover {
     border: double 4px #c0c0c0;
   }
+
   .sneaker__link-white,
   .sneaker__link-grey,
   .sneaker__link-beige {
     display: none;
   }
+
   .sneaker__img {
     padding-left: 22%;
     width: 163px;
@@ -3765,50 +4504,60 @@ a:hover {
     margin-bottom: 4%;
     transform: translateY(-3%);
   }
+
   .sneaker__text {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     padding-left: 6%;
     margin-bottom: 3%;
     color: #000;
   }
+
   .sneaker__price,
   .sneaker__btn {
     display: inline;
   }
+
   .sneaker__price {
     padding-left: 5%;
-    font: bold 20px/20px 'Gotham Pro', Helvetica;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     margin-right: 41%;
     color: #000;
   }
+
   .sneaker__btn_small,
   .sneaker__btn_big {
     transform: translateY(20%);
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    transition: .5s linear;
+    transition: 0.5s linear;
   }
+
   .sneaker__black-btn_grey {
     background: #c4c4c4;
   }
+
   .sneaker__black-btn_black {
     background: #000;
     margin-right: 1px;
   }
+
   .sneaker__black-btn_red {
     background: #b62e3c;
     margin-right: 1px;
   }
+
   .sneaker__black-btn_yellow {
     background: #fdb431;
   }
+
   .sneaker__btn_big:hover,
   .sneaker__btn_small:hover {
-    opacity: .7;
+    opacity: 0.7;
     border: solid 2px #000;
     border-radius: 50%;
   }
+
   .video__content {
     display: grid;
     grid-template-columns: 1;
@@ -3822,6 +4571,7 @@ a:hover {
     z-index: 1;
     padding-bottom: 4%;
   }
+
   .video__content::before {
     content: '';
     left: 0;
@@ -3832,46 +4582,55 @@ a:hover {
     background: #fff;
     transform: rotate(3deg);
   }
+
   .video__title {
     order: 1;
     text-align: center;
     width: 80%;
     padding: 16% 0 0 9%;
-    font: 500 20px/25px 'Gotham Pro', Helvetica;
+    font: 500 20px/25px 'Gotham Pro', Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 6%;
   }
+
   .video__text {
     text-align: center;
-    font: normal 14px/17px 'Gotham Pro', Helvetica;
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     padding: 0 20px 0 6%;
     transition: 1s ease;
   }
+
   .video__text-link {
     order: 2;
     text-decoration: none;
   }
+
   .video__text:hover {
-    opacity: .7;
+    opacity: 0.7;
     color: #b22222;
   }
+
   .video__link {
     display: none;
   }
+
   .video {
     order: 3;
   }
+
   .video__img {
     padding: 8% 0 0 6%;
     width: 88%;
     height: 161px;
   }
+
   .video__play {
     transform: translateY(-310%);
     padding: 0 0 0 45%;
   }
+
   .play__btn {
     background: center no-repeat url('img/Group 17.svg');
     background-size: 115%;
@@ -3881,75 +4640,89 @@ a:hover {
     border: 4px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
   }
+
   .play__btn:hover {
     border: solid 4px #b22222;
     border-radius: 50%;
-    opacity: .7;
+    opacity: 0.7;
   }
+
   .stories__content {
     padding-bottom: 35%;
     width: 114%;
     transform: translate(-6%,-2px);
     background-color: #000;
   }
+
   .stories__title {
     text-align: center;
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 26px;
   }
+
   .stories__column {
     display: block;
     margin: auto;
     vertical-align: top;
     width: 86%;
   }
+
   .stories__column-second,
   .stories__column-third {
     display: none;
   }
+
   .stories__img {
     width: 279px;
     height: 148px;
     margin-bottom: 9%;
   }
+
   .stories__subtitle {
-    font: 500 20px/20px 'Gotham Pro', Helvetica;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 12px;
   }
+
   .stories__text {
-    font: normal 14px/17px 'Gotham Pro', Helvetica;
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
     width: 102%;
     font-style: normal;
     color: #fff;
     height: 70%;
     margin-bottom: 2%;
   }
+
   .stories__link {
-    font: 500 12px/12px 'Gotham Pro', Helvetica;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    transition: .5s linear;
+    transition: 0.5s linear;
     margin-right: 22%;
   }
+
   .stories__link-img_white {
     width: 39px;
     padding: 6% 0 0 3%;
   }
+
   .stories__link-img {
     display: none;
   }
+
   .stories__link:hover {
-    opacity: .5;
+    opacity: 0.5;
   }
+
   .stories__quote {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #d1d1d1;
     quotes: none;
   }
+
   .hashtag__content {
     background-color: #000;
     width: 114%;
@@ -3958,6 +4731,7 @@ a:hover {
     position: relative;
     margin-bottom: 89%;
   }
+
   .hashtag__content::after {
     content: '';
     left: -2px;
@@ -3969,14 +4743,16 @@ a:hover {
     transform: rotate(3deg);
     z-index: -1;
   }
+
   .hashtag__title {
-    font: 500 25px/24px 'Gotham Pro', Helvetica;
+    font: 500 25px/24px 'Gotham Pro', Helvetica, sans-serif;
     color: #e8e8e8;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 11px;
     padding: 1% 0 0 1%;
   }
+
   .hashtag__img {
     display: grid;
     justify-content: center;
@@ -3987,32 +4763,41 @@ a:hover {
     height: 140px;
     padding: 0 0 0 28%;
   }
+
   .hashtag__img * {
     width: 140px;
     height: 140px;
   }
+
   .hashtag__img-first {
     order: 1;
   }
+
   .hashtag__img-second {
     order: 2;
   }
+
   .hashtag__img-third {
     order: 6;
   }
+
   .hashtag__img-seventh {
     order: 4;
   }
+
   .hashtag__img-fifth {
     order: 5;
   }
+
   .hashtag__img-sixth {
     order: 3;
   }
+
   .hashtag__img-fourth,
   .hashtag__img-first-repeat {
     display: none;
   }
+
   .footer__content {
     display: block;
     background-color: #000;
@@ -4020,80 +4805,99 @@ a:hover {
     width: 112%;
     padding-top: 39px;
   }
+
   .footer__column {
     display: block;
     vertical-align: top;
     text-align: center;
   }
+
   .footer__title {
-    font: 500 15px/15px 'Gotham Pro', Helvetica;
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 1%;
   }
+
   .footer__first-list {
     margin-bottom: 6px;
   }
+
   .footer__list {
     text-decoration: none;
-    font: 300 15px/15px 'Gotham Pro', Helvetica;
+    font: 300 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
-    transition: .2s linear;
+    transition: 0.2s linear;
   }
+
   .footer__list:hover {
     border-bottom: solid 1px #fff;
   }
+
   .footer__personal-ac,
   .footer__miscellaneous-for-mobile {
     margin-bottom: 48px;
   }
+
   .footer__customer {
     margin: 0 7% 48px 0;
     padding-left: 6%;
   }
+
   .customer__title {
     margin-bottom: 4px;
   }
+
   .footer__third-list {
     margin-bottom: 2px;
   }
+
   .miscellaneous__title {
     margin-bottom: 1%;
   }
+
   .footer__second-list {
     margin-bottom: 2px;
   }
+
   .footer__miscellaneous {
     display: none;
   }
+
   .social__new-buyer {
     margin-bottom: 113px;
   }
+
   .social__title {
     margin-bottom: 10px;
   }
+
   .social__text {
     display: none;
   }
+
   .social__text-option {
     text-align: center;
-    font: 300 15px/15px 'Gotham Pro', Helvetica;
+    font: 300 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     width: 100%;
     margin-bottom: 10%;
   }
+
   .social__sign-up {
-    font: 500 12px/11px 'Gotham Pro', Helvetica;
+    font: 500 12px/11px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     padding: 10px 48px;
     border: solid 2px #fff;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
+
   .social__sign-up:hover {
     border: double 3px #b22222;
-    font: 500 11px/11px 'Gotham Pro', Helvetica;
+    font: 500 11px/11px 'Gotham Pro', Helvetica, sans-serif;
   }
+
   .social__icon {
     display: flex;
     justify-content: space-between;
@@ -4101,34 +4905,795 @@ a:hover {
     width: 168px;
     margin-bottom: 23px;
   }
+
   .icon {
     margin-right: 31px;
     text-decoration: none;
-    transition: .2s ease;
+    transition: 0.2s ease;
   }
+
   .icon:last-child {
     margin-right: 0;
   }
+
   .icon-img {
     height: 22px;
   }
+
   .icon__twitter-img {
     padding-top: 2px;
     height: 17px;
   }
+
   .icon__facebook-img {
     padding-left: 1px;
     width: 10px;
     height: 20px;
   }
+
   .icon:hover {
     border: double 3px #b22222;
     border-radius: 4px;
   }
+
   .footer__license {
-    font: 300 13px/13px 'Gotham Pro', Helvetica;
+    font: 300 13px/13px 'Gotham Pro', Helvetica, sans-serif;
     text-align: center;
     color: #fff;
-    padding: 0 0 11% 0;
+    padding: 0 0 33px 0;
+  }
+}
+
+@media (max-width: 319px) {
+  .wrapper {
+    margin: auto;
+    width: 88%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo__second {
+    padding-top: 8%;
+    width: 106px;
+    height: 24px;
+  }
+
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9%;
+  }
+
+  .menu,
+  .search,
+  .language {
+    display: none;
+  }
+
+  .burger__menu {
+    z-index: 1;
+  }
+
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  .menu__btn {
+    position: relative;
+    top: 21px;
+    right: 30px;
+    width: 41px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 41px;
+    height: 5px;
+    background-color: #000;
+    transition: 0.20s ease;
+  }
+
+  .menu__btn > span::before {
+    content: '';
+    top: -7px;
+  }
+
+  .menu__btn > span::after {
+    content: '';
+    top: 3px;
+  }
+
+  .burger__menu {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    right: 0px;
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    padding: 15% 0;
+    text-align: center;
+    background-color: #e5e5e5;
+    transition: 0.15s ease;
+  }
+
+  .burger__language {
+    padding-top: 3%;
+  }
+
+  .burger-language__link {
+    background: top no-repeat url('img/united-states.svg');
+    background-size: 100%;
+    background-color: #e5e5e5;
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.5s ease-in;
+  }
+
+  .burger-language__link:hover {
+    opacity: 0.6;
+  }
+
+  .burger__search {
+    padding: 3% 0 0 15%;
+    width: 70%;
+    margin-bottom: 3%;
+  }
+
+  .burger-search__box {
+    border-bottom: solid 3px #000;
+    width: 80%;
+    background-color: #e5e5e5;
+    transition: 0.5s linear;
+    font: 500 25px/25px 'Gotham Pro', Helvetica, sans-serif;
+  }
+
+  .burger-search__box:hover {
+    background-color: #fff;
+    opacity: 0.5;
+  }
+
+  .burger-search__btn {
+    background: center no-repeat url(img/Vector.svg);
+    background-size: 95%;
+    width: 20px;
+    height: 30px;
+    border-bottom: solid 3px #000;
+    padding: 5px 0;
+    transform: translateX(-30%);
+    transition: 0.3s ease-in;
+  }
+
+  .burger-search__btn:hover {
+    opacity: 0.5;
+  }
+
+  .burger-menu__item {
+    display: block;
+    padding: 10px 0;
+    color: #000;
+    font: bold 15px/15px 'Gotham Pro', Helvetica, sans-serif;
+    text-decoration: none;
+    transition: 0.10s ease;
+    position: relative;
+  }
+
+  .burger-menu__item::after {
+    display: block;
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background: #000;
+    opacity: 0;
+    transition: opacity 0.5s ease, width 0.5s ease;
+  }
+
+  .burger-menu__item-first::after {
+    left: 40%;
+  }
+
+  .burger-menu__item-second::after {
+    left: 39%;
+  }
+
+  .burger-menu__item-third::after {
+    left: 40%;
+  }
+
+  .burger-menu__item-fourth::after {
+    left: 36%;
+  }
+
+  .burger-menu__item-fifth::after {
+    left: 40%;
+  }
+
+  .burger-menu__item-sixth::after {
+    left: 36%;
+  }
+
+  .burger-menu__item-seventh::after {
+    left: 37%;
+  }
+
+  .burger-menu__item:hover {
+    opacity: 0.5;
+  }
+
+  .burger-menu__item-first:hover::after {
+    opacity: 1;
+    width: 20%;
+  }
+
+  .burger-menu__item-second:hover::after {
+    opacity: 1;
+    width: 22%;
+  }
+
+  .burger-menu__item-third:hover::after {
+    opacity: 1;
+    width: 20%;
+  }
+
+  .burger-menu__item-fourth:hover::after {
+    opacity: 1;
+    width: 27%;
+  }
+
+  .burger-menu__item-fifth:hover::after {
+    opacity: 1;
+    width: 20%;
+  }
+
+  .burger-menu__item-sixth:hover::after {
+    opacity: 1;
+    width: 28%;
+  }
+
+  .burger-menu__item-seventh:hover::after {
+    opacity: 1;
+    width: 26%;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(135deg);
+  }
+
+  #menu__toggle:checked ~ .burger__menu {
+    visibility: visible;
+    right: 0;
+  }
+
+  .main__content {
+    background: top center no-repeat url('img/rob-potter-422534-unsplash (3).png');
+    background-size: 100% 100%;
+    transform: translateX(-6%);
+    padding-bottom: 13%;
+    width: 114%;
+    height: 12%;
+    margin-bottom: 34px;
+  }
+
+  .main__title {
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    width: 52%;
+    padding: 20% 0 0 6%;
+    margin-bottom: 14px;
+  }
+
+  .main__link {
+    text-decoration: none;
+    color: #fff;
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 0 0 0 6%;
+    transition: opacity 0.5s ease-in-out;
+    position: relative;
+  }
+
+  .main__link-img {
+    width: 46px;
+    padding-left: 1%;
+  }
+
+  .main__link:hover {
+    opacity: 0.5;
+  }
+
+  .sneaker__title {
+    text-align: center;
+    transform: translateX(-2%);
+    text-transform: uppercase;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
+  }
+
+  .sneaker__content {
+    margin-bottom: 20%;
+  }
+
+  .sneaker__link {
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    width: 100%;
+    color: #000;
+    vertical-align: top;
+    transition: 0.5s linear;
+    padding-bottom: 1%;
+  }
+
+  .sneaker__link:hover {
+    border: double 4px #c0c0c0;
+  }
+
+  .sneaker__link-white,
+  .sneaker__link-grey,
+  .sneaker__link-beige {
+    display: none;
+  }
+
+  .sneaker__img {
+    padding-left: 22%;
+    width: 163px;
+    height: 165px;
+    margin-bottom: 4%;
+    transform: translateY(-3%);
+  }
+
+  .sneaker__text {
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
+    padding-left: 6%;
+    margin-bottom: 3%;
+    color: #000;
+  }
+
+  .sneaker__price,
+  .sneaker__btn {
+    display: inline;
+  }
+
+  .sneaker__price {
+    padding-left: 5%;
+    font: bold 20px/20px 'Gotham Pro', Helvetica, sans-serif;
+    margin-right: 35%;
+    color: #000;
+  }
+
+  .sneaker__btn_small,
+  .sneaker__btn_big {
+    transform: translateY(20%);
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    transition: 0.5s linear;
+  }
+
+  .sneaker__black-btn_grey {
+    background: #c4c4c4;
+  }
+
+  .sneaker__black-btn_black {
+    background: #000;
+    margin-right: 1px;
+  }
+
+  .sneaker__black-btn_red {
+    background: #b62e3c;
+    margin-right: 1px;
+  }
+
+  .sneaker__black-btn_yellow {
+    background: #fdb431;
+  }
+
+  .sneaker__btn_big:hover,
+  .sneaker__btn_small:hover {
+    opacity: 0.7;
+    border: solid 2px #000;
+    border-radius: 50%;
+  }
+
+  .video__content {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 43% 57%;
+    width: 114%;
+    transform: translateX(-6%);
+    height: 482px;
+    background-color: #000;
+    background-size: 100%;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 4%;
+  }
+
+  .video__content::before {
+    content: '';
+    left: 0;
+    top: -14px;
+    height: 7%;
+    width: 100.2%;
+    position: absolute;
+    background: #fff;
+    transform: rotate(3deg);
+  }
+
+  .video__title {
+    order: 1;
+    text-align: center;
+    width: 80%;
+    padding: 16% 0 0 9%;
+    font: 500 20px/25px 'Gotham Pro', Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 6%;
+  }
+
+  .video__text {
+    text-align: center;
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
+    color: #fff;
+    padding: 0 20px 0 6%;
+    transition: 1s ease;
+  }
+
+  .video__text-link {
+    order: 2;
+    text-decoration: none;
+  }
+
+  .video__text:hover {
+    opacity: 0.7;
+    color: #b22222;
+  }
+
+  .video__link {
+    display: none;
+  }
+
+  .video {
+    order: 3;
+  }
+
+  .video__img {
+    padding: 8% 0 0 6%;
+    width: 88%;
+    height: 161px;
+  }
+
+  .video__play {
+    transform: translateY(-310%);
+    padding: 0 0 0 45%;
+  }
+
+  .play__btn {
+    background: center no-repeat url('img/Group 17.svg');
+    background-size: 115%;
+    width: 32px;
+    height: 32px;
+    transition: 1s linear;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+  }
+
+  .play__btn:hover {
+    border: solid 4px #b22222;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+
+  .stories__content {
+    padding-bottom: 35%;
+    width: 114%;
+    transform: translate(-6%,-2px);
+    background-color: #000;
+  }
+
+  .stories__title {
+    text-align: center;
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+  }
+
+  .stories__column {
+    display: block;
+    margin: auto;
+    vertical-align: top;
+    width: 86%;
+  }
+
+  .stories__column-second,
+  .stories__column-third {
+    display: none;
+  }
+
+  .stories__img {
+    width: 98%;
+    height: 148px;
+    margin-bottom: 9%;
+  }
+
+  .stories__subtitle {
+    font: 500 20px/20px 'Gotham Pro', Helvetica, sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+
+  .stories__text {
+    font: normal 14px/17px 'Gotham Pro', Helvetica, sans-serif;
+    width: 102%;
+    font-style: normal;
+    color: #fff;
+    height: 70%;
+    margin-bottom: 2%;
+  }
+
+  .stories__link {
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s linear;
+    margin-right: 22%;
+  }
+
+  .stories__link-img_white {
+    width: 29px;
+    padding: 6% 0 0 3%;
+  }
+
+  .stories__link-img {
+    display: none;
+  }
+
+  .stories__link:hover {
+    opacity: 0.5;
+  }
+
+  .stories__quote {
+    font: 500 12px/12px 'Gotham Pro', Helvetica, sans-serif;
+    color: #d1d1d1;
+    quotes: none;
+  }
+
+  .hashtag__content {
+    background-color: #000;
+    width: 114%;
+    padding-bottom: 39%;
+    transform: translate(-6%,-3px);
+    position: relative;
+    margin-bottom: 89%;
+  }
+
+  .hashtag__content::after {
+    content: '';
+    left: -2px;
+    top: 94%;
+    height: 29%;
+    width: 100.2%;
+    position: absolute;
+    background: #fff;
+    transform: rotate(3deg);
+    z-index: -1;
+  }
+
+  .hashtag__title {
+    font: 500 23px/24px 'Gotham Pro', Helvetica, sans-serif;
+    color: #e8e8e8;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+    padding: 1% 0 0 1%;
+  }
+
+  .hashtag__img {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0;
+    width: 120px;
+    height: 120px;
+    padding: 0 0 0 30%;
+  }
+
+  .hashtag__img * {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hashtag__img-first {
+    order: 1;
+  }
+
+  .hashtag__img-second {
+    order: 2;
+  }
+
+  .hashtag__img-third {
+    order: 6;
+  }
+
+  .hashtag__img-seventh {
+    order: 4;
+  }
+
+  .hashtag__img-fifth {
+    order: 5;
+  }
+
+  .hashtag__img-sixth {
+    order: 3;
+  }
+
+  .hashtag__img-fourth,
+  .hashtag__img-first-repeat {
+    display: none;
+  }
+
+  .footer__content {
+    display: block;
+    background-color: #000;
+    transform: translateX(-5%);
+    width: 112%;
+    padding-top: 39px;
+  }
+
+  .footer__column {
+    display: block;
+    vertical-align: top;
+    text-align: center;
+  }
+
+  .footer__title {
+    font: 500 15px/15px 'Gotham Pro', Helvetica, sans-serif;
+    color: #fff;
+    margin-bottom: 1%;
+  }
+
+  .footer__first-list {
+    margin-bottom: 6px;
+  }
+
+  .footer__list {
+    text-decoration: none;
+    font: 300 15px/15px 'Gotham Pro', Helvetica, sans-serif;
+    color: #fff;
+    transition: 0.2s linear;
+  }
+
+  .footer__list:hover {
+    border-bottom: solid 1px #fff;
+  }
+
+  .footer__personal-ac,
+  .footer__miscellaneous-for-mobile {
+    margin-bottom: 48px;
+  }
+
+  .footer__customer {
+    margin: 0 7% 48px 0;
+    padding-left: 6%;
+  }
+
+  .customer__title {
+    margin-bottom: 4px;
+  }
+
+  .footer__third-list {
+    margin-bottom: 2px;
+  }
+
+  .miscellaneous__title {
+    margin-bottom: 1%;
+  }
+
+  .footer__second-list {
+    margin-bottom: 2px;
+  }
+
+  .footer__miscellaneous {
+    display: none;
+  }
+
+  .social__new-buyer {
+    margin-bottom: 113px;
+  }
+
+  .social__title {
+    margin-bottom: 10px;
+  }
+
+  .social__text {
+    display: none;
+  }
+
+  .social__text-option {
+    text-align: center;
+    font: 300 15px/15px 'Gotham Pro', Helvetica, sans-serif;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .social__sign-up {
+    font: 500 12px/11px 'Gotham Pro', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 48px;
+    border: solid 2px #fff;
+    transition: 0.3s ease;
+  }
+
+  .social__sign-up:hover {
+    border: double 3px #b22222;
+    font: 500 11px/11px 'Gotham Pro', Helvetica, sans-serif;
+  }
+
+  .social__icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22%;
+    width: 168px;
+    margin-bottom: 23px;
+  }
+
+  .icon {
+    margin-right: 31px;
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+
+  .icon:last-child {
+    margin-right: 0;
+  }
+
+  .icon-img {
+    height: 22px;
+  }
+
+  .icon__twitter-img {
+    padding-top: 2px;
+    height: 17px;
+  }
+
+  .icon__facebook-img {
+    padding-left: 1px;
+    width: 10px;
+    height: 20px;
+  }
+
+  .icon:hover {
+    border: double 3px #b22222;
+    border-radius: 4px;
+  }
+
+  .footer__license {
+    font: 300 13px/13px 'Gotham Pro', Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 0 0 33px 0;
   }
 }
