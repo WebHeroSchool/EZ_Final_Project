@@ -189,6 +189,7 @@ a:hover {
     padding: 0 5%;
     margin-right: 39%;
   }
+
   .sneaker__img {
     text-align: center;
     width: 84%;
@@ -255,7 +256,7 @@ a:hover {
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow,
   .sneaker__grey-btn_yellow,
-  .sneaker__white-btn_yellow{
+  .sneaker__white-btn_yellow {
     background: #fdb431;
   }
 
@@ -465,7 +466,7 @@ a:hover {
     height: 147px; */
     display: grid;
     grid-template-columns: repeat(7, 14.3%);
-    grid-gap: 0px;
+    grid-gap: 0;
   }
 
   .hashtag__img-first-repeat {
@@ -646,7 +647,7 @@ a:hover {
   }
 
   .menu__item-sign-in {
-    margin-right: 25px
+    margin-right: 25px;
   }
 
   .menu__item:hover {
@@ -850,7 +851,7 @@ a:hover {
   .sneaker__black-btn_yellow,
   .sneaker__beige-btn_yellow,
   .sneaker__grey-btn_yellow,
-  .sneaker__white-btn_yellow{
+  .sneaker__white-btn_yellow {
     background: #fdb431;
   }
 
@@ -1084,7 +1085,7 @@ a:hover {
     font: 300 12px/12px 'Gotham Pro', Helvetica, sans-serif;
     color: #fff;
     margin-bottom: 1%;
-    transition: .2s linear;
+    transition: 0.2s linear;
   }
 
   .footer__list:hover {
@@ -1145,7 +1146,7 @@ a:hover {
   .icon {
     margin-right: 12%;
     text-decoration: none;
-    transition: .2s ease;
+    transition: 0.2s ease;
   }
 
   .icon__pinterest-img {
@@ -1192,10 +1193,10 @@ a:hover {
   .language {
     display: none;
   }
-
+/*
   .burger__menu {
     z-index: 1;
-  }
+  } */
 
   #menu__toggle {
     opacity: 0;
@@ -1209,7 +1210,7 @@ a:hover {
     height: 25px;
     cursor: pointer;
     z-index: 2;
-    }
+  }
 
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -1218,7 +1219,7 @@ a:hover {
     width: 61px;
     height: 9px;
     background-color: #000;
-    transition: .20s ease;
+    transition: 0.2s ease;
   }
 
   .menu__btn > span::before {
@@ -1232,6 +1233,7 @@ a:hover {
   }
 
   .burger__menu {
+    z-index: 1;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -1356,7 +1358,7 @@ a:hover {
     width: 20%;
   }
 
-    .burger-menu__item-second:hover::after {
+  .burger-menu__item-second:hover::after {
     opacity: 1;
     width: 22%;
   }
@@ -1638,7 +1640,7 @@ a:hover {
   .stories__content {
     padding-bottom: 18%;
     width: 113%;
-    transform: translate(-6%,-2px);
+    transform: translate(-6%, -2px);
     background-color: #000;
   }
 
@@ -1725,10 +1727,9 @@ a:hover {
   }
 
   .hashtag__content {
-    margin-bottom: 10%;
     background-color: #000;
     width: 113%;
-    transform: translate(-6%,-3px);
+    transform: translate(-6%, -3px);
     position: relative;
     margin-bottom: 42%;
   }
@@ -1963,7 +1964,7 @@ a:hover {
     width: 61px;
     height: 9px;
     background-color: #000;
-    transition: 0.20s ease;
+    transition: 0.2s ease;
   }
 
   .menu__btn > span::before {
@@ -2048,7 +2049,7 @@ a:hover {
     color: #000;
     font: bold 18px/18px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: 0.10s ease;
+    transition: 0.1s ease;
     position: relative;
   }
 
@@ -2100,6 +2101,7 @@ a:hover {
     opacity: 1;
     width: 20%;
   }
+
     .burger-menu__item-second:hover::after {
     opacity: 1;
     width: 22%;
@@ -2382,7 +2384,7 @@ a:hover {
   .stories__content {
     padding-bottom: 18%;
     width: 113%;
-    transform: translate(-6%,-2px);
+    transform: translate(-6%, -2px);
     background-color: #000;
   }
 
@@ -2470,7 +2472,7 @@ a:hover {
     margin-bottom: 10%;
     background-color: #000;
     width: 113%;
-    transform: translate(-6%,-3px);
+    transform: translate(-6%, -3px);
     position: relative;
     margin-bottom: 42%;
   }
@@ -2703,7 +2705,7 @@ a:hover {
     width: 41px;
     height: 5px;
     background-color: #000;
-    transition: 0.20s ease;
+    transition: 0.2s ease;
   }
 
   .menu__btn > span::before {
@@ -2788,7 +2790,7 @@ a:hover {
     color: #000;
     font: bold 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: 0.10s ease;
+    transition: 0.1s ease;
     position: relative;
   }
 
@@ -3018,7 +3020,7 @@ a:hover {
 
   .video__content {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 44% 56%;
     grid-gap: 0;
     width: 116%;
@@ -3110,7 +3112,7 @@ a:hover {
   .stories__content {
     padding: 0 0 34% 2%;
     width: 114%;
-    transform: translate(-7%,-2px);
+    transform: translate(-7%, -2px);
     background-color: #000;
   }
 
@@ -3188,7 +3190,7 @@ a:hover {
     background-color: #000;
     width: 116%;
     padding-bottom: 43%;
-    transform: translate(-7%,-3px);
+    transform: translate(-7%, -3px);
     position: relative;
     margin-bottom: 84%;
   }
@@ -3471,7 +3473,7 @@ a:hover {
     width: 41px;
     height: 5px;
     background-color: #000;
-    transition: 0.20s ease;
+    transition: 0.2s ease;
   }
 
   .menu__btn > span::before {
@@ -3556,7 +3558,7 @@ a:hover {
     color: #000;
     font: bold 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: 0.10s ease;
+    transition: 0.1s ease;
     position: relative;
   }
 
@@ -3878,7 +3880,7 @@ a:hover {
   .stories__content {
     padding: 0 0 34% 2%;
     width: 131%;
-    transform: translate(-13%,-2px);
+    transform: translate(-13%, -2px);
     background-color: #000;
   }
 
@@ -3956,7 +3958,7 @@ a:hover {
     background-color: #000;
     width: 133%;
     padding-bottom: 43%;
-    transform: translate(-13%,-3px);
+    transform: translate(-13%, -3px);
     position: relative;
     margin-bottom: 84%;
   }
@@ -4244,7 +4246,7 @@ a:hover {
     width: 41px;
     height: 5px;
     background-color: #000;
-    transition: 0.20s ease;
+    transition: 0.2s ease;
   }
 
   .menu__btn > span::before {
@@ -4262,7 +4264,7 @@ a:hover {
     position: absolute;
     visibility: hidden;
     top: 0;
-    right: 0px;
+    right: 0;
     width: 70%;
     height: 100%;
     margin: 0;
@@ -4329,7 +4331,7 @@ a:hover {
     color: #000;
     font: bold 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: 0.10s ease;
+    transition: 0.1s ease;
     position: relative;
   }
 
@@ -4650,7 +4652,7 @@ a:hover {
   .stories__content {
     padding-bottom: 35%;
     width: 114%;
-    transform: translate(-6%,-2px);
+    transform: translate(-6%, -2px);
     background-color: #000;
   }
 
@@ -4727,7 +4729,7 @@ a:hover {
     background-color: #000;
     width: 114%;
     padding-bottom: 39%;
-    transform: translate(-6%,-3px);
+    transform: translate(-6%, -3px);
     position: relative;
     margin-bottom: 89%;
   }
@@ -4998,7 +5000,7 @@ a:hover {
     width: 41px;
     height: 5px;
     background-color: #000;
-    transition: 0.20s ease;
+    transition: 0.2s ease;
   }
 
   .menu__btn > span::before {
@@ -5016,7 +5018,7 @@ a:hover {
     position: absolute;
     visibility: hidden;
     top: 0;
-    right: 0px;
+    right: 0;
     width: 70%;
     height: 100%;
     margin: 0;
@@ -5083,7 +5085,7 @@ a:hover {
     color: #000;
     font: bold 15px/15px 'Gotham Pro', Helvetica, sans-serif;
     text-decoration: none;
-    transition: 0.10s ease;
+    transition: 0.1s ease;
     position: relative;
   }
 
@@ -5404,7 +5406,7 @@ a:hover {
   .stories__content {
     padding-bottom: 35%;
     width: 114%;
-    transform: translate(-6%,-2px);
+    transform: translate(-6%, -2px);
     background-color: #000;
   }
 
@@ -5481,7 +5483,7 @@ a:hover {
     background-color: #000;
     width: 114%;
     padding-bottom: 39%;
-    transform: translate(-6%,-3px);
+    transform: translate(-6%, -3px);
     position: relative;
     margin-bottom: 89%;
   }
